@@ -7,19 +7,19 @@ import VueEasyLightbox from 'vue-easy-lightbox';
 
 import './assets/css/main.css';
 
-import enUS from './assets/i18n/en-EN.json';
-import bgBG from './assets/i18n/bg-BG.json';
+import enUS from './assets/i18n/en-US.json';
+import ptBR from './assets/i18n/pt-BR.json';
 
 type MessageSchema = typeof enUS;
 
-const i18n = createI18n<[MessageSchema], 'en-US' | 'bg-BG'>({
+const i18n = createI18n<[MessageSchema], 'en-US' | 'pt-BR'>({
   globalInjection: true,
   legacy: false,
-  locale: 'en-US',
+  locale: 'pt-BR',
   fallbackLocale: 'en',
   messages: {
     'en-US': enUS,
-    'bg-BG': bgBG,
+    'pt-BR': ptBR,
   },
 });
 

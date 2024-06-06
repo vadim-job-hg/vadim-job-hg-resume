@@ -1,13 +1,12 @@
 import { defineStore } from 'pinia';
 import type { Resume } from '../models/Resume';
 /** Resume files */
-import bgBG from '@/assets/json/resume.bg.json';
+import ptBR from '@/assets/json/resume.pt.json';
 import enUS from '@/assets/json/resume.en.json';
 
 const languages = [
+  { code: 'pt-BR', data: ptBR },
   { code: 'en-US', data: enUS },
-  { code: 'bg-BG', data: bgBG }
-
 ];
 
 export const useResumeStore = defineStore('resume', {

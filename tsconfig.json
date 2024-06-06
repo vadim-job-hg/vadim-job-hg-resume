@@ -1,17 +1,11 @@
 {
   "extends": "@vue/tsconfig/tsconfig.web.json",
-  "include": [
-    "env.d.ts", "src/**/*", "src/**/*.vue"],
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    },
-    // workaround for https://github.com/vuejs/tsconfig/issues/6
-    "preserveValueImports": false,
-    "importsNotUsedAsValues": "remove",
-    "verbatimModuleSyntax": true
-    // end workaround
+    }
   },
 
   "references": [

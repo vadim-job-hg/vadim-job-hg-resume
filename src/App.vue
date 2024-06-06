@@ -9,7 +9,7 @@ import AboutCard from './components/AboutCard.vue';
 
 import { useThemeStore } from '@/stores/ThemeStore';
 import { useResumeStore } from '@/stores/ResumeStore';
-import { onMounted } from '../node_modules/vue';
+import { onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 
 const { locale } = useI18n({ useScope: 'global' });
