@@ -1,9 +1,9 @@
 {
   "profile": {
-    "name": "Vadym Kuznetsov",
+    "name": "Вадим Кузнецов",
     "job": "Full Stack Developer",
     "avatar": "img/profile/me.jpg",
-    "aboutMe": "Professional Web Developer with more than ten years of\nexperience in areas such as the Internet of Things, sales,\neducational courses, etc. Worked on integrating third-party\nsoftware systems, such as payment systems, ERP, edge\ncomputing software for IoT applications. Developed APIs for\nmobile and pwa applications.",
+    "aboutMe": "Професионален уеб програмист с повече от десет години\nопит в области като Интернет на нещата, продажбите,\nОбразователни курсове и др. Работи върху интегрирането на трети страни\nсофтуерни системи, като платежни системи, ERP, edge\nизчислителен софтуер за IoT приложения. Разработени API за\nмобилни и pwa приложения.",
     "socialNetwork": [
       {
         "name": "linkedin",
@@ -18,6 +18,12 @@
         "url": "https://www.sololearn.com/en/profile/2024996"
       }
     ]
+  },
+  "cv": {
+    "icon": "DocumentTextIcon",
+    "name": "PDF",
+    "value": "Vadym Kuznetsov",
+    "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf"
   },
   "certificate": [
     {
@@ -216,26 +222,7 @@
       "name": "български"
     }
   ],
-  "profile": {
-    "aboutMe": "Професионален уеб програмист с повече от десет години\nопит в области като Интернет на нещата, продажбите,\nОбразователни курсове и др. Работи върху интегрирането на трети страни\nсофтуерни системи, като платежни системи, ERP, edge\nизчислителен софтуер за IoT приложения. Разработени API за\nмобилни и pwa приложения.",
-    "avatar": "img/profile/me.jpg",
-    "job": "Разработчик на пълен стек",
-    "name": "Вадим Кузнецов",
-    "socialNetwork": [
-      {
-        "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/"
-      },
-      {
-        "name": "Гитхуб",
-        "url": "https://github.com/vadim-job-hg/"
-      },
-      {
-        "name": "Сололеърн",
-        "url": "https://www.sololearn.com/en/profile/2024996"
-      }
-    ]
-  },
+
   "project": [
     {
       "description": "Приложение за мониторинг на състоянието и управление на околната среда на зелените стени на НААВА.",

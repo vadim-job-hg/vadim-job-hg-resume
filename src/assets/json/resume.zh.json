@@ -19,6 +19,12 @@
       }
     ]
   },
+  "cv": {
+    "icon": "DocumentTextIcon",
+    "name": "PDF",
+    "value": "Vadym Kuznetsov",
+    "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf"
+  },
   "certificate": [
     {
       "course": "php",
