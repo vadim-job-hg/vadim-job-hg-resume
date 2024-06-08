@@ -1,23 +1,23 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
-import CertificateCardItem from './CertificateCardItem.vue';
+import ExperienceCardItem from './RecommendationCardItem.vue';
 import { useResumeStore } from '@/stores/ResumeStore';
 import { storeToRefs } from 'pinia';
 import MyPaginate from './MyPaginate.vue';
 
-const itemsPerPage = 5;
+const itemsPerPage = 4;
 const currentPage = ref(1);
 const resumeStore = useResumeStore();
 const { resume } = storeToRefs(resumeStore);
 
 const total = computed(() => {
-  return resume.value.certificate.length;
+  return resume.value.recommendations.length;
 });
 
 const paginatedItems = computed(() => {
   const start = (currentPage.value - 1) * itemsPerPage;
   const end = start + itemsPerPage;
-  return resume.value.certificate.slice(start, end);
+  return resume.value.recommendations.slice(start, end);
 });
 
 function onPageChange(page: number) {
@@ -27,9 +27,9 @@ function onPageChange(page: number) {
 
 <template>
   <div class="card">
-    <h2 class="mb-5 text-lg font-semibold dark:text-night-50">{{ $t('license') }}</h2>
-    <CertificateCardItem
-      v-for="(item, index) of paginatedItems"
+    <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ $t('recommendations') }}</h2>
+    <ExperienceCardItem
+      v-for="(item, index) in paginatedItems"
       :key="index"
       :item="item"
       :separator="paginatedItems.length > index + 1" />
