@@ -22,7 +22,7 @@
   "cv": {
     "icon": "DocumentTextIcon",
     "name": "PDF",
-    "value": "Vadym Kuznetsov",
+    "value": "Вадим Кузнецов",
     "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf"
   },
   "information": [
@@ -33,18 +33,18 @@
     },
     {
       "icon": "CakeIcon",
-      "name": "Birthday",
-      "value": "04 July 1986"
+      "name": "Рожден ден",
+      "value": "04 юли 1986"
     },
     {
       "icon": "DevicePhoneMobileIcon",
-      "name": "Phone Number",
+      "name": "Телефонен номер",
       "value": "+38 (068) 271 78 03"
     },
     {
       "icon": "ComputerDesktopIcon",
-      "name": "Work type",
-      "value": "Remote or Fulltime"
+      "name": "Вид на работа",
+      "value": "Дистанционно или на пълно работно време"
     }
   ],
   "skill": [
@@ -96,259 +96,46 @@
   ],
   "experience": [
     {
-      "job": "Full-Stack Developer",
       "company": "Grid Dynamics",
       "companyLogo": "img/company/grid-dynamics.png",
-      "location": "Ukraine",
-      "workType": "Fulltime",
-      "start": "Aug 2017",
-      "end": "May 2024",
-      "description": "Full-Stack Developer for many projects for <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \">Naava Green Walls</a>. Was involved in the\ndevelopment of monitoring systems for the condition of green walls and the development\nof tools for remote control of watering schedules, lighting and air circulation. \nEngaged in API development for <a href=\"https://www.naava.app/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\">NAAVA application</a>.\n"
+      "description": "Full-Stack Developer за много проекти за <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \"> Naava Green Walls. </a> Беше замесен в\nразработване на системи за мониторинг на състоянието на зелените стени и разработването\nна инструменти за дистанционно управление на графиците за поливане, осветлението и циркулацията на въздуха. \nЗанимава се с разработване на API за приложение <a href=\"https://www.naava.app/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\"> </a> NAAVA.\n",
+      "end": "Май 2024",
+      "job": "Full-Stack Developer",
+      "location": "Украйна",
+      "start": "Август 2017",
+      "workType": "Пълно работно време"
     },
     {
-      "job": "Full-Stack Developer",
       "company": "KnubiSoft",
       "companyLogo": "img/company/knubisoft.jpg",
-      "location": "Ukraine",
-      "workType": "Fulltime",
-      "start": "Mar 2016",
-      "end": "Jul 2017",
-      "description": "Developed various applications from scratch. \nDeveloped subsidiary applications for the Swedish department of the BCA.\nGained development experience using the Phalcon framework.\n"
+      "description": "Разработени са различни приложения от нулата. \nРазработени дъщерни приложения за шведския отдел на BCA.\nНатрупан опит в развитието с помощта на рамката Phalcon.\n",
+      "end": "юли 2017",
+      "job": "Full-Stack Developer",
+      "location": "Украйна",
+      "start": "март 2016",
+      "workType": "Пълно работно време"
     },
     {
-      "job": "Full-Stack Developer",
       "company": "iDeus",
       "companyLogo": "img/company/ideus.jpg",
-      "location": "Ukraine",
-      "workType": "Fulltime",
-      "start": "Oct 2014",
-      "end": "Mar 2016",
-      "description": "Was on the team developing the TesTeachers educational platform, which provides\ninsurance courses for US students. \nWas involved in the implementation of the payment system, code refactoring and searching\nfor vulnerabilities in the system."
+      "description": "Беше в екипа, разработващ образователната платформа TestEachers, която осигурява\nзастрахователни курсове за студенти от САЩ. \nУчаства във внедряването на платежната система, рефакторинг на кодове и търсене\nза уязвимости в системата.",
+      "end": "март 2016",
+      "job": "Full-Stack Developer",
+      "location": "Украйна",
+      "start": "Октомври 2014",
+      "workType": "Пълно работно време"
     },
     {
-      "job": "Full-Stack Developer",
       "company": "MobilLuck",
       "companyLogo": "img/company/mobilluck.png",
-      "location": "Ukraine",
-      "workType": "Fulltime",
-      "start": "May 2013",
-      "end": "Oct 2014",
-      "description": "Worked as part of a team on the site <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \">https://www.mobilluck.com.ua/</a>.\nWas developing tools for sales managers that helped them carry out mass revaluation of\nitems in an online store.\nDeveloped a system for monitoring the items market and revaluation based on the\nprofitability and prices of goods from competitors."
+      "description": "Работил като част от екип на сайта <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \"> https://www.mobilluck.com.ua/</a>.\nРазработваше инструменти за мениджърите по продажбите, които им помогнаха да извършат масово преоценяване на\nартикули в онлайн магазин.\nРазработена е система за мониторинг на пазара на артикули и преоценка въз основа на\nрентабилност и цени на стоките от конкурентите.",
+      "end": "Октомври 2014",
+      "job": "Full-Stack Developer",
+      "location": "Украйна",
+      "start": "Май 2013",
+      "workType": "Пълно работно време"
     }
   ],
-  "education": [
-    {
-      "college": "Kharkov Polytechnic Institute",
-      "collegeLogo": "img/college/kpi.png",
-      "course": "Technologist in Computer Networks, Network Management and Systems Security",
-      "start": "1963",
-      "end": "1973",
-      "url": "https://www.kpi.kharkov.ua/eng/"
-    },
-    {
-      "college": "Kharkov Patent and Computer College",
-      "collegeLogo": "img/college/kpcc.svg",
-      "course": "Programming for Computer technology and automated systems",
-      "start": "2003",
-      "end": "2006",
-      "url": "https://khpcc.com/"
-    }
-  ],
-  "volunteer": [
-    {
-      "job": "",
-      "company": "",
-      "companyLogo": "",
-      "location": "",
-      "workType": "",
-      "start": "",
-      "end": "",
-      "description": ""
-    }
-  ],
-  "certificate": [
-    {
-      "course": "PHP",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "issueDate": "13 October, 2016",
-      "expirationDate": "No expiration date",
-      "credentialCode": "CT-XOUWN8YB",
-      "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf"
-    },
-    {
-      "course": "SQL",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "issueDate": "19 May, 2017",
-      "expirationDate": "No expiration date",
-      "credentialCode": "CT-A7MVXLIK",
-      "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf"
-    },
-    {
-      "course": "JavaScript",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "issueDate": "24 May, 2017",
-      "expirationDate": "No expiration date",
-      "credentialCode": "CT-SF6AEAGK",
-      "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf"
-    },
-    {
-      "course": "jQuery",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "issueDate": "20 June, 2017",
-      "expirationDate": "No expiration date",
-      "credentialCode": "CT-J1VDQBJG",
-      "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf"
-    },
-    {
-      "course": "HTML",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "issueDate": "19 May, 2017",
-      "expirationDate": "No expiration date",
-      "credentialCode": "CT-KWGILUBT",
-      "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf"
-    },
-    {
-      "course": "CSS",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "issueDate": "20 June, 2017",
-      "expirationDate": "No expiration date",
-      "credentialCode": "CT-UIES3YMB",
-      "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf"
-    },
-    {
-      "course": "Java",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "issueDate": "18 December, 2017",
-      "expirationDate": "No expiration date",
-      "credentialCode": "CT-NBCOTCGG",
-      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
-    },
-    {
-      "course": "Ruby",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "issueDate": "03 October, 2017",
-      "expirationDate": "No expiration date",
-      "credentialCode": "CT-FPWM4E8N",
-      "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf"
-    },
-    {
-      "course": "Python Core",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "issueDate": "18 December, 2017",
-      "expirationDate": "No expiration date",
-      "credentialCode": "CT-NBCOTCGG",
-      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
-    }
-  ],
-  "project": [
-    {
-      "name": "NAAVA APPLICATION",
-      "description": "Application for monitoring the condition and managing the environment of NAAVA green walls.",
-      "language": "PHP",
-      "image": "img/project/naava.png",
-      "stars": "",
-      "forks": "",
-      "url": "https://naava.app/"
-    }
-  ],
-  "certificate": [
-    {
-      "course": "PHP",
-      "credentialCode": "CT-XOUWN8YB",
-      "expirationDate": "Няма срок на годност",
-      "issueDate": "13 Октомври, 2016",
-      "school": "Сололеърн",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf"
-    },
-    {
-      "course": "СКЛ",
-      "credentialCode": "CT-A7MVXLIK",
-      "expirationDate": "Няма срок на годност",
-      "issueDate": "19 май, 2017",
-      "school": "Сололеърн",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf"
-    },
-    {
-      "course": "JavaScript",
-      "credentialCode": "CT-SF6AEAGK",
-      "expirationDate": "Няма срок на годност",
-      "issueDate": "24 май, 2017",
-      "school": "Сололеърн",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf"
-    },
-    {
-      "course": "jQuery",
-      "credentialCode": "CT-J1VDQBJG",
-      "expirationDate": "Няма срок на годност",
-      "issueDate": "20 юни, 2017",
-      "school": "Сололеърн",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf"
-    },
-    {
-      "course": "ХТМЛ",
-      "credentialCode": "CT-КВ",
-      "expirationDate": "Няма срок на годност",
-      "issueDate": "19 май, 2017",
-      "school": "Сололеърн",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf"
-    },
-    {
-      "course": "CSS",
-      "credentialCode": "CT-UIES3YMB",
-      "expirationDate": "Няма срок на годност",
-      "issueDate": "20 юни, 2017",
-      "school": "Сололеърн",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf"
-    },
-    {
-      "course": "Ява",
-      "credentialCode": "CT-NBCOTCGG",
-      "expirationDate": "Няма срок на годност",
-      "issueDate": "18 декември, 2017",
-      "school": "Сололеърн",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
-    },
-    {
-      "course": "Рубин",
-      "credentialCode": "ЦТ-ФПВМ4Е8Н",
-      "expirationDate": "Няма срок на годност",
-      "issueDate": "03 Октомври, 2017",
-      "school": "Сололеърн",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf"
-    },
-    {
-      "course": "Ядро на Python",
-      "credentialCode": "CT-NBCOTCGG",
-      "expirationDate": "Няма срок на годност",
-      "issueDate": "18 декември, 2017",
-      "school": "Сололеърн",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
-    }
-  ],
-  "cv": {
-    "icon": "ДокументиТекстичон",
-    "name": "ПДФ",
-    "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf",
-    "value": "Вадим Кузнецов"
-  },
   "education": [
     {
       "college": "Харков политехнически институт",
@@ -367,79 +154,108 @@
       "url": "https://khpcc.com/"
     }
   ],
-  "experience": [
+  "volunteer": [
     {
-      "company": "Динамика на мрежата",
-      "companyLogo": "img/company/grid-dynamics.png",
-      "description": "Full-Stack Developer за много проекти за <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \"> Naava Green Walls. </a> Беше замесен в\nразработване на системи за мониторинг на състоянието на зелените стени и разработването\nна инструменти за дистанционно управление на графиците за поливане, осветлението и циркулацията на въздуха. \nЗанимава се с разработване на API за приложение <a href=\"https://www.naava.app/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\"> </a> NAAVA.\n",
-      "end": "Май 2024",
-      "job": "Разработчик с пълен стек",
-      "location": "Украйна",
-      "start": "Август 2017",
-      "workType": "Пълно работно време"
-    },
-    {
-      "company": "КнубиСофт",
-      "companyLogo": "img/company/knubisoft.jpg",
-      "description": "Разработени са различни приложения от нулата. \nРазработени дъщерни приложения за шведския отдел на BCA.\nНатрупан опит в развитието с помощта на рамката Phalcon.\n",
-      "end": "юли 2017",
-      "job": "Разработчик с пълен стек",
-      "location": "Украйна",
-      "start": "март 2016",
-      "workType": "Пълно работно време"
-    },
-    {
-      "company": "ИДЕИ",
-      "companyLogo": "img/company/ideus.jpg",
-      "description": "Беше в екипа, разработващ образователната платформа TestEachers, която осигурява\nзастрахователни курсове за студенти от САЩ. \nУчаства във внедряването на платежната система, рефакторинг на кодове и търсене\nза уязвимости в системата.",
-      "end": "март 2016",
-      "job": "Разработчик с пълен стек",
-      "location": "Украйна",
-      "start": "Октомври 2014",
-      "workType": "Пълно работно време"
-    },
-    {
-      "company": "МобилЛък",
-      "companyLogo": "img/company/mobilluck.png",
-      "description": "Работил като част от екип на сайта <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \"> https://www.mobilluck.com.ua/</a>.\nРазработваше инструменти за мениджърите по продажбите, които им помогнаха да извършат масово преоценяване на\nартикули в онлайн магазин.\nРазработена е система за мониторинг на пазара на артикули и преоценка въз основа на\nрентабилност и цени на стоките от конкурентите.",
-      "end": "Октомври 2014",
-      "job": "Разработчик с пълен стек",
-      "location": "Украйна",
-      "start": "Май 2013",
-      "workType": "Пълно работно време"
+      "job": "",
+      "company": "",
+      "companyLogo": "",
+      "location": "",
+      "workType": "",
+      "start": "",
+      "end": "",
+      "description": ""
     }
   ],
-  "information": [
+  "certificate": [
     {
-      "icon": "ОбвивкаИкон",
-      "name": "Пощенски адрес",
-      "value": "vadimjobhg86@gmail.com"
+      "course": "PHP",
+      "credentialCode": "CT-XOUWN8YB",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "13 Октомври, 2016",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf"
     },
     {
-      "icon": "CakeIcon",
-      "name": "Рожден ден",
-      "value": "04 юли 1986"
+      "course": "SQL",
+      "credentialCode": "CT-A7MVXLIK",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "19 май, 2017",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf"
     },
     {
-      "icon": "УстройствоТелефонМобилеикона",
-      "name": "Телефонен номер",
-      "value": "+38 (068) 271 78 03"
+      "course": "JavaScript",
+      "credentialCode": "CT-SF6AEAGK",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "24 май, 2017",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf"
     },
     {
-      "icon": "КомпютърНастолни компютриКон",
-      "name": "Вид на работа",
-      "value": "Дистанционно или на пълно работно време"
+      "course": "jQuery",
+      "credentialCode": "CT-J1VDQBJG",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "20 юни, 2017",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf"
+    },
+    {
+      "course": "HTML",
+      "credentialCode": "CT-КВ",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "19 май, 2017",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf"
+    },
+    {
+      "course": "CSS",
+      "credentialCode": "CT-UIES3YMB",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "20 юни, 2017",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf"
+    },
+    {
+      "course": "Java",
+      "credentialCode": "CT-NBCOTCGG",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "18 декември, 2017",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
+    },
+    {
+      "course": "Ruby",
+      "credentialCode": "ЦТ-ФПВМ4Е8Н",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "03 Октомври, 2017",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf"
+    },
+    {
+      "course": "Python Core",
+      "credentialCode": "CT-NBCOTCGG",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "18 декември, 2017",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
     }
   ],
-
-
   "project": [
     {
       "description": "Приложение за мониторинг на състоянието и управление на околната среда на зелените стени на НААВА.",
       "forks": "",
       "image": "img/project/naava.png",
       "language": "PHP",
-      "name": "НААВА ПРИЛОЖЕНИЕ",
+      "name": "NAAVA APPLICATION",
       "stars": "",
       "url": "https://naava.app/"
     }
