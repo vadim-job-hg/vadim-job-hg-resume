@@ -1,33 +1,33 @@
 {
-  "resume": "Curriculum",
-  "information": "Dados Pessoais",
-  "skills": "Habilidades",
-  "language": "Idiomas",
-  "about": "Sobre mim",
-  "experience": "Experiência",
-  "volunteer": "Trabalho Voluntário",
-  "education": "Formação Acadêmica",
-  "license": "Licenças e Certificados",
-  "project": "Projetos",
-  "credential": "Credencial",
-  "credential_code": "Código da Credencial:",
-  "settings": {
-    "title": "Configurações",
-    "theme": "Tema",
-    "dark_mode": "Habilitar modo escuro?",
-    "pt": "Potuguês",
-    "en": "Inglês"
-  },
+  "about": "За мен",
+  "credential": "Удостоверение",
+  "credential_code": "Код за удостоверяване",
+  "education": "Образование",
+  "experience": "ОПИТ",
+  "information": "Информация",
+  "language": "Език",
+  "license": "Лицензи и сертификати",
   "menu": {
-    "experience": "Experiência",
-    "education": "Educação",
-    "project": "Projetos"
+    "education": "Образование",
+    "experience": "ОПИТ",
+    "project": "проекти"
   },
   "paginate": {
-    "count": "Mostrando de {first} a {last} de {total} resultados",
-    "previous_page": "Página anterior",
-    "next_page": "Próxima página",
-    "first_page": "Primeira página",
-    "last_page": "Última página"
-  }
+    "count": "По {first} казване {last} на {total} резултатите",
+    "first_page": "Първа страница",
+    "last_page": "Последна страница",
+    "next_page": "Следваща страница",
+    "previous_page": "Предишна страница"
+  },
+  "project": "проекти",
+  "resume": "Възобновяване",
+  "settings": {
+    "bg": "български",
+    "dark_mode": "Активиране на тъмен режим?",
+    "en": "английски",
+    "theme": "Тема",
+    "title": "Настройки"
+  },
+  "skills": "Умения",
+  "volunteer": "доброволец"
 }

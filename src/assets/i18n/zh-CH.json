@@ -1,0 +1,33 @@
+{
+  "about": "关于我",
+  "credential": "凭证",
+  "credential_code": "凭证码",
+  "education": "教育",
+  "experience": "体验",
+  "information": "信息",
+  "language": "语",
+  "license": "许可证和证书",
+  "menu": {
+    "education": "教育",
+    "experience": "体验",
+    "project": "项目"
+  },
+  "paginate": {
+    "count": "显示{first}{total}结果{last}总数",
+    "first_page": "第一页",
+    "last_page": "最終页",
+    "next_page": "下一页",
+    "previous_page": "前一页"
+  },
+  "project": "项目",
+  "resume": "恢复",
+  "settings": {
+    "bg": "保加利亚人",
+    "dark_mode": "启用暗黑模式？",
+    "en": "英文",
+    "theme": "主题",
+    "title": "设置"
+  },
+  "skills": "技能",
+  "volunteer": "志愿者"
+}

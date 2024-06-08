@@ -1,0 +1,33 @@
+{
+  "about": "Tietoa minusta",
+  "credential": "Todistustiedot",
+  "credential_code": "Todistuskoodi",
+  "education": "Koulutus",
+  "experience": "Kokemus",
+  "information": "Tietoa",
+  "language": "Kieli",
+  "license": "Lisenssit ja sertifikaatit",
+  "menu": {
+    "education": "Koulutus",
+    "experience": "Kokemus",
+    "project": "Projektit"
+  },
+  "paginate": {
+    "count": "Näyt {first} {last} etään {total} tulokset",
+    "first_page": "Ensimmäinen sivu",
+    "last_page": "viimeinen sivu",
+    "next_page": "Seuraava sivu",
+    "previous_page": "Edellinen sivu"
+  },
+  "project": "Projektit",
+  "resume": "Jatketaan",
+  "settings": {
+    "bg": "bulgarialainen",
+    "dark_mode": "Ota tumma tila käyttöön?",
+    "en": "englanti",
+    "theme": "Teema",
+    "title": "Asetukset"
+  },
+  "skills": "Taidot",
+  "volunteer": "Vapaaehtoinen"
+}

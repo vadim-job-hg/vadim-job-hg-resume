@@ -1,0 +1,33 @@
+{
+  "about": "О себе",
+  "credential": "Удостоверение",
+  "credential_code": "Учетный код",
+  "education": "Образование",
+  "experience": "Стаж",
+  "information": "Информация",
+  "language": "ЯЗЫК",
+  "license": "Лицензии и сертификаты",
+  "menu": {
+    "education": "Образование",
+    "experience": "Стаж",
+    "project": "Проекты"
+  },
+  "paginate": {
+    "count": "{first}Отображение первого {last} числа {total} результатов",
+    "first_page": "Первая страница",
+    "last_page": "последняя страница",
+    "next_page": "Следующая страница",
+    "previous_page": "Предыдущая страница"
+  },
+  "project": "Проекты",
+  "resume": "возобновить",
+  "settings": {
+    "bg": "болгарский",
+    "dark_mode": "Включить темный режим?",
+    "en": "английский",
+    "theme": "тема",
+    "title": "Настройки"
+  },
+  "skills": "Навыки",
+  "volunteer": "Волонтер"
+}

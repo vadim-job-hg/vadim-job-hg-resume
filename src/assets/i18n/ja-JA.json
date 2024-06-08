@@ -1,0 +1,33 @@
+{
+  "about": "私について",
+  "credential": "資格情報",
+  "credential_code": "認証コード",
+  "education": "教育",
+  "experience": "エクスペリエンス",
+  "information": "情報",
+  "language": "言語",
+  "license": "ライセンスと証明書",
+  "menu": {
+    "education": "教育",
+    "experience": "エクスペリエンス",
+    "project": "プロジェクト"
+  },
+  "paginate": {
+    "count": "{first}{last}{total}結果の上位を表示",
+    "first_page": "最初のページ",
+    "last_page": "最終ページ",
+    "next_page": "次のページ",
+    "previous_page": "前のページ"
+  },
+  "project": "プロジェクト",
+  "resume": "履歴書",
+  "settings": {
+    "bg": "ブルガリア語",
+    "dark_mode": "ダークモードを有効にしますか?",
+    "en": "英語",
+    "theme": "テーマ",
+    "title": "設定"
+  },
+  "skills": "スキル",
+  "volunteer": "ボランティア"
+}
