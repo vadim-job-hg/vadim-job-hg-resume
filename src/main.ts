@@ -8,18 +8,27 @@ import VueEasyLightbox from 'vue-easy-lightbox';
 import './assets/css/main.css';
 
 import enUS from './assets/i18n/en-US.json';
-import ptBR from './assets/i18n/pt-BR.json';
+import bgBG from './assets/i18n/bg-BG.json';
+import ruRU from './assets/i18n/ru-RU.json';
+import fiFI from './assets/i18n/fi-FI.json';
+import jaJA from './assets/i18n/ja-JA.json';
+import zhCH from './assets/i18n/zh-CH.json';
 
 type MessageSchema = typeof enUS;
 
-const i18n = createI18n<[MessageSchema], 'en-US' | 'pt-BR'>({
+// @ts-ignore
+const i18n = createI18n<[MessageSchema], 'en-US' | 'bg-BG' | 'ru-RU' | 'fi-FI' | 'ja-JA' | 'zh-CH'>({
   globalInjection: true,
   legacy: false,
-  locale: 'pt-BR',
+  locale: 'en-US',
   fallbackLocale: 'en',
   messages: {
     'en-US': enUS,
-    'pt-BR': ptBR,
+    'bg-BG': bgBG,
+    'ru-RU': ruRU,
+    'fi-FI': fiFI,
+    'ja-JA': jaJA,
+    'zh-CH': zhCH,
   },
 });
 

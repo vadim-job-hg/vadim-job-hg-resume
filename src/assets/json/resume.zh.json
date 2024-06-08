@@ -1,4 +1,24 @@
 {
+  "profile": {
+    "name": "Vadym Kuznetsov",
+    "job": "Full Stack Developer",
+    "avatar": "img/profile/me.jpg",
+    "aboutMe": "Professional Web Developer with more than ten years of\nexperience in areas such as the Internet of Things, sales,\neducational courses, etc. Worked on integrating third-party\nsoftware systems, such as payment systems, ERP, edge\ncomputing software for IoT applications. Developed APIs for\nmobile and pwa applications.",
+    "socialNetwork": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/vadim-job-hg/"
+      },
+      {
+        "name": "sololearn",
+        "url": "https://www.sololearn.com/en/profile/2024996"
+      }
+    ]
+  },
   "certificate": [
     {
       "course": "php",
