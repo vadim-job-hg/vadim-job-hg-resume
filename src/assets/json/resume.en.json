@@ -12,6 +12,10 @@
       {
         "name": "github",
         "url": "https://github.com/vadim-job-hg/"
+      },
+      {
+        "name": "sololearn",
+        "url": "https://www.sololearn.com/en/profile/2024996"
       }
     ]
   },
@@ -134,117 +138,126 @@
   ],
   "education": [
     {
-      "college": "Harvard University",
-      "collegeLogo": "img/college/harvard.jpg",
-      "course": "Mathematics, law and computer science",
-      "start": "1973",
-      "end": "1975",
-      "url": "https://www.xpeducacao.com.br/pos-graduacao/desenvolvimento-front-end?evento=dev_summit"
-    },
-    {
-      "college": "Lakeside School",
-      "collegeLogo": "img/college/lakeside.jpg",
+      "college": "Kharkov Polytechnic Institute",
+      "collegeLogo": "img/college/kpi.png",
       "course": "Technologist in Computer Networks, Network Management and Systems Security",
       "start": "1963",
       "end": "1973",
-      "url": ""
+      "url": "https://www.kpi.kharkov.ua/eng/"
+    },
+    {
+      "college": "Kharkov Patent and Computer College",
+      "collegeLogo": "img/college/kpcc.svg",
+      "course": "Programming for Computer technology and automated systems",
+      "start": "2003",
+      "end": "2006",
+      "url": "https://khpcc.com/"
     }
   ],
   "volunteer": [
     {
-      "job": "Team Coordinator",
-      "company": "Green Peace",
-      "companyLogo": "img/company/green-peace.jpg",
-      "location": "New York",
-      "workType": "Remote",
-      "start": "January 2000",
-      "end": "Current",
-      "description": "Greenpeace is an independent global campaigning network that acts to change attitudes and behaviour, to protect and conserve the environment and to promote peace. It comprises 26 independent national/regional Greenpeace organisations with presence in over 55 countries across Europe, Africa, the Americas, Asia and the Pacific, as well as a coordinating and supporting organisation, Greenpeace International."
+      "job": "",
+      "company": "",
+      "companyLogo": "",
+      "location": "",
+      "workType": "",
+      "start": "",
+      "end": "",
+      "description": ""
     }
   ],
   "certificate": [
     {
-      "course": "Microsoft Azure Data Engineering Associate (DP-203)",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2000",
+      "course": "PHP",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "13 October, 2016",
       "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/microsoft-azure-dp-203-data-engineering"
+      "credentialCode": "CT-XOUWN8YB",
+      "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf"
     },
     {
-      "course": "Microsoft 365 Fundamentals",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2001",
+      "course": "SQL",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "19 May, 2017",
       "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-365-fundamentals"
+      "credentialCode": "CT-A7MVXLIK",
+      "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf"
     },
     {
-      "course": "Microsoft Azure Fundamentals AZ-900 Exam Prep",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2002",
+      "course": "JavaScript",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "24 May, 2017",
       "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-azure-fundamentals-az-900"
+      "credentialCode": "CT-SF6AEAGK",
+      "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf"
     },
     {
-      "course": "Microsoft Azure Data Scientist Associate (DP-100)",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2003",
+      "course": "jQuery",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "20 June, 2017",
       "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/azure-data-scientist"
+      "credentialCode": "CT-J1VDQBJG",
+      "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf"
     },
     {
-      "course": "Microsoft Azure AI Fundamentals AI-900 Exam Prep",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2004",
+      "course": "HTML",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "19 May, 2017",
       "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-azure-ai-900-ai-fundamentals"
+      "credentialCode": "CT-KWGILUBT",
+      "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf"
     },
     {
-      "course": "Microsoft Azure Developer Associate (AZ-204)",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2005",
+      "course": "CSS",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "20 June, 2017",
       "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/azure-developer-associate"
+      "credentialCode": "CT-UIES3YMB",
+      "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf"
     },
     {
-      "course": "Work Smarter with Microsoft Excel",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2006",
+      "course": "Java",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "18 December, 2017",
       "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/learn/microsoft-excel-work-smarter"
+      "credentialCode": "CT-NBCOTCGG",
+      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
+    },
+    {
+      "course": "Ruby",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "03 October, 2017",
+      "expirationDate": "No expiration date",
+      "credentialCode": "CT-FPWM4E8N",
+      "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf"
+    },
+    {
+      "course": "Python Core",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "18 December, 2017",
+      "expirationDate": "No expiration date",
+      "credentialCode": "CT-NBCOTCGG",
+      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
     }
   ],
   "project": [
     {
-      "name": "Visual Studio Code",
-      "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
-      "language": "Typescript",
-      "image": "img/project/vscode.png",
-      "stars": "+138k",
-      "forks": "23.8k",
-      "url": "https://github.com/microsoft/vscode"
-    },
-    {
-      "name": "TypeScript",
-      "description": "TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript.",
-      "language": "Typescript",
-      "image": "img/project/typescript.png",
-      "stars": "+85.3k",
-      "forks": "11.1k",
-      "url": "https://github.com/microsoft/TypeScript"
+      "name": "NAAVA APPLICATION",
+      "description": "Application for monitoring the condition and managing the environment of NAAVA green walls.",
+      "language": "PHP",
+      "image": "img/project/naava.png",
+      "stars": "",
+      "forks": "",
+      "url": "https://naava.app/"
     }
   ]
 }

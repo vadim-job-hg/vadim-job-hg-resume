@@ -1,0 +1,263 @@
+{
+  "certificate": [
+    {
+      "course": "PHP",
+      "credentialCode": "CT-XOUWN8YB",
+      "expirationDate": "Ei viimeistä käyttöpäivää",
+      "issueDate": "13. lokakuuta, 2016",
+      "school": "Yksin oppiminen",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf"
+    },
+    {
+      "course": "SQL",
+      "credentialCode": "CT-A7MVXLIK",
+      "expirationDate": "Ei viimeistä käyttöpäivää",
+      "issueDate": "19. toukokuuta, 2017",
+      "school": "Yksin oppiminen",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf"
+    },
+    {
+      "course": "JavaScript",
+      "credentialCode": "CT-SF6AEAGK",
+      "expirationDate": "Ei viimeistä käyttöpäivää",
+      "issueDate": "24. toukokuuta, 2017",
+      "school": "Yksin oppiminen",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf"
+    },
+    {
+      "course": "JQuery",
+      "credentialCode": "CT-J1VDQBJG",
+      "expirationDate": "Ei viimeistä käyttöpäivää",
+      "issueDate": "20. kesäkuuta, 2017",
+      "school": "Yksin oppiminen",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf"
+    },
+    {
+      "course": "HTML",
+      "credentialCode": "CT-KWGILUBT",
+      "expirationDate": "Ei viimeistä käyttöpäivää",
+      "issueDate": "19. toukokuuta, 2017",
+      "school": "Yksin oppiminen",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf"
+    },
+    {
+      "course": "CSS",
+      "credentialCode": "CT-UIES3YMB",
+      "expirationDate": "Ei viimeistä käyttöpäivää",
+      "issueDate": "20. kesäkuuta, 2017",
+      "school": "Yksin oppiminen",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf"
+    },
+    {
+      "course": "Java",
+      "credentialCode": "CT-NBCOTCGG",
+      "expirationDate": "Ei viimeistä käyttöpäivää",
+      "issueDate": "18. joulukuuta, 2017",
+      "school": "Yksin oppiminen",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
+    },
+    {
+      "course": "Rubiini",
+      "credentialCode": "CT-FPWM4E8N",
+      "expirationDate": "Ei viimeistä käyttöpäivää",
+      "issueDate": "3. lokakuuta, 2017",
+      "school": "Yksin oppiminen",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf"
+    },
+    {
+      "course": "Python-ydin",
+      "credentialCode": "CT-NBCOTCGG",
+      "expirationDate": "Ei viimeistä käyttöpäivää",
+      "issueDate": "18. joulukuuta, 2017",
+      "school": "Yksin oppiminen",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
+    }
+  ],
+  "cv": {
+    "icon": "AsiakirjaTexticon",
+    "name": "PDF-tiedosto",
+    "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf",
+    "value": "Vadim Kuznetsov"
+  },
+  "education": [
+    {
+      "college": "Harkovan ammattikorkeakoulu",
+      "collegeLogo": "img/college/kpi.png",
+      "course": "Tietokoneverkkojen, verkonhallinnan ja järjestelmien turvallisuuden teknikko",
+      "end": "1973",
+      "start": "1963",
+      "url": "https://www.kpi.kharkov.ua/eng/"
+    },
+    {
+      "college": "Kharkovin patentti- ja tietokonekoulu",
+      "collegeLogo": "img/college/kpcc.svg",
+      "course": "Ohjelmointi tietotekniikkaan ja automatisoituihin järjestelmiin",
+      "end": "2006",
+      "start": "2003",
+      "url": "https://khpcc.com/"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ruudukkodynamiikka",
+      "companyLogo": "img/company/grid-dynamics.png",
+      "description": "Full-Stack -kehittäjä moniin <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \"> Naava Green Wallsin projekteihin. </a> Oli mukana\nviherseinien kunnon seurantajärjestelmien kehittäminen ja kehittäminen\ntyökaluja kasteluaikataulujen, valaistuksen ja ilmankierron kauko-ohjaukseen. \nOsallistunut <a href=\"https://www.naava.app/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\"> NAAVA-sovelluksen </a> API-kehittämiseen.\n",
+      "end": "Toukokuu 2024",
+      "job": "Full-Stack -kehittäjä",
+      "location": "Ukraina",
+      "start": "Elokuu 2017",
+      "workType": "Kokopäiväinen"
+    },
+    {
+      "company": "KnubiSoft",
+      "companyLogo": "img/company/knubisoft.jpg",
+      "description": "Kehitti erilaisia sovelluksia tyhjästä. \nKehitetty tytäryhtiöitä BCA: n ruotsalaiselle osastolle.\nHankittu kehityskokemus Phalcon-kehyksen avulla.\n",
+      "end": "heinäkuu 2017",
+      "job": "Full-Stack -kehittäjä",
+      "location": "Ukraina",
+      "start": "maaliskuu 2016",
+      "workType": "Kokopäiväinen"
+    },
+    {
+      "company": "Ideus",
+      "companyLogo": "img/company/ideus.jpg",
+      "description": "Oli tiimissä kehittämässä TesteAchers-koulutusalustaa, joka tarjoaa\nvakuutuskurssit yhdysvaltalaisille opiskelijoille. \nOsallistui maksujärjestelmän toteuttamiseen, koodin uudelleensuunnitteluun ja hakuun\njärjestelmän haavoittuvuuksien varalta.",
+      "end": "maaliskuu 2016",
+      "job": "Full-Stack -kehittäjä",
+      "location": "Ukraina",
+      "start": "Lokakuu 2014",
+      "workType": "Kokopäiväinen"
+    },
+    {
+      "company": "MobilLuck",
+      "companyLogo": "img/company/mobilluck.png",
+      "description": "Työskenteli osana tiimiä sivustolla <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \"> https://www.mobilluck.com.ua/</a>.\nKehitti myyntipäälliköille työkaluja, jotka auttoivat heitä suorittamaan massiivisen uudelleenarvioinnin\ntuotteet verkkokaupassa.\nKehitti järjestelmän tuotemarkkinoiden seurantaan ja uudelleenarvostukseen perustuen\nkilpailijoiden tavaroiden kannattavuus ja hinnat.",
+      "end": "Lokakuu 2014",
+      "job": "Full-Stack -kehittäjä",
+      "location": "Ukraina",
+      "start": "Toukokuu 2013",
+      "workType": "Kokopäiväinen"
+    }
+  ],
+  "information": [
+    {
+      "icon": "Kirjekuorikuvake",
+      "name": "Sähköpostiosoite",
+      "value": "vadimjobhg86@gmail.com"
+    },
+    {
+      "icon": "Cake Icon",
+      "name": "Syntymäpäivä",
+      "value": "4. heinäkuuta 1986"
+    },
+    {
+      "icon": "LaitePuhelinMobileIcon",
+      "name": "Puhelinnumero",
+      "value": "+38 (068) 271 78 03"
+    },
+    {
+      "icon": "TietokonepöytäTopicon",
+      "name": "Työn tyyppi",
+      "value": "Etäkäyttö tai kokopäiväinen"
+    }
+  ],
+  "language": [
+    {
+      "code": "ru-RU",
+      "flag": "svg/russia.svg",
+      "level": "Äidinkieli",
+      "name": "Venäjän kieli"
+    },
+    {
+      "code": "UA-UA",
+      "flag": "svg/ukraine.svg",
+      "level": "Äidinkieli",
+      "name": "ukrainalainen"
+    },
+    {
+      "code": "en-US",
+      "flag": "svg/united-states.svg",
+      "level": "Edistynyt",
+      "name": "englanti"
+    },
+    {
+      "code": "BG-BG",
+      "flag": "svg/bulgaria.svg",
+      "level": "Menen oppimaan :-)",
+      "name": "bulgarialainen"
+    }
+  ],
+  "profile": {
+    "aboutMe": "Ammattimainen web-kehittäjä, jolla on yli kymmenen vuoden kokemus\nkokemusta esimerkiksi esineiden internetistä, myynnistä,\nkoulutuskurssit jne. Työskenteli kolmansien osapuolten integroimiseksi\nohjelmistojärjestelmät, kuten maksujärjestelmät, ERP, edge\ntietojenkäsittelyohjelmisto IoT-sovelluksiin. Kehitetyt sovellusliittymät\nmobiili- ja PWA-sovellukset.",
+    "avatar": "img/profile/me.jpg",
+    "job": "Full Stack -kehittäjä",
+    "name": "Vadim Kuznetsov",
+    "socialNetwork": [
+      {
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/vadim-job-hg/"
+      },
+      {
+        "name": "Yksin oppiminen",
+        "url": "https://www.sololearn.com/en/profile/2024996"
+      }
+    ]
+  },
+  "project": [
+    {
+      "description": "Hakemus NAAVA-viherseinien kunnon seurantaan ja ympäristön hallintaan.",
+      "forks": "",
+      "image": "img/project/naava.png",
+      "language": "PHP",
+      "name": "NAAVA-SOVELLUS",
+      "stars": "",
+      "url": "https://naava.app/"
+    }
+  ],
+  "skill": [
+    "PHP",
+    "Laravel",
+    "Phalkon",
+    "Kohana",
+    "SQL",
+    "JavaScript",
+    "JQuery",
+    "CSS",
+    "HTML",
+    "JSON",
+    "saappaanraksi",
+    "Swagger",
+    "Git",
+    "DataTabletit",
+    "GAE",
+    "AWS",
+    "pytonkäärme",
+    "Django",
+    "NetSuite"
+  ],
+  "volunteer": [
+    {
+      "company": "",
+      "companyLogo": "",
+      "description": "",
+      "end": "",
+      "job": "",
+      "location": "",
+      "start": "",
+      "workType": ""
+    }
+  ]
+}

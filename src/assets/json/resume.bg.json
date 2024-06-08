@@ -1,231 +1,263 @@
 {
-  "profile": {
-    "name": "Vadym Kuznetsov",
-    "job": "Full Stack Developer",
-    "avatar": "img/profile/me.jpg",
-    "aboutMe": "Professional Web Developer with more than ten years of\nexperience in areas such as the Internet of Things, sales,\neducational courses, etc. Worked on integrating third-party\nsoftware systems, such as payment systems, ERP, edge\ncomputing software for IoT applications. Developed APIs for\nmobile and pwa applications.",
-    "socialNetwork": [
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/vadim-job-hg/"
-      }
-    ]
-  },
-  "cv": {
-    "icon": "DocumentTextIcon",
-    "name": "PDF",
-    "value": "Vadym Kuznetsov",
-    "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf"
-  },
-  "information": [
+  "certificate": [
     {
-      "icon": "EnvelopeIcon",
-      "name": "Mail address",
-      "value": "vadimjobhg86@gmail.com"
+      "course": "PHP",
+      "credentialCode": "CT-XOUWN8YB",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "13 Октомври, 2016",
+      "school": "Сололеърн",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf"
     },
     {
-      "icon": "CakeIcon",
-      "name": "Birthday",
-      "value": "04 July 1986"
+      "course": "СКЛ",
+      "credentialCode": "CT-A7MVXLIK",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "19 май, 2017",
+      "school": "Сололеърн",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf"
     },
     {
-      "icon": "DevicePhoneMobileIcon",
-      "name": "Phone Number",
-      "value": "+38 (068) 271 78 03"
+      "course": "JavaScript",
+      "credentialCode": "CT-SF6AEAGK",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "24 май, 2017",
+      "school": "Сололеърн",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf"
     },
     {
-      "icon": "ComputerDesktopIcon",
-      "name": "Work type",
-      "value": "Remote or Fulltime"
+      "course": "jQuery",
+      "credentialCode": "CT-J1VDQBJG",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "20 юни, 2017",
+      "school": "Сололеърн",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf"
+    },
+    {
+      "course": "ХТМЛ",
+      "credentialCode": "CT-КВ",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "19 май, 2017",
+      "school": "Сололеърн",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf"
+    },
+    {
+      "course": "CSS",
+      "credentialCode": "CT-UIES3YMB",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "20 юни, 2017",
+      "school": "Сололеърн",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf"
+    },
+    {
+      "course": "Ява",
+      "credentialCode": "CT-NBCOTCGG",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "18 декември, 2017",
+      "school": "Сололеърн",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
+    },
+    {
+      "course": "Рубин",
+      "credentialCode": "ЦТ-ФПВМ4Е8Н",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "03 Октомври, 2017",
+      "school": "Сололеърн",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf"
+    },
+    {
+      "course": "Ядро на Python",
+      "credentialCode": "CT-NBCOTCGG",
+      "expirationDate": "Няма срок на годност",
+      "issueDate": "18 декември, 2017",
+      "school": "Сололеърн",
+      "schoolLogo": "img/college/sololearn.png",
+      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
     }
   ],
-  "skill": [
-    "PHP",
-    "Laravel",
-    "Phalcon",
-    "Kohana",
-    "SQL",
-    "JavaScript",
-    "jQuery",
-    "CSS",
-    "HTML",
-    "JSON",
-    "Bootstrap",
-    "Swagger",
-    "Git",
-    "DataTables",
-    "GAE",
-    "AWS",
-    "Python",
-    "Django",
-    "NetSuite"
-  ],
-  "language": [
+  "cv": {
+    "icon": "ДокументиТекстичон",
+    "name": "ПДФ",
+    "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf",
+    "value": "Вадим Кузнецов"
+  },
+  "education": [
     {
-      "name": "Russian",
-      "code": "ru-RU",
-      "flag": "svg/russia.svg",
-      "level": "Native Language"
+      "college": "Харков политехнически институт",
+      "collegeLogo": "img/college/kpi.png",
+      "course": "Технолог по компютърни мрежи, управление на мрежи и сигурност на системите",
+      "end": "1973",
+      "start": "1963",
+      "url": "https://www.kpi.kharkov.ua/eng/"
     },
     {
-      "name": "Ukrainian",
-      "code": "ua-UA",
-      "flag": "svg/ukraine.svg",
-      "level": "Native Language"
-    },
-    {
-      "name": "English",
-      "code": "en-US",
-      "flag": "svg/united-states.svg",
-      "level": "Advanced"
-    },
-    {
-      "name": "Bulgarian",
-      "code": "bg-BG",
-      "flag": "svg/bulgaria.svg",
-      "level": "Going to learn :-)"
+      "college": "Харков патентно-компютърен колеж",
+      "collegeLogo": "img/college/kpcc.svg",
+      "course": "Програмиране за компютърни технологии и автоматизирани системи",
+      "end": "2006",
+      "start": "2003",
+      "url": "https://khpcc.com/"
     }
   ],
   "experience": [
     {
-      "job": "Full-Stack Developer",
-      "company": "Grid Dynamics",
+      "company": "Динамика на мрежата",
       "companyLogo": "img/company/grid-dynamics.png",
-      "location": "Ukraine",
-      "workType": "Fulltime",
-      "start": "Aug 2017",
-      "end": "May 2024",
-      "description": "Full-Stack Developer for many projects for <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \">Naava Green Walls</a>. Was involved in the\ndevelopment of monitoring systems for the condition of green walls and the development\nof tools for remote control of watering schedules, lighting and air circulation. \nEngaged in API development for <a href=\"https://www.naava.app/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\">NAAVA application</a>.\n",
-      "url": "https://www.naava.io/"
+      "description": "Full-Stack Developer за много проекти за <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \"> Naava Green Walls. </a> Беше замесен в\nразработване на системи за мониторинг на състоянието на зелените стени и разработването\nна инструменти за дистанционно управление на графиците за поливане, осветлението и циркулацията на въздуха. \nЗанимава се с разработване на API за приложение <a href=\"https://www.naava.app/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\"> </a> NAAVA.\n",
+      "end": "Май 2024",
+      "job": "Разработчик с пълен стек",
+      "location": "Украйна",
+      "start": "Август 2017",
+      "workType": "Пълно работно време"
     },
     {
-      "job": "Full-Stack Developer",
-      "company": "KnubiSoft",
+      "company": "КнубиСофт",
       "companyLogo": "img/company/knubisoft.jpg",
-      "location": "New York",
-      "workType": "Fulltime",
-      "start": "jan 2015",
-      "end": "Current",
-      "description": "Breakthrough Energy is dedicated to helping humanity avoid a climate disaster. Through investment vehicles, philanthropic programs, policy advocacy, and other activities, we’re committed to scaling the technologies we need to reach net-zero emissions by 2050."
+      "description": "Разработени са различни приложения от нулата. \nРазработени дъщерни приложения за шведския отдел на BCA.\nНатрупан опит в развитието с помощта на рамката Phalcon.\n",
+      "end": "юли 2017",
+      "job": "Разработчик с пълен стек",
+      "location": "Украйна",
+      "start": "март 2016",
+      "workType": "Пълно работно време"
+    },
+    {
+      "company": "ИДЕИ",
+      "companyLogo": "img/company/ideus.jpg",
+      "description": "Беше в екипа, разработващ образователната платформа TestEachers, която осигурява\nзастрахователни курсове за студенти от САЩ. \nУчаства във внедряването на платежната система, рефакторинг на кодове и търсене\nза уязвимости в системата.",
+      "end": "март 2016",
+      "job": "Разработчик с пълен стек",
+      "location": "Украйна",
+      "start": "Октомври 2014",
+      "workType": "Пълно работно време"
+    },
+    {
+      "company": "МобилЛък",
+      "companyLogo": "img/company/mobilluck.png",
+      "description": "Работил като част от екип на сайта <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \"> https://www.mobilluck.com.ua/</a>.\nРазработваше инструменти за мениджърите по продажбите, които им помогнаха да извършат масово преоценяване на\nартикули в онлайн магазин.\nРазработена е система за мониторинг на пазара на артикули и преоценка въз основа на\nрентабилност и цени на стоките от конкурентите.",
+      "end": "Октомври 2014",
+      "job": "Разработчик с пълен стек",
+      "location": "Украйна",
+      "start": "Май 2013",
+      "workType": "Пълно работно време"
     }
   ],
-  "education": [
+  "information": [
     {
-      "college": "Harvard University",
-      "collegeLogo": "img/college/harvard.jpg",
-      "course": "Mathematics, law and computer science",
-      "start": "1973",
-      "end": "1975",
-      "url": "https://www.xpeducacao.com.br/pos-graduacao/desenvolvimento-front-end?evento=dev_summit"
+      "icon": "ОбвивкаИкон",
+      "name": "Пощенски адрес",
+      "value": "vadimjobhg86@gmail.com"
     },
     {
-      "college": "Lakeside School",
-      "collegeLogo": "img/college/lakeside.jpg",
-      "course": "Technologist in Computer Networks, Network Management and Systems Security",
-      "start": "1963",
-      "end": "1973",
-      "url": ""
+      "icon": "CakeIcon",
+      "name": "Рожден ден",
+      "value": "04 юли 1986"
+    },
+    {
+      "icon": "УстройствоТелефонМобилеикона",
+      "name": "Телефонен номер",
+      "value": "+38 (068) 271 78 03"
+    },
+    {
+      "icon": "КомпютърНастолни компютриКон",
+      "name": "Вид на работа",
+      "value": "Дистанционно или на пълно работно време"
     }
+  ],
+  "language": [
+    {
+      "code": "Ру-Ру",
+      "flag": "svg/russia.svg",
+      "level": "Роден език",
+      "name": "Руски"
+    },
+    {
+      "code": "Уа-Уа",
+      "flag": "svg/ukraine.svg",
+      "level": "Роден език",
+      "name": "украински"
+    },
+    {
+      "code": "EN-US",
+      "flag": "svg/united-states.svg",
+      "level": "Разширено",
+      "name": "английски"
+    },
+    {
+      "code": "БГ-бг",
+      "flag": "svg/bulgaria.svg",
+      "level": "Отивам да се уча :-)",
+      "name": "български"
+    }
+  ],
+  "profile": {
+    "aboutMe": "Професионален уеб програмист с повече от десет години\nопит в области като Интернет на нещата, продажбите,\nОбразователни курсове и др. Работи върху интегрирането на трети страни\nсофтуерни системи, като платежни системи, ERP, edge\nизчислителен софтуер за IoT приложения. Разработени API за\nмобилни и pwa приложения.",
+    "avatar": "img/profile/me.jpg",
+    "job": "Разработчик на пълен стек",
+    "name": "Вадим Кузнецов",
+    "socialNetwork": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/"
+      },
+      {
+        "name": "Гитхуб",
+        "url": "https://github.com/vadim-job-hg/"
+      },
+      {
+        "name": "Сололеърн",
+        "url": "https://www.sololearn.com/en/profile/2024996"
+      }
+    ]
+  },
+  "project": [
+    {
+      "description": "Приложение за мониторинг на състоянието и управление на околната среда на зелените стени на НААВА.",
+      "forks": "",
+      "image": "img/project/naava.png",
+      "language": "PHP",
+      "name": "НААВА ПРИЛОЖЕНИЕ",
+      "stars": "",
+      "url": "https://naava.app/"
+    }
+  ],
+  "skill": [
+    "PHP",
+    "Ларавел",
+    "Фалкон",
+    "Кохана",
+    "СКЛ",
+    "JavaScript",
+    "jQuery",
+    "CSS",
+    "ХТМЛ",
+    "ДЖСОН",
+    "Ботстрап",
+    "Сваггер",
+    "Гит",
+    "Таблици с данни",
+    "ГАЕ",
+    "АУС",
+    "Питон",
+    "Джанго",
+    "Нетсуит"
   ],
   "volunteer": [
     {
-      "job": "Team Coordinator",
-      "company": "Green Peace",
-      "companyLogo": "img/company/green-peace.jpg",
-      "location": "New York",
-      "workType": "Remote",
-      "start": "January 2000",
-      "end": "Current",
-      "description": "Greenpeace is an independent global campaigning network that acts to change attitudes and behaviour, to protect and conserve the environment and to promote peace. It comprises 26 independent national/regional Greenpeace organisations with presence in over 55 countries across Europe, Africa, the Americas, Asia and the Pacific, as well as a coordinating and supporting organisation, Greenpeace International."
-    }
-  ],
-  "certificate": [
-    {
-      "course": "Microsoft Azure Data Engineering Associate (DP-203)",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2000",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/microsoft-azure-dp-203-data-engineering"
-    },
-    {
-      "course": "Microsoft 365 Fundamentals",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2001",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-365-fundamentals"
-    },
-    {
-      "course": "Microsoft Azure Fundamentals AZ-900 Exam Prep",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2002",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-azure-fundamentals-az-900"
-    },
-    {
-      "course": "Microsoft Azure Data Scientist Associate (DP-100)",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2003",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/azure-data-scientist"
-    },
-    {
-      "course": "Microsoft Azure AI Fundamentals AI-900 Exam Prep",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2004",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/specializations/microsoft-azure-ai-900-ai-fundamentals"
-    },
-    {
-      "course": "Microsoft Azure Developer Associate (AZ-204)",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2005",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/professional-certificates/azure-developer-associate"
-    },
-    {
-      "course": "Work Smarter with Microsoft Excel",
-      "school": "Coursera",
-      "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2006",
-      "expirationDate": "No expiration date",
-      "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
-      "url": "https://www.coursera.org/learn/microsoft-excel-work-smarter"
-    }
-  ],
-  "project": [
-    {
-      "name": "Visual Studio Code",
-      "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
-      "language": "Typescript",
-      "image": "img/project/vscode.png",
-      "stars": "+138k",
-      "forks": "23.8k",
-      "url": "https://github.com/microsoft/vscode"
-    },
-    {
-      "name": "TypeScript",
-      "description": "TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript.",
-      "language": "Typescript",
-      "image": "img/project/typescript.png",
-      "stars": "+85.3k",
-      "forks": "11.1k",
-      "url": "https://github.com/microsoft/TypeScript"
+      "company": "",
+      "companyLogo": "",
+      "description": "",
+      "end": "",
+      "job": "",
+      "location": "",
+      "start": "",
+      "workType": ""
     }
   ]
 }
