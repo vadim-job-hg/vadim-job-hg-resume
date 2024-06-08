@@ -7,5 +7,5 @@ import VolunteerCard from '../components/VolunteerCard.vue';
   <!-- Experience -->
   <ExperienceCard />
   <!-- Volunteer -->
-  <VolunteerCard />
+  <!-- VolunteerCard --/-->
 </template>
