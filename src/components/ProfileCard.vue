@@ -33,9 +33,6 @@ const showProfileImage = () => {
         <vue-easy-lightbox :visible="visibleRef" :imgs="imgsRef" :index="indexRef" @hide="onHide"></vue-easy-lightbox>
         <div>
           <div class="text-lg font-bold text-gray-900 dark:text-night-50">{{ resume.profile.name }}</div>
-          <div class="text-xl font-bold text-red-600">
-            [Danger. Construction is underway. Enter the territory only wearing a helmet.]
-          </div>
           <div class="text-xs text-gray-400 dark:text-night-200">{{ resume.profile.job }}</div>
           <div class="mt-2 inline-flex flex-wrap gap-1">
             <a

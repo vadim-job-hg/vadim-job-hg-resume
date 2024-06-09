@@ -15,8 +15,12 @@
     "title": "Settings",
     "theme": "Theme",
     "dark_mode": "Enable dark mode?",
-    "pt": "Potuguese",
-    "en": "English"
+    "bg": "Bulgarian",
+    "en": "English",
+    "ru": "Russian",
+    "fi": "Finish",
+    "ja": "Japan",
+    "zh": "China"
   },
   "menu": {
     "experience": "Experience",

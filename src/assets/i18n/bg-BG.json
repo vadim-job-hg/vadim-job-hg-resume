@@ -20,11 +20,15 @@
     "previous_page": "Предишна страница"
   },
   "project": "проекти",
-  "resume": "Възобновяване",
+  "resume": "Resume",
   "settings": {
-    "bg": "български",
+    "bg": "Български",
     "dark_mode": "Активиране на тъмен режим?",
-    "en": "английски",
+    "en": "Английски",
+    "ru": "Russian",
+    "fi": "Finish",
+    "ja": "Japan",
+    "zh": "China",
     "theme": "Тема",
     "title": "Настройки"
   },

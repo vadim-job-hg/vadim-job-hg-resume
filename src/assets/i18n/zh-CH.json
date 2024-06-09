@@ -20,11 +20,15 @@
     "previous_page": "前一页"
   },
   "project": "项目",
-  "resume": "恢复",
+  "resume": "Resume",
   "settings": {
     "bg": "保加利亚人",
     "dark_mode": "启用暗黑模式？",
     "en": "英文",
+    "ru": "Russian",
+    "fi": "Finish",
+    "ja": "Japan",
+    "zh": "China",
     "theme": "主题",
     "title": "设置"
   },

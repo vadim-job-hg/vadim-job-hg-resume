@@ -20,11 +20,15 @@
     "previous_page": "Edellinen sivu"
   },
   "project": "Projektit",
-  "resume": "Jatketaan",
+  "resume": "Resume",
   "settings": {
     "bg": "bulgarialainen",
     "dark_mode": "Ota tumma tila käyttöön?",
     "en": "englanti",
+    "ru": "Russian",
+    "fi": "Finish",
+    "ja": "Japan",
+    "zh": "China",
     "theme": "Teema",
     "title": "Asetukset"
   },

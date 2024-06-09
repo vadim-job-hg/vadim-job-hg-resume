@@ -20,11 +20,15 @@
     "previous_page": "前のページ"
   },
   "project": "プロジェクト",
-  "resume": "履歴書",
+  "resume": "Resume",
   "settings": {
     "bg": "ブルガリア語",
     "dark_mode": "ダークモードを有効にしますか?",
     "en": "英語",
+    "ru": "Russian",
+    "fi": "Finish",
+    "ja": "Japan",
+    "zh": "China",
     "theme": "テーマ",
     "title": "設定"
   },

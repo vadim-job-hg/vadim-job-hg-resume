@@ -4,11 +4,17 @@ import type { Resume } from '../models/Resume';
 import enUS from '@/assets/json/resume.en.json';
 import bgBG from '@/assets/json/resume.bg.json';
 import ruRU from '@/assets/json/resume.ru.json';
+import fiFI from '@/assets/json/resume.fi.json';
+import jaJA from '@/assets/json/resume.ja.json';
+import zhCH from '@/assets/json/resume.zh.json';
 
 const languages = [
   { code: 'en-US', data: enUS },
   { code: 'bg-BG', data: bgBG },
   { code: 'ru-RU', data: ruRU },
+  { code: 'fi-FI', data: fiFI },
+  { code: 'ja-JA', data: jaJA },
+  { code: 'zh-CH', data: zhCH },
 ];
 
 export const useResumeStore = defineStore('resume', {
