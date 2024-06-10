@@ -7,10 +7,12 @@
   "information": "Информация",
   "language": "ЯЗЫК",
   "license": "Лицензии и сертификаты",
+  "gallery": "Gallery",
   "menu": {
     "education": "Образование",
     "experience": "Стаж",
-    "project": "Проекты"
+    "project": "Проекты",
+    "gallery": "Gallery"
   },
   "paginate": {
     "count": "{first}Отображение первого {last} числа {total} результатов",

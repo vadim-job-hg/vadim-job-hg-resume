@@ -11,6 +11,7 @@ const menu = [
   { route: '/', name: 'menu.experience', icon: 'BriefcaseIcon' },
   { route: 'education', name: 'menu.education', icon: 'AcademicCapIcon' },
   { route: 'project', name: 'menu.project', icon: 'CodeBracketIcon' },
+  { route: 'gallery', name: 'menu.gallery', icon: 'PhotoIcon' },
 ];
 </script>
 

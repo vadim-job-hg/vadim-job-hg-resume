@@ -5,6 +5,7 @@ import type { InfoItem } from './InfoItem';
 import type { Language } from './Language';
 import type { Profile } from './Profile';
 import type { Project } from './Project';
+import type { Gallery } from './Gallery';
 
 export interface Resume {
   profile: Profile;
@@ -17,4 +18,5 @@ export interface Resume {
   education: Education[];
   certificate: Certificate[];
   project: Project[];
+  gallery: Gallery[];
 }

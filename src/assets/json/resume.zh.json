@@ -285,5 +285,14 @@
       "start": "",
       "workType": ""
     }
-  ]
+  ],
+  "gallery": [
+  {
+    "name": "NAAVA GREEN WALLS",
+    "images": [
+      "img/photos/naava/naava-wall-1.jpg",
+      "img/photos/naava/naava-wall-2.jpg"
+    ]
+  }
+]
 }

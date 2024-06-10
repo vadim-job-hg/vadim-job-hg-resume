@@ -10,6 +10,7 @@ import type { Language } from '@/models/Language';
 const languages: Language[] = [
   { name: 'settings.en', code: 'en-US', flag: 'svg/united-states.svg' },
   { name: 'settings.bg', code: 'bg-BG', flag: 'svg/brazil.svg' },
+  { name: 'settings.ru', code: 'ru-RU', flag: 'svg/russia.svg' },
 ];
 
 const { locale } = useI18n({ useScope: 'global' });

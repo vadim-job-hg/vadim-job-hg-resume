@@ -1,12 +1,12 @@
 {
   "profile": {
-    "name": "Vadym Kuznetsov",
-    "job": "Full Stack Developer",
+    "aboutMe": "Профессиональный веб-разработчик с более чем десятилетним опытом\nопыт работы в таких областях, как Интернет вещей, продажи,\nобразовательные курсы и т. д. Работали над интеграцией сторонних организаций\nпрограммные системы, такие как платежные системы, ERP, edge\nвычислительное программное обеспечение для приложений Интернета вещей. Разработанные API-интерфейсы для\nмобильные приложения и приложения pwa.",
     "avatar": "img/profile/me.jpg",
-    "aboutMe": "Professional Web Developer with more than ten years of\nexperience in areas such as the Internet of Things, sales,\neducational courses, etc. Worked on integrating third-party\nsoftware systems, such as payment systems, ERP, edge\ncomputing software for IoT applications. Developed APIs for\nmobile and pwa applications.",
+    "job": "Full Stack Developer",
+    "name": "Вадим Кузнецов",
     "socialNetwork": [
       {
-        "name": "linkedin",
+        "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/"
       },
       {
@@ -14,7 +14,7 @@
         "url": "https://github.com/vadim-job-hg/"
       },
       {
-        "name": "sololearn",
+        "name": "Sololearn",
         "url": "https://www.sololearn.com/en/profile/2024996"
       }
     ]
@@ -22,16 +22,37 @@
   "cv": {
     "icon": "DocumentTextIcon",
     "name": "PDF",
-    "value": "Vadym Kuznetsov",
+    "value": "Вадим Кузнецов",
     "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf"
   },
+  "skill": [
+    "PHP",
+    "Laravel",
+    "Phalcon",
+    "Kohana",
+    "SQL",
+    "JavaScript",
+    "jQuery",
+    "CSS",
+    "HTML",
+    "JSON",
+    "Bootstrap",
+    "Swagger",
+    "Git",
+    "DataTables",
+    "GAE",
+    "AWS",
+    "Python",
+    "Django",
+    "NetSuite"
+  ],
   "certificate": [
     {
       "course": "PHP",
       "credentialCode": "CT-XOU WN8 БАЙТ",
       "expirationDate": "Без срока годности",
       "issueDate": "13 октября 2016 г.",
-      "school": "Соло учитесь",
+      "school": "Sololearn",
       "schoolLogo": "img/college/sololearn.png",
       "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf"
     },
@@ -40,7 +61,7 @@
       "credentialCode": "CT-A7MVXLIK",
       "expirationDate": "Без срока годности",
       "issueDate": "19 мая 2017 г.",
-      "school": "Соло учитесь",
+      "school": "Sololearn",
       "schoolLogo": "img/college/sololearn.png",
       "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf"
     },
@@ -49,7 +70,7 @@
       "credentialCode": "CT-SF6AEAGK",
       "expirationDate": "Без срока годности",
       "issueDate": "24 мая 2017 г.",
-      "school": "Соло учитесь",
+      "school": "Sololearn",
       "schoolLogo": "img/college/sololearn.png",
       "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf"
     },
@@ -58,7 +79,7 @@
       "credentialCode": "CT-J1VDQBJG",
       "expirationDate": "Без срока годности",
       "issueDate": "20 июня 2017 г.",
-      "school": "Соло учитесь",
+      "school": "Sololearn",
       "schoolLogo": "img/college/sololearn.png",
       "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf"
     },
@@ -67,16 +88,16 @@
       "credentialCode": "CT-KWGILUBT",
       "expirationDate": "Без срока годности",
       "issueDate": "19 мая 2017 г.",
-      "school": "Соло учитесь",
+      "school": "Sololearn",
       "schoolLogo": "img/college/sololearn.png",
       "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf"
     },
     {
-      "course": "ЦИБ",
+      "course": "CSS",
       "credentialCode": "CT-UIES3YMB",
       "expirationDate": "Без срока годности",
       "issueDate": "20 июня 2017 г.",
-      "school": "Соло учитесь",
+      "school": "Sololearn",
       "schoolLogo": "img/college/sololearn.png",
       "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf"
     },
@@ -85,35 +106,29 @@
       "credentialCode": "CT-NBCOTCGG",
       "expirationDate": "Без срока годности",
       "issueDate": "18 декабря 2017 г.",
-      "school": "Соло учитесь",
+      "school": "Sololearn",
       "schoolLogo": "img/college/sololearn.png",
       "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
     },
     {
-      "course": "РУБИН",
+      "course": "Ruby",
       "credentialCode": "CT-FPWM4E8N",
       "expirationDate": "Без срока годности",
       "issueDate": "03 октября 2017 г.",
-      "school": "Соло учитесь",
+      "school": "Sololearn",
       "schoolLogo": "img/college/sololearn.png",
       "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf"
     },
     {
-      "course": "Ядро Python",
+      "course": "Python Core",
       "credentialCode": "CT-NBCOTCGG",
       "expirationDate": "Без срока годности",
       "issueDate": "18 декабря 2017 г.",
-      "school": "Соло учитесь",
+      "school": "Sololearn",
       "schoolLogo": "img/college/sololearn.png",
       "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
     }
   ],
-  "cv": {
-    "icon": "Иконка текста документа",
-    "name": "PDF",
-    "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf",
-    "value": "Вадим Кузнецов"
-  },
   "education": [
     {
       "college": "Харьковский политехнический институт",
@@ -134,7 +149,7 @@
   ],
   "experience": [
     {
-      "company": "Динамика сетки",
+      "company": "Grid Dynamics",
       "companyLogo": "img/company/grid-dynamics.png",
       "description": "Разработчик полного цикла для многих проектов для <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \"> Naava Green Walls. </a> Участвовал в\nразработка систем мониторинга состояния зеленых стен и развитие\nинструментов для дистанционного управления графиками полива, освещением и циркуляцией воздуха. \nЗанимался разработкой API для приложения <a href=\"https://www.naava.app/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\"> </a> NAAVA.\n",
       "end": "Май 2024 года",
@@ -154,7 +169,7 @@
       "workType": "Полный день"
     },
     {
-      "company": "IDEU",
+      "company": "iDeus",
       "companyLogo": "img/company/ideus.jpg",
       "description": "Входил в состав команды разработчиков образовательной платформы TestTeachers, которая предоставляет\nкурсы страхования для студентов из США. \nЗанимался внедрением платежной системы, рефакторингом кода и поиском\nна предмет уязвимостей в системе.",
       "end": "март 2016 г.",
@@ -198,81 +213,40 @@
   ],
   "language": [
     {
-      "code": "Ру-ру",
+      "code": "ru-RU",
       "flag": "svg/russia.svg",
       "level": "Родной язык",
       "name": "Русский"
     },
     {
-      "code": "UA-ua",
+      "code": "ua-UA",
       "flag": "svg/ukraine.svg",
       "level": "Родной язык",
       "name": "украинский"
     },
     {
-      "code": "En-US",
+      "code": "en-US",
       "flag": "svg/united-states.svg",
       "level": "Передовой",
       "name": "английский"
     },
     {
-      "code": "Bg-BG",
+      "code": "bg-BG",
       "flag": "svg/bulgaria.svg",
-      "level": "Собираюсь учиться :-)",
+      "level": "Собираюсь выучить :-)",
       "name": "болгарский"
     }
   ],
-  "profile": {
-    "aboutMe": "Профессиональный веб-разработчик с более чем десятилетним опытом\nопыт работы в таких областях, как Интернет вещей, продажи,\nобразовательные курсы и т. д. Работали над интеграцией сторонних организаций\nпрограммные системы, такие как платежные системы, ERP, edge\nвычислительное программное обеспечение для приложений Интернета вещей. Разработанные API-интерфейсы для\nмобильные приложения и приложения pwa.",
-    "avatar": "img/profile/me.jpg",
-    "job": "Разработчик полного стека",
-    "name": "Вадим Кузнецов",
-    "socialNetwork": [
-      {
-        "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/vadim-job-hg/"
-      },
-      {
-        "name": "Соло учитесь",
-        "url": "https://www.sololearn.com/en/profile/2024996"
-      }
-    ]
-  },
   "project": [
     {
       "description": "Приложение для мониторинга состояния и управления окружающей средой зеленых стен NAAVA.",
       "forks": "",
       "image": "img/project/naava.png",
       "language": "PHP",
-      "name": "ПРИЛОЖЕНИЕ NAVA",
+      "name": "NAAVA APPLICATION",
       "stars": "",
       "url": "https://naava.app/"
     }
-  ],
-  "skill": [
-    "PHP",
-    "Laravel",
-    "Фалькон",
-    "Кохана",
-    "SQL",
-    "JavaScript",
-    "JQuery",
-    "ЦИБ",
-    "HTML",
-    "JSON",
-    "начальная загрузка",
-    "разгильдяйство",
-    "Негодяй",
-    "Таблицы данных",
-    "ВОЗРАСТ",
-    "АИС",
-    "питон",
-    "Джанго",
-    "NetSuite"
   ],
   "volunteer": [
     {

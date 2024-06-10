@@ -9,6 +9,7 @@
   "education": "Education",
   "license": "Licenses and Certificates",
   "project": "Projects",
+  "gallery": "Gallery",
   "credential": "Credential",
   "credential_code": "Credential Code",
   "settings": {
@@ -25,7 +26,8 @@
   "menu": {
     "experience": "Experience",
     "education": "Education",
-    "project": "Projects"
+    "project": "Projects",
+    "gallery": "Gallery"
   },
   "paginate": {
     "count": "Showing {first} to {last} of {total} results",

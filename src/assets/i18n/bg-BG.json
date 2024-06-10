@@ -7,10 +7,12 @@
   "information": "Информация",
   "language": "Език",
   "license": "Лицензи и сертификати",
+  "gallery": "Gallery",
   "menu": {
     "education": "Образование",
     "experience": "ОПИТ",
-    "project": "проекти"
+    "project": "проекти",
+    "gallery": "Gallery"
   },
   "paginate": {
     "count": "По {first} казване {last} на {total} резултатите",

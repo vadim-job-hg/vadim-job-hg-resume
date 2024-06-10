@@ -7,10 +7,12 @@
   "information": "信息",
   "language": "语",
   "license": "许可证和证书",
+  "gallery": "Gallery",
   "menu": {
     "education": "教育",
     "experience": "体验",
-    "project": "项目"
+    "project": "项目",
+    "gallery": "Gallery"
   },
   "paginate": {
     "count": "显示{first}{total}结果{last}总数",

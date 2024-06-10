@@ -7,10 +7,12 @@
   "information": "Tietoa",
   "language": "Kieli",
   "license": "Lisenssit ja sertifikaatit",
+  "gallery": "Gallery",
   "menu": {
     "education": "Koulutus",
     "experience": "Kokemus",
-    "project": "Projektit"
+    "project": "Projektit",
+    "gallery": "Gallery"
   },
   "paginate": {
     "count": "Näyt {first} {last} etään {total} tulokset",

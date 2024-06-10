@@ -7,10 +7,12 @@
   "information": "情報",
   "language": "言語",
   "license": "ライセンスと証明書",
+  "gallery": "Gallery",
   "menu": {
     "education": "教育",
     "experience": "エクスペリエンス",
-    "project": "プロジェクト"
+    "project": "プロジェクト",
+    "gallery": "Gallery"
   },
   "paginate": {
     "count": "{first}{last}{total}結果の上位を表示",
