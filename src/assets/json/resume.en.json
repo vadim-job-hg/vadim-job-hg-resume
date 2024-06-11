@@ -283,14 +283,14 @@
       "images": [
         {
           "src": "img/gallery/griddynamics/gd-1.jpg",
-          "width": 2000,
-          "height": 2000,
+          "width": 1536,
+          "height": 2048,
           "alt": "Running with DAXX"
         },
         {
-          "src": "img/gallery/griddynamics/gd-1.jpg",
-          "width": 2000,
-          "height": 2000,
+          "src": "img/gallery/griddynamics/gd-2.jpg",
+          "width": 1536,
+          "height": 2048,
           "alt": "Running with DAXX"
         }
       ]
