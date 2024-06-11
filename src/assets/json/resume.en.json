@@ -264,14 +264,35 @@
     {
       "name": "NAAVA GREEN WALLS",
       "images": [
-        "img/photos/naava/naava-wall-1.jpg",
-        "img/photos/naava/naava-wall-2.jpg"
+        {
+          "src": "img/gallery/naava/naava-wall-1.jpg",
+          "width": 2000,
+          "height": 2000,
+          "alt": "NAAVA IMAGE 1"
+        },
+        {
+          "src": "img/gallery/naava/naava-wall-2.jpg",
+          "width": 2000,
+          "height": 2000,
+          "alt": "NAAVA IMAGE 2"
+        }
       ]
     },
     {
       "name": "GRID DYNAMICS|DAXX",
       "images": [
-        "img/photos/griddynamics/gd-1.jpg"
+        {
+          "src": "img/gallery/griddynamics/gd-1.jpg",
+          "width": 2000,
+          "height": 2000,
+          "alt": "Running with DAXX"
+        },
+        {
+          "src": "img/gallery/griddynamics/gd-1.jpg",
+          "width": 2000,
+          "height": 2000,
+          "alt": "Running with DAXX"
+        }
       ]
     }
   ]

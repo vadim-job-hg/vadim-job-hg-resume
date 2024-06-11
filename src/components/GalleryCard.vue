@@ -31,12 +31,14 @@ onMounted(() => {
       <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ imageData.name }}</h2>
       <div class="flex w-full flex-row">
         <a
-          :key="key2"
           v-for="(image, key2) in imageData.images"
-          :href="getImagePath(image)"
+          :key="key2"
+          :href="getImagePath(image.src)"
+          :data-pswp-width="image.width"
+          :data-pswp-height="image.height"
           target="_blank"
           rel="noreferrer">
-          <img :src="getImagePath(image)" alt="" width="200" class="mx-px" />
+          <img :src="getImagePath(image.src)" :alt="image.alt" width="200" class="mx-px" />
         </a>
       </div>
     </div>
