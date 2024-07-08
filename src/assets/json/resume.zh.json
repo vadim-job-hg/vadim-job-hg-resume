@@ -176,7 +176,7 @@
   ],
   "information": [
     {
-      "icon": "信封图标",
+      "icon": "EnvelopeIcon",
       "name": "邮件地址",
       "value": "vadimjobhg86@gmail.com"
     },
@@ -186,12 +186,17 @@
       "value": "1986 年 7 月 4 日"
     },
     {
-      "icon": "设备电话手机图标",
+      "icon": "DevicePhoneMobileIcon",
+      "name": "电话号码",
+      "value": "088 776 1154"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
       "name": "电话号码",
       "value": "+38 (068) 271 78 03"
     },
     {
-      "icon": "计算机桌面图标",
+      "icon": "ComputerDesktopIcon",
       "name": "工作类型",
       "value": "远程或全职"
     }

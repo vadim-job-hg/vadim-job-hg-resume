@@ -191,22 +191,27 @@
   ],
   "information": [
     {
-      "icon": "Значок конверта",
+      "icon": "EnvelopeIcon",
       "name": "Почтовый адрес",
       "value": "vadimjobhg86@gmail.com"
     },
     {
-      "icon": "Значок торта",
+      "icon": "CakeIcon",
       "name": "День рождения",
       "value": "04 июля 1986 года"
     },
     {
-      "icon": "Значок устройства и телефона",
+      "icon": "DevicePhoneMobileIcon",
+      "name": "Номер телефона",
+      "value": "088 776 1154"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
       "name": "Номер телефона",
       "value": "+38 (068) 271 78 03"
     },
     {
-      "icon": "Значок рабочего стола компьютера",
+      "icon": "ComputerDesktopIcon",
       "name": "Тип работы",
       "value": "Дистанционно или полный рабочий день"
     }

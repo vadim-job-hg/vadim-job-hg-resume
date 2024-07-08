@@ -176,22 +176,27 @@
   ],
   "information": [
     {
-      "icon": "封筒アイコン",
+      "icon": "EnvelopeIcon",
       "name": "メールアドレス",
       "value": "vadimjobhg86@gmail.com"
     },
     {
-      "icon": "ケーキアイコン",
+      "icon": "CakeIcon",
       "name": "誕生日",
       "value": "1986 年 7 月 4 日"
     },
     {
-      "icon": "デバイス電話モバイルアイコン",
+      "icon": "DevicePhoneMobileIcon",
+      "name": "電話番号",
+      "value": "088 776 1154"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
       "name": "電話番号",
       "value": "+38 (068) 271 78 03"
     },
     {
-      "icon": "コンピューターデスクトップアイコン",
+      "icon": "ComputerDesktopIcon",
       "name": "作業タイプ",
       "value": "リモートまたはフルタイム"
     }

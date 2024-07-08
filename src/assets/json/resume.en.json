@@ -38,7 +38,12 @@
     },
     {
       "icon": "DevicePhoneMobileIcon",
-      "name": "Phone Number",
+      "name": "Phone Number(BG)",
+      "value": "088 776 1154"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
+      "name": "Phone Number(UA)",
       "value": "+38 (068) 271 78 03"
     },
     {

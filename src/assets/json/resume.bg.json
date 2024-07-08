@@ -38,7 +38,12 @@
     },
     {
       "icon": "DevicePhoneMobileIcon",
-      "name": "Телефонен номер",
+      "name": "Телефонен номер(BG)",
+      "value": "088 776 1154"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
+      "name": "Телефонен номер(UA)",
       "value": "+38 (068) 271 78 03"
     },
     {

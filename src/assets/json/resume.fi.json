@@ -176,22 +176,27 @@
   ],
   "information": [
     {
-      "icon": "Kirjekuorikuvake",
+      "icon": "EnvelopeIcon",
       "name": "Sähköpostiosoite",
       "value": "vadimjobhg86@gmail.com"
     },
     {
-      "icon": "Cake Icon",
+      "icon": "CakeIcon",
       "name": "Syntymäpäivä",
       "value": "4. heinäkuuta 1986"
     },
     {
-      "icon": "LaitePuhelinMobileIcon",
+      "icon": "DevicePhoneMobileIcon",
       "name": "Puhelinnumero",
       "value": "+38 (068) 271 78 03"
     },
     {
-      "icon": "TietokonepöytäTopicon",
+      "icon": "DevicePhoneMobileIcon",
+      "name": "Puhelinnumero",
+      "value": "+38 (068) 271 78 03"
+    },
+    {
+      "icon": "ComputerDesktopIcon",
       "name": "Työn tyyppi",
       "value": "Etäkäyttö tai kokopäiväinen"
     }
