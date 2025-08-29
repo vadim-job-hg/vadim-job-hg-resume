@@ -1,39 +1,40 @@
 {
-  "about": "Tietoa minusta",
-  "credential": "Todistustiedot",
-  "credential_code": "Todistuskoodi",
-  "education": "Koulutus",
-  "experience": "Kokemus",
-  "information": "Tietoa",
+  "resume": "Ansioluettelo",
+  "information": "Tiedot",
+  "skills": "Taidot",
   "language": "Kieli",
-  "license": "Lisenssit ja sertifikaatit",
-  "gallery": "Gallery",
+  "about": "Tietoa minusta",
+  "experience": "Kokemus",
+  "volunteer": "Vapaaehtoistyö",
+  "education": "Koulutus",
+  "license": "Luvat ja sertifikaatit",
+  "project": "Projektit",
+  "pet_projects": "Omat projektit",
+  "gallery": "Galleria",
+  "credential": "Todistus",
+  "credential_code": "Todistuskoodi",
+  "settings": {
+    "title": "Asetukset",
+    "theme": "Teema",
+    "dark_mode": "Ota tumma tila käyttöön?",
+    "bg": "Bulgaria",
+    "en": "Englanti",
+    "ru": "Venäjä",
+    "fi": "Suomi",
+    "ja": "Japani",
+    "zh": "Kiina"
+  },
   "menu": {
-    "education": "Koulutus",
     "experience": "Kokemus",
+    "education": "Koulutus",
     "project": "Projektit",
-    "gallery": "Gallery"
+    "gallery": "Galleria"
   },
   "paginate": {
-    "count": "Näyt {first} {last} etään {total} tulokset",
-    "first_page": "Ensimmäinen sivu",
-    "last_page": "viimeinen sivu",
+    "count": "Näytetään {first}–{last} / {total} tulosta",
+    "previous_page": "Edellinen sivu",
     "next_page": "Seuraava sivu",
-    "previous_page": "Edellinen sivu"
-  },
-  "project": "Projektit",
-  "resume": "Resume",
-  "settings": {
-    "bg": "bulgarialainen",
-    "dark_mode": "Ota tumma tila käyttöön?",
-    "en": "englanti",
-    "ru": "Russian",
-    "fi": "Finish",
-    "ja": "Japan",
-    "zh": "China",
-    "theme": "Teema",
-    "title": "Asetukset"
-  },
-  "skills": "Taidot",
-  "volunteer": "Vapaaehtoinen"
+    "first_page": "Ensimmäinen sivu",
+    "last_page": "Viimeinen sivu"
+  }
 }

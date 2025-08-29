@@ -1,12 +1,12 @@
 {
   "profile": {
-    "aboutMe": "Профессиональный веб-разработчик с более чем десятилетним опытом\nопыт работы в таких областях, как Интернет вещей, продажи,\nобразовательные курсы и т. д. Работали над интеграцией сторонних организаций\nпрограммные системы, такие как платежные системы, ERP, edge\nвычислительное программное обеспечение для приложений Интернета вещей. Разработанные API-интерфейсы для\nмобильные приложения и приложения pwa.",
-    "avatar": "img/profile/me.jpg",
-    "job": "Full Stack Developer",
     "name": "Вадим Кузнецов",
+    "job": "Full Stack Разработчик",
+    "avatar": "img/profile/me.jpg",
+    "aboutMe": "Профессиональный веб-разработчик с более чем десятью годами\nопыта в таких областях, как Интернет вещей, продажи,\nобразовательные курсы и т. д. Работал над интеграцией сторонних\nпрограммных систем, таких как платёжные системы, ERP, edge-\nприложения для IoT. Разрабатывал API для мобильных и pwa-приложений.",
     "socialNetwork": [
       {
-        "name": "LinkedIn",
+        "name": "linkedin",
         "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/"
       },
       {
@@ -14,7 +14,7 @@
         "url": "https://github.com/vadim-job-hg/"
       },
       {
-        "name": "Sololearn",
+        "name": "sololearn",
         "url": "https://www.sololearn.com/en/profile/2024996"
       }
     ]
@@ -25,6 +25,33 @@
     "value": "Вадим Кузнецов",
     "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf"
   },
+  "information": [
+    {
+      "icon": "EnvelopeIcon",
+      "name": "Электронная почта",
+      "value": "vadimjobhg86@gmail.com"
+    },
+    {
+      "icon": "CakeIcon",
+      "name": "Дата рождения",
+      "value": "04 июля 1986"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
+      "name": "Телефон (Болгария)",
+      "value": "+3 (59) 88 776 1154"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
+      "name": "Телефон (Украина)",
+      "value": "+38 (068) 271 78 03"
+    },
+    {
+      "icon": "ComputerDesktopIcon",
+      "name": "Тип работы",
+      "value": "Удалённая или полная занятость"
+    }
+  ],
   "skill": [
     "PHP",
     "Laravel",
@@ -46,259 +73,255 @@
     "Django",
     "NetSuite"
   ],
-  "certificate": [
+  "language": [
     {
-      "course": "PHP",
-      "credentialCode": "CT-XOU WN8 БАЙТ",
-      "expirationDate": "Без срока годности",
-      "issueDate": "13 октября 2016 г.",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf"
+      "name": "Русский",
+      "code": "ru-RU",
+      "flag": "svg/russia.svg",
+      "level": "Родной язык"
     },
     {
-      "course": "SQL",
-      "credentialCode": "CT-A7MVXLIK",
-      "expirationDate": "Без срока годности",
-      "issueDate": "19 мая 2017 г.",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf"
+      "name": "Украинский",
+      "code": "ua-UA",
+      "flag": "svg/ukraine.svg",
+      "level": "Родной язык"
     },
     {
-      "course": "JavaScript",
-      "credentialCode": "CT-SF6AEAGK",
-      "expirationDate": "Без срока годности",
-      "issueDate": "24 мая 2017 г.",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf"
+      "name": "Английский",
+      "code": "en-US",
+      "flag": "svg/united-states.svg",
+      "level": "Продвинутый"
     },
     {
-      "course": "JQuery",
-      "credentialCode": "CT-J1VDQBJG",
-      "expirationDate": "Без срока годности",
-      "issueDate": "20 июня 2017 г.",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf"
-    },
-    {
-      "course": "HTML",
-      "credentialCode": "CT-KWGILUBT",
-      "expirationDate": "Без срока годности",
-      "issueDate": "19 мая 2017 г.",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf"
-    },
-    {
-      "course": "CSS",
-      "credentialCode": "CT-UIES3YMB",
-      "expirationDate": "Без срока годности",
-      "issueDate": "20 июня 2017 г.",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf"
-    },
-    {
-      "course": "Java",
-      "credentialCode": "CT-NBCOTCGG",
-      "expirationDate": "Без срока годности",
-      "issueDate": "18 декабря 2017 г.",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
-    },
-    {
-      "course": "Ruby",
-      "credentialCode": "CT-FPWM4E8N",
-      "expirationDate": "Без срока годности",
-      "issueDate": "03 октября 2017 г.",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf"
-    },
-    {
-      "course": "Python Core",
-      "credentialCode": "CT-NBCOTCGG",
-      "expirationDate": "Без срока годности",
-      "issueDate": "18 декабря 2017 г.",
-      "school": "Sololearn",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
-    }
-  ],
-  "education": [
-    {
-      "college": "Харьковский политехнический институт",
-      "collegeLogo": "img/college/kpi.png",
-      "course": "Технолог в области компьютерных сетей, управления сетями и системной безопасности",
-      "end": "1973",
-      "start": "1963",
-      "url": "https://www.kpi.kharkov.ua/eng/"
-    },
-    {
-      "college": "Харьковский патентно-компьютерный колледж",
-      "collegeLogo": "img/college/kpcc.svg",
-      "course": "Программирование для компьютерных технологий и автоматизированных систем",
-      "end": "2006",
-      "start": "2003",
-      "url": "https://khpcc.com/"
+      "name": "Болгарский",
+      "code": "bg-BG",
+      "flag": "svg/bulgaria.svg",
+      "level": "Начинаю изучать :-)"
     }
   ],
   "experience": [
     {
+      "job": "Full-Stack Разработчик",
       "company": "Grid Dynamics",
       "companyLogo": "img/company/grid-dynamics.png",
-      "description": "Разработчик полного цикла для многих проектов для <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \"> Naava Green Walls. </a> Участвовал в\nразработка систем мониторинга состояния зеленых стен и развитие\nинструментов для дистанционного управления графиками полива, освещением и циркуляцией воздуха. \nЗанимался разработкой API для приложения <a href=\"https://www.naava.app/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\"> </a> NAAVA.\n",
-      "end": "Май 2024 года",
-      "job": "Разработчик полного стека",
       "location": "Украина",
-      "start": "Август 2017 г.",
-      "workType": "Полный день"
+      "workType": "Полная занятость",
+      "start": "Авг 2017",
+      "end": "Май 2024",
+      "description": "Full-Stack разработчик во множестве проектов для <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \">Naava Green Walls</a>. Занимался разработкой систем мониторинга состояния зелёных стен и инструментов\nдля удалённого управления графиками полива, освещением и циркуляцией воздуха. \nРазрабатывал API для <a href=\"https://www.naava.app/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\">NAAVA application</a>.\n"
     },
     {
+      "job": "Full-Stack Разработчик",
       "company": "KnubiSoft",
       "companyLogo": "img/company/knubisoft.jpg",
-      "description": "Разрабатывал различные приложения с нуля. \nРазработал вспомогательные приложения для шведского отделения BCA.\nПолучил опыт разработки с использованием фреймворка Phalcon.\n",
-      "end": "июль 2017 г.",
-      "job": "Разработчик полного стека",
       "location": "Украина",
-      "start": "март 2016 г.",
-      "workType": "Полный день"
+      "workType": "Полная занятость",
+      "start": "Мар 2016",
+      "end": "Июл 2017",
+      "description": "Разрабатывал различные приложения с нуля. \nСоздавал вспомогательные приложения для шведского подразделения BCA.\nПолучил опыт разработки с использованием фреймворка Phalcon.\n"
     },
     {
+      "job": "Full-Stack Разработчик",
       "company": "iDeus",
       "companyLogo": "img/company/ideus.jpg",
-      "description": "Входил в состав команды разработчиков образовательной платформы TestTeachers, которая предоставляет\nкурсы страхования для студентов из США. \nЗанимался внедрением платежной системы, рефакторингом кода и поиском\nна предмет уязвимостей в системе.",
-      "end": "март 2016 г.",
-      "job": "Разработчик полного стека",
       "location": "Украина",
-      "start": "Октябрь 2014",
-      "workType": "Полный день"
+      "workType": "Полная занятость",
+      "start": "Окт 2014",
+      "end": "Мар 2016",
+      "description": "Работал в команде над образовательной платформой TesTeachers, которая предоставляет\nстраховые курсы для студентов в США. \nЗанимался внедрением платёжной системы, рефакторингом кода и поиском\nуязвимостей в системе."
     },
     {
+      "job": "Full-Stack Разработчик",
       "company": "MobilLuck",
       "companyLogo": "img/company/mobilluck.png",
-      "description": "Работал в составе команды на сайте <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \"> https://www.mobilluck.com.ua/</a>.\nРазрабатывал инструменты для менеджеров по продажам, которые помогали им проводить массовую переоценку\nтовары в интернет-магазине.\nРазработал систему мониторинга рынка товаров и переоценки на основе\nрентабельность и цены товаров у конкурентов.",
-      "end": "Октябрь 2014",
-      "job": "Разработчик полного стека",
       "location": "Украина",
-      "start": "Май 2013 года",
-      "workType": "Полный день"
+      "workType": "Полная занятость",
+      "start": "Май 2013",
+      "end": "Окт 2014",
+      "description": "Работал в составе команды над сайтом <a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \">https://www.mobilluck.com.ua/</a>.\nРазрабатывал инструменты для менеджеров по продажам, которые помогали им выполнять массовую переоценку\nтоваров в интернет-магазине.\nСоздал систему мониторинга рынка товаров и переоценки на основе\nрентабельности и цен конкурентов."
     }
   ],
-  "information": [
+  "education": [
     {
-      "icon": "EnvelopeIcon",
-      "name": "Почтовый адрес",
-      "value": "vadimjobhg86@gmail.com"
+      "college": "Kharkov Polytechnic Institute",
+      "collegeLogo": "img/college/kpi.png",
+      "course": "Технолог в области компьютерных сетей, управление сетями и безопасность систем",
+      "start": "1963",
+      "end": "1973",
+      "url": "https://www.kpi.kharkov.ua/eng/"
     },
     {
-      "icon": "CakeIcon",
-      "name": "День рождения",
-      "value": "04 июля 1986 года"
-    },
-    {
-      "icon": "DevicePhoneMobileIcon",
-      "name": "Номер телефона",
-      "value": "088 776 1154"
-    },
-    {
-      "icon": "DevicePhoneMobileIcon",
-      "name": "Номер телефона",
-      "value": "+38 (068) 271 78 03"
-    },
-    {
-      "icon": "ComputerDesktopIcon",
-      "name": "Тип работы",
-      "value": "Дистанционно или полный рабочий день"
-    }
-  ],
-  "language": [
-    {
-      "code": "ru-RU",
-      "flag": "svg/russia.svg",
-      "level": "Родной язык",
-      "name": "Русский"
-    },
-    {
-      "code": "ua-UA",
-      "flag": "svg/ukraine.svg",
-      "level": "Родной язык",
-      "name": "украинский"
-    },
-    {
-      "code": "en-US",
-      "flag": "svg/united-states.svg",
-      "level": "Передовой",
-      "name": "английский"
-    },
-    {
-      "code": "bg-BG",
-      "flag": "svg/bulgaria.svg",
-      "level": "Собираюсь выучить :-)",
-      "name": "болгарский"
-    }
-  ],
-  "project": [
-    {
-      "description": "Приложение для мониторинга состояния и управления окружающей средой зеленых стен NAAVA.",
-      "forks": "",
-      "image": "img/project/naava.png",
-      "language": "PHP",
-      "name": "NAAVA APPLICATION",
-      "stars": "",
-      "url": "https://naava.app/"
+      "college": "Kharkov Patent and Computer College",
+      "collegeLogo": "img/college/kpcc.svg",
+      "course": "Программирование для компьютерных технологий и автоматизированных систем",
+      "start": "2003",
+      "end": "2006",
+      "url": "https://khpcc.com/"
     }
   ],
   "volunteer": [
     {
+      "job": "",
       "company": "",
       "companyLogo": "",
-      "description": "",
-      "end": "",
-      "job": "",
       "location": "",
+      "workType": "",
       "start": "",
-      "workType": ""
+      "end": "",
+      "description": ""
+    }
+  ],
+  "certificate": [
+    {
+      "course": "PHP",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "13 октября, 2016",
+      "expirationDate": "Бессрочно",
+      "credentialCode": "CT-XOUWN8YB",
+      "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf"
+    },
+    {
+      "course": "SQL",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "19 мая, 2017",
+      "expirationDate": "Бессрочно",
+      "credentialCode": "CT-A7MVXLIK",
+      "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf"
+    },
+    {
+      "course": "JavaScript",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "24 мая, 2017",
+      "expirationDate": "Бессрочно",
+      "credentialCode": "CT-SF6AEAGK",
+      "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf"
+    },
+    {
+      "course": "jQuery",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "20 июня, 2017",
+      "expirationDate": "Бессрочно",
+      "credentialCode": "CT-J1VDQBJG",
+      "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf"
+    },
+    {
+      "course": "HTML",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "19 мая, 2017",
+      "expirationDate": "Бессрочно",
+      "credentialCode": "CT-KWGILUBT",
+      "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf"
+    },
+    {
+      "course": "CSS",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "20 июня, 2017",
+      "expirationDate": "Бессрочно",
+      "credentialCode": "CT-UIES3YMB",
+      "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf"
+    },
+    {
+      "course": "Java",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "18 декабря, 2017",
+      "expirationDate": "Бессрочно",
+      "credentialCode": "CT-NBCOTCGG",
+      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
+    },
+    {
+      "course": "Ruby",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "03 октября, 2017",
+      "expirationDate": "Бессрочно",
+      "credentialCode": "CT-FPWM4E8N",
+      "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf"
+    },
+    {
+      "course": "Python Core",
+      "school": "Sololearn",
+      "schoolLogo": "img/college/sololearn.png",
+      "issueDate": "18 декабря, 2017",
+      "expirationDate": "Бессрочно",
+      "credentialCode": "CT-NBCOTCGG",
+      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
+    }
+  ],
+  "project": [
+    {
+      "name": "NAAVA APPLICATION",
+      "description": "Приложение для мониторинга состояния и управления средой зелёных стен NAAVA.",
+      "language": "PHP",
+      "image": "img/project/naava.png",
+      "stars": "",
+      "forks": "",
+      "url": "https://naava.app/"
+    }
+  ],
+  "pets": [
+    {
+      "name": "Zombies Run Unofficial Translation Project",
+      "description": "Перевод диалогов и аудиодизайна игры Zombies, Run! с использованием нейросетевой озвучки",
+      "language": "Python, Elevenlabs.io",
+      "image": "img/project/zombies.png",
+      "url": [
+        "https://www.patreon.com/c/breakchainsprojects",
+        "https://boosty.to/breakchainsprojects"
+      ]
     }
   ],
   "gallery": [
-  {
-    "name": "NAAVA GREEN WALLS",
-    "images": [
-      {
-        "src": "img/gallery/naava/naava-wall-1.jpg",
-        "width": 2000,
-        "height": 2000,
-        "alt": "NAAVA IMAGE 1"
-      },
-      {
-        "src": "img/gallery/naava/naava-wall-2.jpg",
-        "width": 2000,
-        "height": 2000,
-        "alt": "NAAVA IMAGE 2"
-      }
-    ]
-  },
-  {
-    "name": "GRID DYNAMICS|DAXX",
-    "images": [
-      {
-        "src": "img/gallery/griddynamics/gd-1.jpg",
-        "width": 1536,
-        "height": 2048,
-        "alt": "Running with DAXX"
-      },
-      {
-        "src": "img/gallery/griddynamics/gd-2.jpg",
-        "width": 1536,
-        "height": 2048,
-        "alt": "Running with DAXX"
-      }
-    ]
-  }
-]
+    {
+      "name": "NAAVA GREEN WALLS",
+      "images": [
+        {
+          "src": "img/gallery/naava/naava-wall-1.jpg",
+          "width": 2000,
+          "height": 2000,
+          "alt": "NAAVA ИЗОБРАЖЕНИЕ 1"
+        },
+        {
+          "src": "img/gallery/naava/naava-wall-2.jpg",
+          "width": 2000,
+          "height": 2000,
+          "alt": "NAAVA ИЗОБРАЖЕНИЕ 2"
+        }
+      ]
+    },
+    {
+      "name": "GRID DYNAMICS|DAXX",
+      "images": [
+        {
+          "src": "img/gallery/griddynamics/gd-1.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "Бег с DAXX"
+        },
+        {
+          "src": "img/gallery/griddynamics/gd-2.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "Бег с DAXX"
+        }
+      ]
+    },
+    {
+      "name": "София Болгария",
+      "images": [
+        {
+          "src": "img/gallery/sofia/srs.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "Бег с Sofia Running Sekta"
+        }
+      ]
+    }
+  ]
 }

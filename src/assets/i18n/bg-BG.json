@@ -1,39 +1,40 @@
 {
-  "about": "За мен",
-  "credential": "Удостоверение",
-  "credential_code": "Код за удостоверяване",
-  "education": "Образование",
-  "experience": "ОПИТ",
+  "resume": "Автобиография",
   "information": "Информация",
+  "skills": "Умения",
   "language": "Език",
+  "about": "За мен",
+  "experience": "Опит",
+  "volunteer": "Доброволчество",
+  "education": "Образование",
   "license": "Лицензи и сертификати",
-  "gallery": "Gallery",
+  "project": "Проекти",
+  "pet_projects": "Лични проекти",
+  "gallery": "Галерия",
+  "credential": "Удостоверение",
+  "credential_code": "Код на удостоверението",
+  "settings": {
+    "title": "Настройки",
+    "theme": "Тема",
+    "dark_mode": "Активиране на тъмен режим?",
+    "bg": "Български",
+    "en": "Английски",
+    "ru": "Руски",
+    "fi": "Фински",
+    "ja": "Японски",
+    "zh": "Китайски"
+  },
   "menu": {
+    "experience": "Опит",
     "education": "Образование",
-    "experience": "ОПИТ",
-    "project": "проекти",
-    "gallery": "Gallery"
+    "project": "Проекти",
+    "gallery": "Галерия"
   },
   "paginate": {
-    "count": "По {first} казване {last} на {total} резултатите",
-    "first_page": "Първа страница",
-    "last_page": "Последна страница",
+    "count": "Показани от {first} до {last} от общо {total} резултата",
+    "previous_page": "Предишна страница",
     "next_page": "Следваща страница",
-    "previous_page": "Предишна страница"
-  },
-  "project": "проекти",
-  "resume": "Resume",
-  "settings": {
-    "bg": "Български",
-    "dark_mode": "Активиране на тъмен режим?",
-    "en": "Английски",
-    "ru": "Russian",
-    "fi": "Finish",
-    "ja": "Japan",
-    "zh": "China",
-    "theme": "Тема",
-    "title": "Настройки"
-  },
-  "skills": "Умения",
-  "volunteer": "доброволец"
+    "first_page": "Първа страница",
+    "last_page": "Последна страница"
+  }
 }

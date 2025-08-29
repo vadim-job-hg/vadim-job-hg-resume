@@ -1,39 +1,40 @@
 {
-  "about": "关于我",
-  "credential": "凭证",
-  "credential_code": "凭证码",
-  "education": "教育",
-  "experience": "体验",
-  "information": "信息",
-  "language": "语",
-  "license": "许可证和证书",
-  "gallery": "Gallery",
+  "resume": "履歴書",
+  "information": "情報",
+  "skills": "スキル",
+  "language": "言語",
+  "about": "自己紹介",
+  "experience": "経験",
+  "volunteer": "ボランティア",
+  "education": "学歴",
+  "license": "免許・資格",
+  "project": "プロジェクト",
+  "pet_projects": "個人プロジェクト",
+  "gallery": "ギャラリー",
+  "credential": "認定証",
+  "credential_code": "認定コード",
+  "settings": {
+    "title": "設定",
+    "theme": "テーマ",
+    "dark_mode": "ダークモードを有効にしますか？",
+    "bg": "ブルガリア語",
+    "en": "英語",
+    "ru": "ロシア語",
+    "fi": "フィンランド語",
+    "ja": "日本語",
+    "zh": "中国語"
+  },
   "menu": {
-    "education": "教育",
-    "experience": "体验",
-    "project": "项目",
-    "gallery": "Gallery"
+    "experience": "経験",
+    "education": "学歴",
+    "project": "プロジェクト",
+    "gallery": "ギャラリー"
   },
   "paginate": {
-    "count": "显示{first}{total}结果{last}总数",
-    "first_page": "第一页",
-    "last_page": "最終页",
-    "next_page": "下一页",
-    "previous_page": "前一页"
-  },
-  "project": "项目",
-  "resume": "Resume",
-  "settings": {
-    "bg": "保加利亚人",
-    "dark_mode": "启用暗黑模式？",
-    "en": "英文",
-    "ru": "Russian",
-    "fi": "Finish",
-    "ja": "Japan",
-    "zh": "China",
-    "theme": "主题",
-    "title": "设置"
-  },
-  "skills": "技能",
-  "volunteer": "志愿者"
+    "count": "{total} 件中 {first} ～ {last} を表示",
+    "previous_page": "前のページ",
+    "next_page": "次のページ",
+    "first_page": "最初のページ",
+    "last_page": "最後のページ"
+  }
 }

@@ -1,39 +1,40 @@
 {
-  "about": "私について",
-  "credential": "資格情報",
-  "credential_code": "認証コード",
-  "education": "教育",
-  "experience": "エクスペリエンス",
+  "resume": "履歴書",
   "information": "情報",
+  "skills": "スキル",
   "language": "言語",
-  "license": "ライセンスと証明書",
-  "gallery": "Gallery",
+  "about": "自己紹介",
+  "experience": "経験",
+  "volunteer": "ボランティア",
+  "education": "学歴",
+  "license": "免許・資格",
+  "project": "プロジェクト",
+  "pet_projects": "個人プロジェクト",
+  "gallery": "ギャラリー",
+  "credential": "認定証",
+  "credential_code": "認定コード",
+  "settings": {
+    "title": "設定",
+    "theme": "テーマ",
+    "dark_mode": "ダークモードを有効にしますか？",
+    "bg": "ブルガリア語",
+    "en": "英語",
+    "ru": "ロシア語",
+    "fi": "フィンランド語",
+    "ja": "日本語",
+    "zh": "中国語"
+  },
   "menu": {
-    "education": "教育",
-    "experience": "エクスペリエンス",
+    "experience": "経験",
+    "education": "学歴",
     "project": "プロジェクト",
-    "gallery": "Gallery"
+    "gallery": "ギャラリー"
   },
   "paginate": {
-    "count": "{first}{last}{total}結果の上位を表示",
-    "first_page": "最初のページ",
-    "last_page": "最終ページ",
+    "count": "{total} 件中 {first} ～ {last} を表示",
+    "previous_page": "前のページ",
     "next_page": "次のページ",
-    "previous_page": "前のページ"
-  },
-  "project": "プロジェクト",
-  "resume": "Resume",
-  "settings": {
-    "bg": "ブルガリア語",
-    "dark_mode": "ダークモードを有効にしますか?",
-    "en": "英語",
-    "ru": "Russian",
-    "fi": "Finish",
-    "ja": "Japan",
-    "zh": "China",
-    "theme": "テーマ",
-    "title": "設定"
-  },
-  "skills": "スキル",
-  "volunteer": "ボランティア"
+    "first_page": "最初のページ",
+    "last_page": "最後のページ"
+  }
 }
