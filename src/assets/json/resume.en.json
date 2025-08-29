@@ -287,19 +287,13 @@
       ]
     },
     {
-      "name": "GRID DYNAMICS|DAXX",
+      "name": "Sofia Bulgaria",
       "images": [
         {
-          "src": "img/gallery/griddynamics/gd-1.jpg",
+          "src": "img/gallery/sofia/srs.jpg",
           "width": 1536,
           "height": 2048,
-          "alt": "Running with DAXX"
-        },
-        {
-          "src": "img/gallery/griddynamics/gd-2.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "Running with DAXX"
+          "alt": "Running with Sofia Running Sekta"
         }
       ]
     }
