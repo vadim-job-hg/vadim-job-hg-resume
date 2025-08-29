@@ -39,7 +39,7 @@
     {
       "icon": "DevicePhoneMobileIcon",
       "name": "Phone Number(BG)",
-      "value": "088 776 1154"
+      "value": "+3 (59) 88 776 1154"
     },
     {
       "icon": "DevicePhoneMobileIcon",
@@ -263,9 +263,18 @@
       "stars": "",
       "forks": "",
       "url": "https://naava.app/"
-    },
+    }
+  ],
+  "pets": [
     {
-      "name": "https://portal.bca-sverige.se/"
+      "name": "Zombies Run Unofficial Translation Project",
+      "description": "Translation of the dialogues and audio design of the game Zombies, Run! using neural network voice-over",
+      "language": "Python, Elevenlabs.io",
+      "image": "img/project/zombies.png",
+      "url": [
+        "https://www.patreon.com/c/breakchainsprojects",
+        "https://boosty.to/breakchainsprojects"
+      ]
     }
   ],
   "gallery": [
@@ -283,6 +292,23 @@
           "width": 2000,
           "height": 2000,
           "alt": "NAAVA IMAGE 2"
+        }
+      ]
+    },
+    {
+      "name": "GRID DYNAMICS|DAXX",
+      "images": [
+        {
+          "src": "img/gallery/griddynamics/gd-1.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "Running with DAXX"
+        },
+        {
+          "src": "img/gallery/griddynamics/gd-2.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "Running with DAXX"
         }
       ]
     },
