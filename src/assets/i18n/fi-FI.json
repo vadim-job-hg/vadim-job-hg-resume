@@ -3,7 +3,7 @@
   "information": "Tiedot",
   "skills": "Taidot",
   "language": "Kieli",
-  "about": "Tietoa minusta",
+  "about": "Tietoja minusta",
   "experience": "Kokemus",
   "volunteer": "Vapaaehtoistyö",
   "education": "Koulutus",
@@ -17,12 +17,12 @@
     "title": "Asetukset",
     "theme": "Teema",
     "dark_mode": "Ota tumma tila käyttöön?",
-    "bg": "Bulgaria",
-    "en": "Englanti",
-    "ru": "Venäjä",
-    "fi": "Suomi",
-    "ja": "Japani",
-    "zh": "Kiina"
+    "bg": "Bulgarian",
+    "en": "English",
+    "ru": "Russian",
+    "fi": "Finnish",
+    "ja": "Japanese",
+    "zh": "Chinese"
   },
   "menu": {
     "experience": "Kokemus",

@@ -11,18 +11,18 @@
   "project": "プロジェクト",
   "pet_projects": "個人プロジェクト",
   "gallery": "ギャラリー",
-  "credential": "認定証",
-  "credential_code": "認定コード",
+  "credential": "認証情報",
+  "credential_code": "認証コード",
   "settings": {
     "title": "設定",
     "theme": "テーマ",
     "dark_mode": "ダークモードを有効にしますか？",
-    "bg": "ブルガリア語",
-    "en": "英語",
-    "ru": "ロシア語",
-    "fi": "フィンランド語",
-    "ja": "日本語",
-    "zh": "中国語"
+    "bg": "Bulgarian",
+    "en": "English",
+    "ru": "Russian",
+    "fi": "Finnish",
+    "ja": "Japanese",
+    "zh": "Chinese"
   },
   "menu": {
     "experience": "経験",
@@ -31,7 +31,7 @@
     "gallery": "ギャラリー"
   },
   "paginate": {
-    "count": "{total} 件中 {first} ～ {last} を表示",
+    "count": "{first}件から{last}件まで / 全{total}件を表示",
     "previous_page": "前のページ",
     "next_page": "次のページ",
     "first_page": "最初のページ",

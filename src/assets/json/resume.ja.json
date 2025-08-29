@@ -1,330 +1,40 @@
 {
-  "profile": {
-    "name": "Vadym Kuznetsov",
-    "job": "Full Stack Developer",
-    "avatar": "img/profile/me.jpg",
-    "aboutMe": "Professional Web Developer with more than ten years of\nexperience in areas such as the Internet of Things, sales,\neducational courses, etc. Worked on integrating third-party\nsoftware systems, such as payment systems, ERP, edge\ncomputing software for IoT applications. Developed APIs for\nmobile and pwa applications.",
-    "socialNetwork": [
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/vadim-job-hg/"
-      },
-      {
-        "name": "sololearn",
-        "url": "https://www.sololearn.com/en/profile/2024996"
-      }
-    ]
+  "resume": "履歴書",
+  "information": "情報",
+  "skills": "スキル",
+  "language": "言語",
+  "about": "自己紹介",
+  "experience": "経験",
+  "volunteer": "ボランティア",
+  "education": "学歴",
+  "license": "免許・資格",
+  "project": "プロジェクト",
+  "pet_projects": "個人プロジェクト",
+  "gallery": "ギャラリー",
+  "credential": "認証情報",
+  "credential_code": "認証コード",
+  "settings": {
+    "title": "設定",
+    "theme": "テーマ",
+    "dark_mode": "ダークモードを有効にしますか？",
+    "bg": "Bulgarian",
+    "en": "English",
+    "ru": "Russian",
+    "fi": "Finnish",
+    "ja": "Japanese",
+    "zh": "Chinese"
   },
-  "cv": {
-    "icon": "DocumentTextIcon",
-    "name": "PDF",
-    "value": "Vadym Kuznetsov",
-    "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf"
+  "menu": {
+    "experience": "経験",
+    "education": "学歴",
+    "project": "プロジェクト",
+    "gallery": "ギャラリー"
   },
-  "certificate": [
-    {
-      "course": "PHP",
-      "credentialCode": "CT-XOUWN8 YB",
-      "expirationDate": "有効期限なし",
-      "issueDate": "2016年10月13日",
-      "school": "ソロラーン",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf"
-    },
-    {
-      "course": "SQL",
-      "credentialCode": "CT-A7MVXLIK",
-      "expirationDate": "有効期限なし",
-      "issueDate": "2017年5月19日",
-      "school": "ソロラーン",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf"
-    },
-    {
-      "course": "JavaScript",
-      "credentialCode": "CT-SF6 AAGK",
-      "expirationDate": "有効期限なし",
-      "issueDate": "2017年5月24日",
-      "school": "ソロラーン",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf"
-    },
-    {
-      "course": "ジェイクエリー",
-      "credentialCode": "CT-J1VDQBJG",
-      "expirationDate": "有効期限なし",
-      "issueDate": "2017年6月20日",
-      "school": "ソロラーン",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf"
-    },
-    {
-      "course": "HTML",
-      "credentialCode": "CT-カギラント",
-      "expirationDate": "有効期限なし",
-      "issueDate": "2017年5月19日",
-      "school": "ソロラーン",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf"
-    },
-    {
-      "course": "CSS",
-      "credentialCode": "CT-UIES3YMB",
-      "expirationDate": "有効期限なし",
-      "issueDate": "2017年6月20日",
-      "school": "ソロラーン",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf"
-    },
-    {
-      "course": "Java",
-      "credentialCode": "CT-NBCOTCGG",
-      "expirationDate": "有効期限なし",
-      "issueDate": "2017年12月18日",
-      "school": "ソロラーン",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
-    },
-    {
-      "course": "ルビー",
-      "credentialCode": "CT-FPWM4E8N",
-      "expirationDate": "有効期限なし",
-      "issueDate": "2017 年 10 月 3 日",
-      "school": "ソロラーン",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf"
-    },
-    {
-      "course": "パイソンコア",
-      "credentialCode": "CT-NBCOTCGG",
-      "expirationDate": "有効期限なし",
-      "issueDate": "2017年12月18日",
-      "school": "ソロラーン",
-      "schoolLogo": "img/college/sololearn.png",
-      "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf"
-    }
-  ],
-  "cv": {
-    "icon": "ドキュメントテキストアイコン",
-    "name": "PDFファイル",
-    "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf",
-    "value": "ヴァディム・クズネツォフ"
-  },
-  "education": [
-    {
-      "college": "ハリコフ工科大学",
-      "collegeLogo": "img/college/kpi.png",
-      "course": "コンピュータネットワーク、ネットワーク管理、システムセキュリティの技術者",
-      "end": "1973",
-      "start": "1963",
-      "url": "https://www.kpi.kharkov.ua/eng/"
-    },
-    {
-      "college": "ハリコフ・パテント・アンド・コンピュータ・カレッジ",
-      "collegeLogo": "img/college/kpcc.svg",
-      "course": "コンピュータ技術と自動化システムのプログラミング",
-      "end": "2006",
-      "start": "2003",
-      "url": "https://khpcc.com/"
-    }
-  ],
-  "experience": [
-    {
-      "company": "グリッド・ダイナミクス",
-      "companyLogo": "img/company/grid-dynamics.png",
-      "description": "<a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \">Naava Green Wallsの多くのプロジェクトのフルスタックデベロッパー。</a>に関わっていました\nグリーンウォールの状態監視システムの開発とその開発\n給水スケジュール、照明、空気循環を遠隔制御するためのツールがあります。 \n<a href=\"https://www.naava.app/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\"></a>NAAVAアプリケーションのAPI開発に従事。\n",
-      "end": "2024年5月",
-      "job": "フルスタックデベロッパー",
-      "location": "ウクライナ",
-      "start": "2017 年 8 月",
-      "workType": "フルタイム"
-    },
-    {
-      "company": "KnubiSoft",
-      "companyLogo": "img/company/knubisoft.jpg",
-      "description": "さまざまなアプリケーションをゼロから開発しました。 \nBCAのスウェーデン部門の子会社向けアプリケーションを開発しました。\nPhalcon フレームワークを使った開発経験を積みました。\n",
-      "end": "2017 年 7 月",
-      "job": "フルスタックデベロッパー",
-      "location": "ウクライナ",
-      "start": "2016 年 3 月",
-      "workType": "フルタイム"
-    },
-    {
-      "company": "IDEUS",
-      "companyLogo": "img/company/ideus.jpg",
-      "description": "以下を提供するTestEachers教育プラットフォームの開発チームに所属していました\n米国の学生を対象とした保険コース。 \n支払いシステムの実装、コードのリファクタリング、検索に携わった\nシステムの脆弱性について。",
-      "end": "2016 年 3 月",
-      "job": "フルスタックデベロッパー",
-      "location": "ウクライナ",
-      "start": "2014 年 10 月",
-      "workType": "フルタイム"
-    },
-    {
-      "company": "モービルラック",
-      "companyLogo": "img/company/mobilluck.png",
-      "description": "<a href=\"https://www.naava.io/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 \">https://www.mobilluck.com.ua/ というサイトでチームの一員として働いていました</a>。\nセールスマネージャー向けの大量再評価を支援するツールを開発していました\nオンラインストアの商品。\n商品の市場を監視し、それに基づいて再評価するシステムを開発しました\n競合他社の商品の収益性と価格。",
-      "end": "2014 年 10 月",
-      "job": "フルスタックデベロッパー",
-      "location": "ウクライナ",
-      "start": "2013 年 5 月",
-      "workType": "フルタイム"
-    }
-  ],
-  "information": [
-    {
-      "icon": "EnvelopeIcon",
-      "name": "メールアドレス",
-      "value": "vadimjobhg86@gmail.com"
-    },
-    {
-      "icon": "CakeIcon",
-      "name": "誕生日",
-      "value": "1986 年 7 月 4 日"
-    },
-    {
-      "icon": "DevicePhoneMobileIcon",
-      "name": "電話番号",
-      "value": "088 776 1154"
-    },
-    {
-      "icon": "DevicePhoneMobileIcon",
-      "name": "電話番号",
-      "value": "+38 (068) 271 78 03"
-    },
-    {
-      "icon": "ComputerDesktopIcon",
-      "name": "作業タイプ",
-      "value": "リモートまたはフルタイム"
-    }
-  ],
-  "language": [
-    {
-      "code": "Ru-Ru",
-      "flag": "svg/russia.svg",
-      "level": "母国語",
-      "name": "ロシア人"
-    },
-    {
-      "code": "米国-米国",
-      "flag": "svg/ukraine.svg",
-      "level": "母国語",
-      "name": "ウクライナ語"
-    },
-    {
-      "code": "en-US",
-      "flag": "svg/united-states.svg",
-      "level": "アドバンスド",
-      "name": "英語"
-    },
-    {
-      "code": "BG-BG",
-      "flag": "svg/bulgaria.svg",
-      "level": "学びに行く :-)",
-      "name": "ブルガリア語"
-    }
-  ],
-  "profile": {
-    "aboutMe": "10年以上の実績を持つプロのWeb開発者\nIoT（モノのインターネット）、営業、などの分野での経験\n教育講座など、サードパーティーの統合に取り組んだ\n決済システム、ERP、エッジなどのソフトウェアシステム\nIoT アプリケーション用のコンピューティングソフトウェア。のための API を開発しました。\nモバイルアプリケーションと PWA アプリケーション。",
-    "avatar": "img/profile/me.jpg",
-    "job": "フルスタックデベロッパー",
-    "name": "ヴァディム・クズネツォフ",
-    "socialNetwork": [
-      {
-        "name": "linkedIn",
-        "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/"
-      },
-      {
-        "name": "Github",
-        "url": "https://github.com/vadim-job-hg/"
-      },
-      {
-        "name": "ソロラーン",
-        "url": "https://www.sololearn.com/en/profile/2024996"
-      }
-    ]
-  },
-  "project": [
-    {
-      "description": "NAAVAグリーンウォールの状態を監視し、環境を管理するためのアプリケーション。",
-      "forks": "",
-      "image": "img/project/naava.png",
-      "language": "PHP",
-      "name": "ナーバアプリケーション",
-      "stars": "",
-      "url": "https://naava.app/"
-    }
-  ],
-  "skill": [
-    "PHP",
-    "ララベル",
-    "ファルコン",
-    "こはな",
-    "SQL",
-    "JavaScript",
-    "ジェイクエリー",
-    "CSS",
-    "HTML",
-    "JSON",
-    "ブートストラップ",
-    "スワッガー",
-    "Git",
-    "データテーブル",
-    "年齢",
-    "AWS",
-    "Python",
-    "ジャンゴ",
-    "ネットスイート"
-  ],
-  "volunteer": [
-    {
-      "company": "",
-      "companyLogo": "",
-      "description": "",
-      "end": "",
-      "job": "",
-      "location": "",
-      "start": "",
-      "workType": ""
-    }
-  ],
-  "gallery": [
-    {
-      "name": "NAAVA GREEN WALLS",
-      "images": [
-        {
-          "src": "img/gallery/naava/naava-wall-1.jpg",
-          "width": 2000,
-          "height": 2000,
-          "alt": "NAAVA IMAGE 1"
-        },
-        {
-          "src": "img/gallery/naava/naava-wall-2.jpg",
-          "width": 2000,
-          "height": 2000,
-          "alt": "NAAVA IMAGE 2"
-        }
-      ]
-    },
-    {
-      "name": "GRID DYNAMICS|DAXX",
-      "images": [
-        {
-          "src": "img/gallery/griddynamics/gd-1.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "Running with DAXX"
-        },
-        {
-          "src": "img/gallery/griddynamics/gd-2.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "Running with DAXX"
-        }
-      ]
-    }
-  ]
+  "paginate": {
+    "count": "{first}～{last} / 全{total}件を表示",
+    "previous_page": "前のページ",
+    "next_page": "次のページ",
+    "first_page": "最初のページ",
+    "last_page": "最後のページ"
+  }
 }
