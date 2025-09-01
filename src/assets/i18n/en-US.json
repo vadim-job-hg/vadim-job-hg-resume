@@ -28,7 +28,8 @@
     "experience": "Experience",
     "education": "Education",
     "project": "Projects",
-    "gallery": "Gallery"
+    "gallery": "Gallery",
+    "sports": "Sports"
   },
   "paginate": {
     "count": "Showing {first} to {last} of {total} results",

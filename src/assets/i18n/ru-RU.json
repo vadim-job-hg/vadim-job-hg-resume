@@ -28,7 +28,8 @@
     "experience": "Опыт",
     "education": "Образование",
     "project": "Проекты",
-    "gallery": "Галерея"
+    "gallery": "Галерея",
+    "sports": "Спорт"
   },
   "paginate": {
     "count": "Показано с {first} по {last} из {total} результатов",

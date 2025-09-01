@@ -28,7 +28,8 @@
     "experience": "経験",
     "education": "学歴",
     "project": "プロジェクト",
-    "gallery": "ギャラリー"
+    "gallery": "ギャラリー",
+    "sports": "スポーツ"
   },
   "paginate": {
     "count": "{first}件から{last}件まで / 全{total}件を表示",

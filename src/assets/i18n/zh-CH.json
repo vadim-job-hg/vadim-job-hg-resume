@@ -28,7 +28,8 @@
     "experience": "经验",
     "education": "教育",
     "project": "项目",
-    "gallery": "画廊"
+    "gallery": "画廊",
+    "sports": "运动"
   },
   "paginate": {
     "count": "显示 {first}–{last} / 共 {total} 个结果",

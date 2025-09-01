@@ -28,7 +28,8 @@
     "experience": "Kokemus",
     "education": "Koulutus",
     "project": "Projektit",
-    "gallery": "Galleria"
+    "gallery": "Galleria",
+    "sports": "Urheilu"
   },
   "paginate": {
     "count": "Näytetään {first}–{last} / {total} tulosta",
