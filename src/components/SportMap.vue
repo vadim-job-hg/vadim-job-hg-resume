@@ -40,11 +40,11 @@ onMounted(async () => {
     window.alert('Filter tracks not implemented');
   }, 'Filter tracks').addTo(map);
 
-  const response = await fetch('/files/files.json');
+  const response = await fetch('/files/story.json');
   const data = await response.json();
 
-  if (data.story && Array.isArray(data.story)) {
-    for (const item of data.story) {
+  if (data.timeline && Array.isArray(data.timeline)) {
+    for (const item of data.timeline) {
       if (item.type === 'track') {
         const res = await fetch(item.path);
         const blob = await res.blob();
