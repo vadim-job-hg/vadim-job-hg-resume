@@ -12,11 +12,11 @@ import 'leaflet-providers';
 import { parseTrackFile } from '../utils/trackParser';
 
 const LINE_COLORS = {
-  Hike: '#ffc0cb',
-  Walk: '#ffc0cb',
+  Hike: '#efdc07',
+  Walk: '#f1d205',
   Run: '#ff0000',
-  Ride: '#00ffff',
-  Default: '#0CB1E8'
+  Ride: '#a30a0a',
+  Default: '#e8aa0c'
 };
 
 function sleep(ms) {
@@ -53,20 +53,21 @@ onMounted(async () => {
           const tracks = await parseTrackFile(blob);
           tracks.forEach(track => {
             let color = LINE_COLORS.Default;
-            if (/-(Hike|Walk)\.gpx/.test(blob.name)) color = LINE_COLORS.Hike;
-            else if (/-Run\.gpx/.test(blob.name)) color = LINE_COLORS.Run;
-            else if (/-Ride\.gpx/.test(blob.name)) color = LINE_COLORS.Ride;
+            if (item.activity_type === 'Hike' || item.activity_type === 'Walk') color = LINE_COLORS.Hike;
+            else if (item.activity_type === 'Run') color = LINE_COLORS.Run;
+            else if (item.activity_type === 'Ride') color = LINE_COLORS.Ride;
             const polyline = L.polyline(track.points, {
               color,
               weight: 1,
               opacity: 0.5
             }).addTo(map);
-            map.fitBounds(polyline.getBounds(), { padding: [50, 20] });
           });
         } catch (e) {
           console.error('Track parse error:', e);
+          console.log(item);
         }
       } else if (item.type === 'image') {
+        if (typeof item.lat !== 'number' || typeof item.lng !== 'number') continue;
         const marker = L.marker([item.lat, item.lng]).addTo(map);
         marker.on('click', () => {
           L.popup({ minWidth: 256 })

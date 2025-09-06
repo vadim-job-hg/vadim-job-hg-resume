@@ -21,7 +21,34 @@ coverage
 .vscode/*
 !.vscode/extensions.json
 .idea
-*.suo
+*.suo<?php
+$csvFile = 'activities.csv';
+$imagesDir = './images/';
+$outputFile = 'activity_media.json';
+
+$activityMedia = [];
+
+if (($handle = fopen($csvFile, 'r')) !== false) {
+    while (($data = fgetcsv($handle)) !== false) {
+        $activityId = $data[0];
+        $mediaColumn = isset($data[5]) ? $data[5] : '';
+        $mediaFiles = array_filter(explode('|', $mediaColumn));
+        $foundMedia = [];
+        foreach ($mediaFiles as $media) {
+            $mediaName = basename($media);
+            if (file_exists($imagesDir . $mediaName)) {
+                $foundMedia[] = $mediaName;
+            }
+        }
+        if (!empty($foundMedia)) {
+            $activityMedia[$activityId] = $foundMedia;
+        }
+    }
+    fclose($handle);
+}
+
+file_put_contents($outputFile, json_encode($activityMedia, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+?>
 *.ntvs*
 *.njsproj
 *.sln
