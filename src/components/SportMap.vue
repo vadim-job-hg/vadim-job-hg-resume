@@ -9,6 +9,8 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet-gpx';
 import 'leaflet-easybutton';
 import 'leaflet-providers';
+import 'leaflet.fullscreen';
+import 'leaflet.fullscreen/Control.FullScreen.css';
 import { parseTrackFile } from '../utils/trackParser';
 
 const LINE_COLORS = {
@@ -25,9 +27,10 @@ function sleep(ms) {
 
 onMounted(async () => {
   const map = L.map('map', {
-    center: [34.0522, -118.243],
+    center: [49.9935, 36.2304],
     zoom: 10,
-    preferCanvas: true
+    preferCanvas: true,
+    fullscreenControl: true
   });
 
   L.tileLayer.provider('CartoDB.DarkMatter').addTo(map);
@@ -89,5 +92,9 @@ onMounted(async () => {
 #map {
   width: 100%;
   height: 500px;
+}
+.leaflet-container:fullscreen {
+  width: 100vw !important;
+  height: 100vh !important;
 }
 </style>
