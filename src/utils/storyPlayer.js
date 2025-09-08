@@ -1,12 +1,14 @@
 import L from 'leaflet';
 import { parseTrackFile } from './trackParser';
+import Image from './image.js';
 
 const LINE_COLORS = {
   Hike: '#bd07ef',
   Walk: '#f1d205',
   Run: '#ff0000',
   Ride: '#ff3a00',
-  Default: '#e8aa0c'
+  Default: '#e8aa0c',
+  SUPER: '#ef8900'
 };
 
 function sleep(ms) {
@@ -39,13 +41,20 @@ export async function playStory(map, storyFile = '/files/kharkiv.json') {
             const tracks = await parseTrackFile(blob);
             tracks.forEach(track => {
               let color = LINE_COLORS.Default;
-              if (item.activity_type === 'Hike' || item.activity_type === 'Walk') color = LINE_COLORS.Hike;
+              let weight = 1;
+              let opacity = 0.5;
+              if (item?.style) {
+                color = item?.style?.color || LINE_COLORS.Default;
+                weight = item?.style?.weight || 1;
+                opacity = item?.style?.opacity || 0.5;
+              }
+              else if (item.activity_type === 'Hike' || item.activity_type === 'Walk') color = LINE_COLORS.Hike;
               else if (item.activity_type === 'Run') color = LINE_COLORS.Run;
               else if (item.activity_type === 'Ride') color = LINE_COLORS.Ride;
               L.polyline(track.points, {
                 color,
-                weight: 1,
-                opacity: 0.5
+                weight: weight,
+                opacity: opacity
               }).addTo(map);
             });
           } catch (e) {
@@ -53,14 +62,26 @@ export async function playStory(map, storyFile = '/files/kharkiv.json') {
             console.log(item);
           }
         } else if (item.type === 'image') {
-          if (typeof item.lat !== 'number' || typeof item.lng !== 'number') continue;
-          const marker = L.marker([item.lat, item.lng]).addTo(map);
-          marker.on('click', () => {
-            L.popup({ minWidth: 256 })
-              .setLatLng([item.lat, item.lng])
-              .setContent(`<img src="${item.path}" alt="Image" style="max-width:240px;max-height:240px;">`)
-              .openOn(map);
-          });
+          try {
+            const lat = await item.lat;
+            const lng = await item.lng;
+            const markerOptions = {
+              color: '#00FF00',
+              weight: 3,
+              radius: 5,
+              opacity: 0.5
+            };
+            const marker = L.circleMarker([lat, lng], markerOptions)
+              .on('click', async () => {
+                L.popup({ maxWidth: 400 })
+                  .setLatLng([lat, lng])
+                  .setContent(`<img src="${item.path}" width="512" height="100%">`)
+                  .openOn(map);
+              })
+              .addTo(map);
+          } catch (e) {
+            console.error('Image geolocation error:', e);
+          }
         } else if (item.type === 'pause') {
           await sleep(item.seconds * 1000);
         } else if (item.type === 'map') {

@@ -41,7 +41,7 @@ const mapInstance = ref(null);
 
 const flyToCity = () => {
   if (mapInstance.value && cities[selectedCity.value]) {
-    mapInstance.value.flyTo(cities[selectedCity.value], 12);
+    mapInstance.value.flyTo(cities[selectedCity.value], 10);
   }
 };
 

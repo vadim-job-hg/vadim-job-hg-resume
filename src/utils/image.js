@@ -3,7 +3,7 @@ import EXIF from 'exif-js';
 
 function degMinSecToDecimal(dms, isNegative) {
     const absDecimal = dms[0].numerator + dms[1].numerator /
-        (60 * dms[1].denominator) + dms[2].numerator / 
+        (60 * dms[1].denominator) + dms[2].numerator /
         (3600 * dms[2].denominator);
     return absDecimal * (isNegative ? -1 : 1);
 }
@@ -50,7 +50,7 @@ export default class Image {
     }
 
     async extractExifData() {
-        await new Promise(resolve => EXIF.getData(this.imageFile, resolve)); 
+        await new Promise(resolve => EXIF.getData(this.imageFile, resolve));
     }
 
     async getImageData() {
@@ -59,7 +59,7 @@ export default class Image {
             reader.onload = () => {
                 return resolve(reader.result);
             };
-            reader.readAsDataURL(this.imageFile, 'UTF-8');                    
+            reader.readAsDataURL(this.imageFile, 'UTF-8');
         });
     }
 

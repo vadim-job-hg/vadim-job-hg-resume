@@ -1,7 +1,7 @@
 import 'babel-polyfill';
 import picoModal from 'picomodal';
 import extractTracks from './track';
-import Image from './image';
+import Image from '@/utils/image';
 import * as files from '../files/files.json';
 const AVAILABLE_THEMES = [
     'CartoDB.DarkMatter',
