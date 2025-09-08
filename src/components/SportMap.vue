@@ -7,6 +7,7 @@
       </select>
       <button class="city-button" @click="flyToCity">Go to City</button>
       <button class="story-button" @click="showCityStory">Show Story</button>
+      <button class="clear-button" @click="clearMap">Clear Map</button>
     </div>
     <div id="map" style="height: 500px;"></div>
   </div>
@@ -21,7 +22,6 @@ import 'leaflet-easybutton';
 import 'leaflet-providers';
 import 'leaflet.fullscreen';
 import 'leaflet.fullscreen/Control.FullScreen.css';
-import { parseTrackFile } from '../utils/trackParser';
 import { playStory } from '../utils/storyPlayer';
 
 const cities = {
@@ -49,6 +49,16 @@ const showCityStory = async () => {
   if (!mapInstance.value) return;
   const cityFile = `/files/${selectedCity.value.toLowerCase()}.json`;
   await playStory(mapInstance.value, cityFile);
+};
+
+const clearMap = () => {
+  if (!mapInstance.value) return;
+
+  mapInstance.value.eachLayer((layer) => {
+    if (layer instanceof L.Marker || layer instanceof L.Polyline) {
+      mapInstance.value.removeLayer(layer);
+    }
+  });
 };
 
 onMounted(async () => {
@@ -102,7 +112,8 @@ onMounted(async () => {
 }
 
 .city-button,
-.story-button {
+.story-button,
+.clear-button {
   padding: 5px 10px;
   background-color: white;
   color: #333;
@@ -115,7 +126,8 @@ onMounted(async () => {
 }
 
 .city-button:hover,
-.story-button:hover {
+.story-button:hover,
+.clear-button:hover {
   background-color: #f4f4f4;
 }
 
