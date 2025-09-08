@@ -2,10 +2,10 @@ import L from 'leaflet';
 import { parseTrackFile } from './trackParser';
 
 const LINE_COLORS = {
-  Hike: '#efdc07',
+  Hike: '#bd07ef',
   Walk: '#f1d205',
   Run: '#ff0000',
-  Ride: '#a30a0a',
+  Ride: '#ff3a00',
   Default: '#e8aa0c'
 };
 
@@ -13,9 +13,20 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-export async function playStory(map) {
+function clearMap(map) {
+  map.eachLayer((layer) => {
+    if (layer instanceof L.Marker || layer instanceof L.Polyline) {
+      map.removeLayer(layer);
+    }
+  });
+}
+
+export async function playStory(map, storyFile = '/files/kharkiv.json') {
   try {
-    const response = await fetch('/files/story.json');
+    // Очищаем карту перед запуском новой истории
+    clearMap(map);
+
+    const response = await fetch(storyFile);
     const data = await response.json();
 
     if (data.timeline && Array.isArray(data.timeline)) {
@@ -31,7 +42,7 @@ export async function playStory(map) {
               if (item.activity_type === 'Hike' || item.activity_type === 'Walk') color = LINE_COLORS.Hike;
               else if (item.activity_type === 'Run') color = LINE_COLORS.Run;
               else if (item.activity_type === 'Ride') color = LINE_COLORS.Ride;
-              const polyline = L.polyline(track.points, {
+              L.polyline(track.points, {
                 color,
                 weight: 1,
                 opacity: 0.5
@@ -61,4 +72,3 @@ export async function playStory(map) {
     console.error('Error playing story:', error);
   }
 }
-

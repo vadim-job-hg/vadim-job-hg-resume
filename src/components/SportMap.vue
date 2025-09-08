@@ -1,7 +1,12 @@
 <template>
   <div class="map-container">
     <div class="map-controls">
-      <button class="story-button" @click="handlePlayStory">Play Story</button>
+      <!-- City selector and button -->
+      <select v-model="selectedCity" class="city-select">
+        <option v-for="(coords, name) in cities" :key="name" :value="name">{{ name }}</option>
+      </select>
+      <button class="city-button" @click="flyToCity">Go to City</button>
+      <button class="story-button" @click="showCityStory">Show Story</button>
     </div>
     <div id="map" style="height: 500px;"></div>
   </div>
@@ -19,24 +24,31 @@ import 'leaflet.fullscreen/Control.FullScreen.css';
 import { parseTrackFile } from '../utils/trackParser';
 import { playStory } from '../utils/storyPlayer';
 
-const LINE_COLORS = {
-  Hike: '#efdc07',
-  Walk: '#f1d205',
-  Run: '#ff0000',
-  Ride: '#a30a0a',
-  Default: '#e8aa0c'
+const cities = {
+  Kharkiv: [49.9935, 36.2304],
+  Kyiv: [50.4501, 30.5234],
+  Odesa: [46.4825, 30.7233],
+  Cherkasy: [49.4444, 32.0598],
+  Mukachevo: [48.4392, 22.7182],
+  Budapest: [47.4979, 19.0402],
+  Bucharest: [44.4268, 26.1025],
+  Varna: [43.2141, 27.9147],
+  Sofia: [42.6977, 23.3219],
 };
 
+const selectedCity = ref('Kharkiv');
 const mapInstance = ref(null);
 
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-const handlePlayStory = () => {
-  if (mapInstance.value) {
-    playStory(mapInstance.value);
+const flyToCity = () => {
+  if (mapInstance.value && cities[selectedCity.value]) {
+    mapInstance.value.flyTo(cities[selectedCity.value], 12);
   }
+};
+
+const showCityStory = async () => {
+  if (!mapInstance.value) return;
+  const cityFile = `/files/${selectedCity.value.toLowerCase()}.json`;
+  await playStory(mapInstance.value, cityFile);
 };
 
 onMounted(async () => {
@@ -62,12 +74,11 @@ onMounted(async () => {
     window.alert('Filter tracks not implemented');
   }, 'Filter tracks').addTo(map);
 
-  // Add fullscreen button
   L.easyButton('fa-expand', () => {
     map.toggleFullscreen();
   }, 'Toggle fullscreen').addTo(map);
 
-  // Story button is now outside the map
+  // Removed story button
 });
 </script>
 
@@ -80,20 +91,32 @@ onMounted(async () => {
   margin-bottom: 10px;
   display: flex;
   justify-content: flex-end;
+  gap: 8px;
 }
 
+.city-select {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.2);
+  font-size: 14px;
+}
+
+.city-button,
 .story-button {
-  padding: 8px 16px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
+  padding: 5px 10px;
+  background-color: white;
+  color: #333;
+  border: 2px solid rgba(0,0,0,0.2);
   border-radius: 4px;
   cursor: pointer;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: normal;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.65);
 }
 
+.city-button:hover,
 .story-button:hover {
-  background-color: #45a049;
+  background-color: #f4f4f4;
 }
 
 #map {
