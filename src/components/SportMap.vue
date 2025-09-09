@@ -1,18 +1,3 @@
-<template>
-  <div class="map-container">
-    <div class="map-controls">
-      <!-- City selector and button -->
-      <select v-model="selectedCity" class="city-select">
-        <option v-for="(coords, name) in cities" :key="name" :value="name">{{ name }}</option>
-      </select>
-      <button class="city-button" @click="flyToCity">Go to City</button>
-      <button class="story-button" @click="showCityStory">Show Story</button>
-      <button class="clear-button" @click="clearMap">Clear Map</button>
-    </div>
-    <div id="map" style="height: 500px;"></div>
-  </div>
-</template>
-
 <script setup>
 import { onMounted, ref } from 'vue';
 import L from 'leaflet';
@@ -22,7 +7,9 @@ import 'leaflet-easybutton';
 import 'leaflet-providers';
 import 'leaflet.fullscreen';
 import 'leaflet.fullscreen/Control.FullScreen.css';
+import { getCurrentInstance } from 'vue';
 import { playStory } from '../utils/storyPlayer';
+import AppPopup from '@/components/AppPopup.vue';
 
 const cities = {
   Kharkiv: [49.9935, 36.2304],
@@ -38,6 +25,8 @@ const cities = {
 
 const selectedCity = ref('Kharkiv');
 const mapInstance = ref(null);
+const popupImage = ref(null);
+const popupRef = ref(null);
 
 const flyToCity = () => {
   if (mapInstance.value && cities[selectedCity.value]) {
@@ -48,7 +37,7 @@ const flyToCity = () => {
 const showCityStory = async () => {
   if (!mapInstance.value) return;
   const cityFile = `/files/${selectedCity.value.toLowerCase()}.json`;
-  await playStory(mapInstance.value, cityFile);
+  await playStory(mapInstance.value, cityFile, onImageClick);
 };
 
 const clearMap = () => {
@@ -60,6 +49,11 @@ const clearMap = () => {
     }
   });
 };
+
+function onImageClick(imagePath) {
+  popupImage.value = imagePath;
+  popupRef.value.open();
+}
 
 onMounted(async () => {
   const map = L.map('map', {
@@ -91,6 +85,24 @@ onMounted(async () => {
   // Removed story button
 });
 </script>
+
+<template>
+  <div class="map-container">
+    <div class="map-controls">
+      <!-- City selector and button -->
+      <select v-model="selectedCity" class="city-select">
+        <option v-for="(coords, name) in cities" :key="name" :value="name">{{ name }}</option>
+      </select>
+      <button class="city-button" @click="flyToCity">Go to City</button>
+      <button class="story-button" @click="showCityStory">Show Story</button>
+      <button class="clear-button" @click="clearMap">Clear Map</button>
+    </div>
+    <div id="map" style="height: 500px;"></div>
+    <AppPopup ref="popupRef">
+      <img :src="popupImage" v-if="popupImage" style="max-width: 90vw; max-height: 80vh;" :alt="'Activity image for ' + selectedCity" />
+    </AppPopup>
+  </div>
+</template>
 
 <style>
 .map-container {

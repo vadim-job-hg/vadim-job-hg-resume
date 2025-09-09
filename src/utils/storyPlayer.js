@@ -1,6 +1,5 @@
 import L from 'leaflet';
 import { parseTrackFile } from './trackParser';
-import Image from './image.js';
 
 const LINE_COLORS = {
   Hike: '#bd07ef',
@@ -60,7 +59,7 @@ async function drawTrack(map, item) {
   }
 }
 
-function addImageMarker(map, item) {
+function addImageMarker(map, item, onImageClick) {
   try {
     const lat = item.lat;
     const lng = item.lng;
@@ -72,10 +71,9 @@ function addImageMarker(map, item) {
     };
     L.circleMarker([lat, lng], markerOptions)
       .on('click', () => {
-        L.popup({ maxWidth: 400 })
-          .setLatLng([lat, lng])
-          .setContent(`<img src="${item.path}" width="512" height="100%">`)
-          .openOn(map);
+        if (onImageClick) {
+          onImageClick(item.path);
+        }
       })
       .addTo(map);
   } catch (e) {
@@ -83,11 +81,11 @@ function addImageMarker(map, item) {
   }
 }
 
-async function handleTimelineItem(map, item) {
+async function handleTimelineItem(map, item, onImageClick) {
   if (item.type === 'track') {
     await drawTrack(map, item);
   } else if (item.type === 'image') {
-    addImageMarker(map, item);
+    addImageMarker(map, item, onImageClick);
   } else if (item.type === 'pause') {
     await sleep(item.seconds * 1000);
   } else if (item.type === 'map') {
@@ -95,14 +93,14 @@ async function handleTimelineItem(map, item) {
   }
 }
 
-export async function playStory(map, storyFile = '/files/kharkiv.json') {
+export async function playStory(map, storyFile = '/files/kharkiv.json', onImageClick) {
   try {
     clearMap(map);
     const response = await fetch(storyFile);
     const data = await response.json();
     if (data.timeline && Array.isArray(data.timeline)) {
       for (const item of data.timeline) {
-        await handleTimelineItem(map, item);
+        await handleTimelineItem(map, item, onImageClick);
       }
     }
   } catch (error) {
