@@ -7,7 +7,6 @@ import 'leaflet-easybutton';
 import 'leaflet-providers';
 import 'leaflet.fullscreen';
 import 'leaflet.fullscreen/Control.FullScreen.css';
-import { getCurrentInstance } from 'vue';
 import { playStory } from '../utils/storyPlayer';
 import AppPopup from '@/components/AppPopup.vue';
 
@@ -44,7 +43,8 @@ const clearMap = () => {
   if (!mapInstance.value) return;
 
   mapInstance.value.eachLayer((layer) => {
-    if (layer instanceof L.Marker || layer instanceof L.Polyline) {
+    if (layer instanceof L.Marker || layer instanceof L.Polyline || layer instanceof L.CircleMarker)
+    {
       mapInstance.value.removeLayer(layer);
     }
   });

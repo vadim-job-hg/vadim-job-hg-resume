@@ -63,19 +63,21 @@ function addImageMarker(map, item, onImageClick) {
   try {
     const lat = item.lat;
     const lng = item.lng;
-    const markerOptions = {
-      color: '#00FF00',
-      weight: 3,
-      radius: 5,
-      opacity: 0.5
-    };
-    L.circleMarker([lat, lng], markerOptions)
-      .on('click', () => {
-        if (onImageClick) {
-          onImageClick(item.path);
-        }
-      })
-      .addTo(map);
+    if(lat && lng) {
+      const markerOptions = {
+        color: '#00FF00',
+        weight: 3,
+        radius: 5,
+        opacity: 0.5
+      };
+      L.circleMarker([lat, lng], markerOptions)
+        .on('click', () => {
+          if (onImageClick) {
+            onImageClick(item.path);
+          }
+        })
+        .addTo(map);
+    }
   } catch (e) {
     console.error('Image geolocation error:', e);
   }
