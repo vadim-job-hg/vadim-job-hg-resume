@@ -7,15 +7,15 @@ const LINE_COLORS = {
   Run: '#ff0000',
   Ride: '#ff3a00',
   Default: '#e8aa0c',
-  SUPER: '#ef8900'
+  SUPER: '#ef8900',
 };
 
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function clearMap(map) {
-  map.eachLayer(layer => {
+  map.eachLayer((layer) => {
     if (layer instanceof L.Marker || layer instanceof L.Polyline) {
       map.removeLayer(layer);
     }
@@ -27,7 +27,7 @@ function getLineStyle(item) {
     return {
       color: item.style.color || LINE_COLORS.Default,
       weight: item.style.weight || 1,
-      opacity: item.style.opacity || 0.5
+      opacity: item.style.opacity || 0.5,
     };
   }
   switch (item.activity_type) {
@@ -49,7 +49,7 @@ async function drawTrack(map, item) {
     const blob = await res.blob();
     blob.name = item.path.split('/').pop();
     const tracks = await parseTrackFile(blob);
-    tracks.forEach(track => {
+    tracks.forEach((track) => {
       const style = getLineStyle(item);
       L.polyline(track.points, style).addTo(map);
     });
@@ -63,12 +63,12 @@ function addImageMarker(map, item, onImageClick) {
   try {
     const lat = item.lat;
     const lng = item.lng;
-    if(lat && lng) {
+    if (lat && lng) {
       const markerOptions = {
         color: '#00FF00',
         weight: 3,
         radius: 5,
-        opacity: 0.5
+        opacity: 0.5,
       };
       L.circleMarker([lat, lng], markerOptions)
         .on('click', () => {
