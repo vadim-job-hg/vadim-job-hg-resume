@@ -16,7 +16,7 @@ function sleep(ms) {
 
 function clearMap(map) {
   map.eachLayer((layer) => {
-    if (layer instanceof L.Marker || layer instanceof L.Polyline) {
+    if (layer instanceof L.Marker || layer instanceof L.Polyline || layer instanceof L.CircleMarker) {
       map.removeLayer(layer);
     }
   });

@@ -27,12 +27,6 @@ const mapInstance = ref(null);
 const popupImage = ref(null);
 const popupRef = ref(null);
 
-const flyToCity = () => {
-  if (mapInstance.value && cities[selectedCity.value]) {
-    mapInstance.value.flyTo(cities[selectedCity.value], 10);
-  }
-};
-
 const showCityStory = async () => {
   if (!mapInstance.value) return;
   const cityFile = `/files/${selectedCity.value.toLowerCase()}.json`;
@@ -93,7 +87,6 @@ onMounted(async () => {
       <select v-model="selectedCity" class="city-select">
         <option v-for="(coords, name) in cities" :key="name" :value="name">{{ name }}</option>
       </select>
-      <button class="city-button" @click="flyToCity">Go to City</button>
       <button class="story-button" @click="showCityStory">Show Story</button>
       <button class="clear-button" @click="clearMap">Clear Map</button>
     </div>
