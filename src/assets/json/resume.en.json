@@ -106,7 +106,7 @@
       "companyLogo": "img/company/kitakoch.png",
       "location": "Remote",
       "workType": "Fulltime",
-      "start": "May 2024",
+      "start": "July 2024",
       "end": "Present",
       "description": "Designing and implementing new features, resolving bugs, developing microservices, and providing ongoing system support for <a href=\"https://www.kitakoch.de/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\">Kita Koch</a>. Worked with Laravel, SQL, PHP, Swagger, and multi-tenant architectures."
     },
