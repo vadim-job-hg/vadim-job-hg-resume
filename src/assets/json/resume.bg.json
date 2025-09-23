@@ -101,6 +101,16 @@
   ],
   "experience": [
     {
+      "job": "PHP Backend разработчик",
+      "company": "Kita Koch",
+      "companyLogo": "img/company/kitakoch.png",
+      "location": "Дистанционно",
+      "workType": "Пълно работно време",
+      "start": "Май 2024",
+      "end": "До момента",
+      "description": "Проектиране и внедряване на нови функционалности, отстраняване на грешки, разработка на микросервизи и осигуряване на постоянна поддръжка на системата за <a href=\"https://www.kitakoch.de/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\">Kita Koch</a>. Работа с Laravel, SQL, PHP, Swagger и многоарендни архитектури."
+    },
+    {
       "job": "Full-Stack Разработчик",
       "company": "Grid Dynamics",
       "companyLogo": "img/company/grid-dynamics.png",
