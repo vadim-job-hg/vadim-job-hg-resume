@@ -30,6 +30,11 @@ const router = createRouter({
       name: 'sport',
       component: () => import('../views/SportView.vue'),
     },
+    {
+      path: '/download-resume',
+      name: 'download-resume',
+      component: () => import('../views/DownloadResume.vue'),
+    },
   ],
 });
 
