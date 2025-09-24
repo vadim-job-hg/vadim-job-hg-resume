@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Design Prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 794px; /* Fixed width for vertical A4 page */
+            margin: 0 auto; /* Remove top margin for flush header */
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            border-radius: 8px;
+            padding: 32px;
+        }
+        .header {
+            position: relative;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+
+        .bookmark {
+            position: absolute;
+            width: 75px;
+            height: 168px;
+            background-image: url('./src/assets/pdf/bookmark.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            left: 0;
+            top: 0;
+            z-index: 9999;
+        }
+        .bookmark span {
+            color: #fff;
+            font-size: 42px;
+            font-weight: 900;
+            line-height: 1;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+            width: 100%;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .logo span {
+            line-height: 1;
+        }
+        .avatar {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            background: #e0e0e0;
+            margin-right: 32px;
+            object-fit: cover;
+        }
+        .title {
+            font-size: 2.2em;
+            font-weight: 700;
+            margin: 0;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-top: 8px;
+        }
+        .section {
+            margin-bottom: 32px;
+        }
+        .section-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 12px;
+        }
+        .list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .list-item {
+            margin-bottom: 8px;
+            padding-left: 16px;
+            position: relative;
+        }
+        .list-item:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #0078d4;
+        }
+        .contact {
+            display: flex;
+            gap: 24px;
+            font-size: 1em;
+            color: #444;
+            margin-top: 12px;
+        }
+        @media (max-width: 800px) {
+            .container {
+                width: 100%;
+                padding: 8px;
+                border-radius: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="bookmark">
+              <span>V</span>
+              <span>K</span>
+            </div>
+            <img src="avatar.jpg" alt="Avatar" class="avatar">
+            <div>
+                <h1 class="title">Vadim Ivanov</h1>
+                <div class="subtitle">Frontend Developer</div>
+                <div class="contact">
+                    <span>📧 vadim@example.com</span>
+                    <span>📞 +7 999 123-45-67</span>
+                    <span>🌐 github.com/vadim-ivanov</span>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">About Me</div>
+            <p>
+                Passionate frontend developer with 5+ years of experience building responsive web applications. Skilled in JavaScript, React, and modern UI/UX practices.
+            </p>
+        </div>
+        <div class="section">
+            <div class="section-title">Skills</div>
+            <ul class="list">
+                <li class="list-item">JavaScript, TypeScript</li>
+                <li class="list-item">React, Redux</li>
+                <li class="list-item">HTML5, CSS3, Sass</li>
+                <li class="list-item">Webpack, Vite</li>
+                <li class="list-item">REST API, GraphQL</li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="section-title">Experience</div>
+            <ul class="list">
+                <li class="list-item">
+                    <strong>Frontend Developer</strong> at HG Corp (2021–Present)<br>
+                    Developed and maintained SPA using React and Redux. Improved performance and accessibility.
+                </li>
+                <li class="list-item">
+                    <strong>Web Developer</strong> at Freelance (2018–2021)<br>
+                    Built custom websites for small businesses. Focused on clean code and user experience.
+                </li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="section-title">Education</div>
+            <ul class="list">
+                <li class="list-item">
+                    BSc in Computer Science, Moscow State University (2014–2018)
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
