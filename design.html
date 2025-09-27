@@ -84,13 +84,67 @@
         .left-section, .right-section {
             flex: 1 1 0;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            align-items: flex-start;
+            justify-content: flex-start;
             font-size: 18px;
             background: #fff;
-        }
-        .left-section:not(:last-child), .right-section:not(:last-child) {
+            box-sizing: border-box;
+            min-height: 40px;
             border-bottom: 1px solid #ccc;
+        }
+        /* Убираем нижнюю границу только у последней секции в каждой колонке */
+        .left-section.section-3 {
+            border-bottom: none;
+        }
+        .right-section.section-3 {
+            border-bottom: none;
+        }
+        /* Отступы для содержимого секций */
+        .left-section {
+            padding-left: 85px;
+            padding-right: 40px;
+            padding-bottom: 60px;
+        }
+        .right-section {
+            /* Удаляем фиксированную высоту, делаем высоту динамической */
+            flex: 0 1 auto;
+            min-height: 40px;
+            border-bottom: 1px solid #ccc;
+            /* Сохраняем отступы */
+            padding-right: 90px;
+            padding-left: 40px;
+            padding-bottom: 60px;
+        }
+        /* Верхний отступ для всех секций кроме верхней левой */
+        .left-section.section-2,
+        .left-section.section-3 {
+            padding-top: 50px;
+        }
+        .right-section.section-1,
+        .right-section.section-2,
+        .right-section.section-3 {
+            padding-top: 50px;
+        }
+        /* Верхний отступ для верхней левой секции */
+        .left-section.section-1 {
+            padding-top: 110px;
+            height: 540px; /* Новая идеальная высота */
+            min-height: 540px;
+            max-height: 540px;
+            overflow: hidden;
+        }
+        .left-section.section-2 {
+            /* Высота подобрана под контент */
+            height: 350px;
+            min-height: 350px;
+            max-height: 350px;
+            overflow: hidden;
+        }
+        .left-section.section-3 {
+            height: 400px;
+            min-height: 400px;
+            max-height: 400px;
+            overflow: hidden;
         }
         .left-panel {
             width: 415px;
@@ -101,6 +155,117 @@
         .right-panel {
             flex: 1;
             min-height: 600px;
+        }
+        .info-list {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+        }
+        .info-item {
+          display: flex;
+          align-items: center;
+          gap: 14px;
+        }
+        .info-icon {
+          font-size: 22px;
+          width: 36px;
+          height: 36px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #f3f3f3;
+          border-radius: 10px;
+          /* Вернуть цветные иконки */
+          color: inherit;
+          filter: none;
+        }
+        /* Сделать иконку дня рождения менее яркой */
+        .info-item:nth-child(2) .info-icon {
+          filter: grayscale(1) brightness(0.7);
+          opacity: 0.7;
+        }
+        /* Иконка геопозиции для Софии */
+        .info-item:last-child .info-icon {
+          background: #e3f2fd;
+          color: #1976d2;
+          filter: none;
+          opacity: 1;
+        }
+        .lang-list-block {
+          width: 100%;
+        }
+        .lang-title {
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 24px;
+          color: #222;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+        .lang-list {
+          display: flex;
+          flex-direction: column;
+          gap: 18px;
+        }
+        .lang-item {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+        }
+        .lang-avatar {
+          width: 36px;
+          height: 36px;
+          font-size: 26px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 10px;
+          background: #f3f3f3;
+        }
+        .lang-info {
+          display: flex;
+          flex-direction: column;
+        }
+        .lang-name {
+          font-size: 15px;
+          color: #222;
+          font-weight: 500;
+        }
+        .lang-level {
+          font-size: 12px;
+          color: #888;
+        }
+        .skills-block {
+          width: 100%;
+        }
+        .skills-title {
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 24px;
+          color: #222;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+        .skills-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+        .skill-badge {
+          display: inline-block;
+          padding: 6px 16px;
+          border-radius: 16px;
+          background: rgba(16, 185, 129, 0.12);
+          color: #10b981;
+          font-size: 14px;
+          font-weight: 500;
+          transition: background 0.2s, color 0.2s;
+          user-select: none;
+        }
+        .skill-badge:hover {
+          background: #10b981;
+          color: #fff;
         }
         @media (max-width: 800px) {
             .container {
@@ -122,9 +287,117 @@
         </div>
         <div class="content-split">
             <div class="left-panel">
-                <div class="left-section section-1">Left 1: Lorem ipsum dolor sit amet.</div>
-                <div class="left-section section-2">Left 2: Consectetur adipiscing elit.</div>
-                <div class="left-section section-3">Left 3: Integer nec odio. Praesent libero.</div>
+                <div class="left-section section-1">
+                  <div class="info-list">
+                    <div class="info-item">
+                      <span class="info-icon">✉️</span>
+                      <div class="info-text">
+                        <div class="info-main">vadimjobhg86@gmail.com</div>
+                        <div class="info-label">Mail address</div>
+                      </div>
+                    </div>
+                    <div class="info-item">
+                      <span class="info-icon">🎂</span>
+                      <div class="info-text">
+                        <div class="info-main">04 July 1986</div>
+                        <div class="info-label">Birthday</div>
+                      </div>
+                    </div>
+                    <div class="info-item">
+                      <span class="info-icon">📞</span>
+                      <div class="info-text">
+                        <div class="info-main">+3 (59) 88 776 1154</div>
+                        <div class="info-label">Phone Number (BG)</div>
+                      </div>
+                    </div>
+                    <div class="info-item">
+                      <span class="info-icon">📞</span>
+                      <div class="info-text">
+                        <div class="info-main">+38 (068) 271 78 03</div>
+                        <div class="info-label">Phone Number (UA)</div>
+                      </div>
+                    </div>
+                    <div class="info-item">
+                      <span class="info-icon">💼</span>
+                      <div class="info-text">
+                        <div class="info-main">Remote or Fulltime</div>
+                        <div class="info-label">Work type</div>
+                      </div>
+                    </div>
+                    <div class="info-item">
+                      <span class="info-icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 2C6.686 2 4 4.686 4 8c0 4.418 5.25 9.54 5.472 9.752a.75.75 0 0 0 1.056 0C10.75 17.54 16 12.418 16 8c0-3.314-2.686-6-6-6zm0 11a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-7a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" fill="#1976d2"/>
+    </svg>
+                      </span>
+                      <div class="info-text">
+                        <div class="info-main">Sofia, Bulgaria</div>
+                        <div class="info-label">Location</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="left-section section-2">
+                  <div class="lang-list-block">
+                    <div class="lang-title">Language</div>
+                    <div class="lang-list">
+                      <div class="lang-item">
+                        <span class="lang-avatar">🇷🇺</span>
+                        <div class="lang-info">
+                          <div class="lang-name">Russian</div>
+                          <div class="lang-level">Native Language</div>
+                        </div>
+                      </div>
+                      <div class="lang-item">
+                        <span class="lang-avatar">🇺🇦</span>
+                        <div class="lang-info">
+                          <div class="lang-name">Ukrainian</div>
+                          <div class="lang-level">Native Language</div>
+                        </div>
+                      </div>
+                      <div class="lang-item">
+                        <span class="lang-avatar">🇬🇧</span>
+                        <div class="lang-info">
+                          <div class="lang-name">English</div>
+                          <div class="lang-level">Advanced</div>
+                        </div>
+                      </div>
+                      <div class="lang-item">
+                        <span class="lang-avatar">🇧🇬</span>
+                        <div class="lang-info">
+                          <div class="lang-name">Bulgarian</div>
+                          <div class="lang-level">Going to learn :-)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="left-section section-3">
+                  <div class="skills-block">
+                    <div class="skills-title">SKILLS</div>
+                    <div class="skills-list">
+                      <span class="skill-badge">PHP</span>
+                      <span class="skill-badge">Laravel</span>
+                      <span class="skill-badge">Phalcon</span>
+                      <span class="skill-badge">Kohana</span>
+                      <span class="skill-badge">SQL</span>
+                      <span class="skill-badge">JavaScript</span>
+                      <span class="skill-badge">jQuery</span>
+                      <span class="skill-badge">CSS</span>
+                      <span class="skill-badge">HTML</span>
+                      <span class="skill-badge">JSON</span>
+                      <span class="skill-badge">Bootstrap</span>
+                      <span class="skill-badge">Swagger</span>
+                      <span class="skill-badge">Git</span>
+                      <span class="skill-badge">DataTables</span>
+                      <span class="skill-badge">GAE</span>
+                      <span class="skill-badge">AWS</span>
+                      <span class="skill-badge">Python</span>
+                      <span class="skill-badge">Django</span>
+                      <span class="skill-badge">NetSuite</span>
+                    </div>
+                  </div>
+                </div>
             </div>
             <div class="right-panel">
                 <div class="right-section section-1">Right 1: Sed cursus ante dapibus diam.</div>
