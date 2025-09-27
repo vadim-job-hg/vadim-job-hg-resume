@@ -12,42 +12,45 @@
             padding: 0;
         }
         .container {
-            width: 794px; /* Fixed width for vertical A4 page */
+            width: 1200px; /* Fixed width for vertical A4 page */
             margin: 0 auto; /* Remove top margin for flush header */
             background: #fff;
             box-shadow: 0 2px 8px rgba(0,0,0,0.07);
             border-radius: 8px;
-            padding: 32px;
+            padding: 0;
+            position: relative;
         }
         .header {
             position: relative;
             display: flex;
             align-items: center;
             border-bottom: 1px solid #ccc;
-            padding-bottom: 20px;
+            height: 185px;
+            width: 100%;
+            margin: 0;
+            padding: 0;
         }
 
         .bookmark {
             position: absolute;
-            width: 75px;
-            height: 168px;
+            width: 110px;
+            height: 235px;
             background-image: url('./src/assets/pdf/bookmark.png');
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: 100% 100%; /* Stretch image to fit new size */
             background-position: bottom center;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            font-weight: bold;
-            left: 0;
+            left: 50px;
             top: 0;
-            z-index: 9999;
+            z-index: 10000;
         }
         .bookmark span {
             color: #fff;
-            font-size: 42px;
-            font-weight: 900;
+            font-size: 70px;
+            font-weight: 700;
             line-height: 1;
             text-shadow: 0 2px 8px rgba(0,0,0,0.25);
             width: 100%;
@@ -57,32 +60,26 @@
         .logo span {
             line-height: 1;
         }
-        .avatar {
-            width: 96px;
-            height: 96px;
-            border-radius: 50%;
-            background: #e0e0e0;
-            margin-right: 32px;
-            object-fit: cover;
-        }
         .title {
-            font-size: 2.2em;
+            font-size: 48px;
             font-weight: 700;
             margin: 0;
-        }
-        .subtitle {
-            font-size: 1.2em;
-            color: #666;
-            margin-top: 8px;
+            position: relative;
+            left: 245px;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: left;
         }
         .section {
             margin-bottom: 32px;
+            padding: 0;
         }
         .section-title {
             font-size: 1.3em;
             font-weight: 600;
             color: #333;
             margin-bottom: 12px;
+            padding: 0;
         }
         .list {
             list-style: none;
@@ -92,20 +89,6 @@
         .list-item {
             margin-bottom: 8px;
             padding-left: 16px;
-            position: relative;
-        }
-        .list-item:before {
-            content: "•";
-            position: absolute;
-            left: 0;
-            color: #0078d4;
-        }
-        .contact {
-            display: flex;
-            gap: 24px;
-            font-size: 1em;
-            color: #444;
-            margin-top: 12px;
         }
         @media (max-width: 800px) {
             .container {
@@ -118,20 +101,13 @@
 </head>
 <body>
     <div class="container">
+        <div class="bookmark">
+          <span>V</span>
+          <span>K</span>
+        </div>
         <div class="header">
-            <div class="bookmark">
-              <span>V</span>
-              <span>K</span>
-            </div>
-            <img src="avatar.jpg" alt="Avatar" class="avatar">
             <div>
                 <h1 class="title">Vadim Ivanov</h1>
-                <div class="subtitle">Frontend Developer</div>
-                <div class="contact">
-                    <span>📧 vadim@example.com</span>
-                    <span>📞 +7 999 123-45-67</span>
-                    <span>🌐 github.com/vadim-ivanov</span>
-                </div>
             </div>
         </div>
         <div class="section">

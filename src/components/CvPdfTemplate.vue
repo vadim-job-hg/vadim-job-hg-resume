@@ -35,7 +35,7 @@ defineProps<{ cv: any }>();
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
+
   font-size: 20px;
   left: 0;
   top: 0;
