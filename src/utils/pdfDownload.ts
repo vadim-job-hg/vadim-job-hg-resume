@@ -4,7 +4,7 @@ import { nextTick } from 'vue';
 export async function generateAndDownloadPdf({
   element,
   filename = 'resume.pdf',
-  margin = 10,
+  margin = 0,
   lang = 'en',
 }: {
   element: HTMLElement | null;

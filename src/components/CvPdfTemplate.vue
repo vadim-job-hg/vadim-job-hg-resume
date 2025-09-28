@@ -48,7 +48,7 @@
             </div>
             <div class="info-item">
               <span class="info-icon">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M10 2C6.686 2 4 4.686 4 8c0 4.418 5.25 9.54 5.472 9.752a.75.75 0 0 0 1.056 0C10.75 17.54 16 12.418 16 8c0-3.314-2.686-6-6-6zm0 11a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-7a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" fill="#1976d2"/>
                 </svg>
               </span>
@@ -179,10 +179,9 @@ body {
     padding: 0;
 }
 .container {
-    width: 1200px;
+    width: 794px;
     margin: 0 auto;
     background: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     border-radius: 8px;
     padding: 0;
     position: relative;
@@ -192,15 +191,15 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    height: 185px;
+    height: 122px;
     width: 100%;
     margin: 0;
     padding: 0;
 }
 .bookmark {
     position: absolute;
-    width: 110px;
-    height: 235px;
+    width: 73px;
+    height: 156px;
     background-image: url('./src/assets/pdf/bookmark.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -209,13 +208,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    left: 50px;
+    left: 33px;
     top: 0;
     z-index: 10000;
 }
 .bookmark span {
     color: #fff;
-    font-size: 50px;
+    font-size: 33px;
     font-weight: 700;
     line-height: 1;
     text-shadow: 0 2px 8px rgba(0,0,0,0.25);
@@ -224,20 +223,20 @@ body {
     letter-spacing: 2px;
 }
 .title {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     padding: 0;
-    margin: 0 0 0 200px;
+    margin: 0 0 0 130px;
     text-align: left;
     line-height: 1;
-    height: 48px;
+    height: 32px;
     display: flex;
     align-items: center;
 }
 .content-split {
     display: flex;
     width: 100%;
-    min-height: 600px;
+    min-height: 400px;
 }
 .left-panel, .right-panel {
     display: flex;
@@ -249,77 +248,77 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 18px;
+    font-size: 12px;
     background: #fff;
     box-sizing: border-box;
-    min-height: 40px;
+    min-height: 27px;
     border-bottom: 1px solid #ccc;
 }
 .section:last-child {
     border-bottom: none;
 }
 .section {
-    padding-top: 50px;
-    padding-bottom: 60px;
+    padding-top: 33px;
+    padding-bottom: 40px;
 }
 .left-section {
-    padding-left: 85px;
-    padding-right: 40px;
+    padding-left: 56px;
+    padding-right: 27px;
 }
 .right-section {
     flex: 0 1 auto;
-    padding-left: 40px !important;
-    padding-right: 90px !important;
+    padding-left: 27px !important;
+    padding-right: 60px !important;
 }
 .section-1.left-section {
-    padding-top: 110px;
-    height: 540px;
-    min-height: 540px;
-    max-height: 540px;
+    padding-top: 73px;
+    height: 358px;
+    min-height: 358px;
+    max-height: 358px;
     overflow: hidden;
 }
 .section-2.left-section {
-    height: 350px;
-    min-height: 350px;
-    max-height: 350px;
+    height: 232px;
+    min-height: 232px;
+    max-height: 232px;
     overflow: hidden;
 }
 .section-3.left-section {
-    height: 400px;
-    min-height: 400px;
-    max-height: 400px;
+    height: 270px;
+    min-height: 270px;
+    max-height: 270px;
     overflow: hidden;
 }
 .left-panel {
-    width: 415px;
-    min-height: 600px;
+    width: 275px;
+    min-height: 270px;
     border-right: 1px solid #ccc;
     box-sizing: border-box;
 }
 .right-panel {
     flex: 1;
-    min-height: 600px;
+    min-height: 270px;
 }
 .info-list {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 12px;
 }
 .info-item {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 9px;
 }
 .info-icon {
-  font-size: 22px;
-  width: 36px;
-  height: 36px;
+  font-size: 15px;
+  width: 24px;
+  height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #f3f3f3;
-  border-radius: 10px;
+  border-radius: 7px;
   color: inherit;
   filter: none;
 }
@@ -334,9 +333,9 @@ body {
   opacity: 1;
 }
 .section-title {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 24px;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 16px;
   color: #222;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -347,21 +346,21 @@ body {
 .lang-list {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 12px;
 }
 .lang-item {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 11px;
 }
 .lang-avatar {
-  width: 36px;
-  height: 36px;
-  font-size: 26px;
+  width: 24px;
+  height: 24px;
+  font-size: 17px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 7px;
   background: #f3f3f3;
 }
 .lang-info {
@@ -369,12 +368,12 @@ body {
   flex-direction: column;
 }
 .lang-name {
-  font-size: 15px;
+  font-size: 10px;
   color: #222;
   font-weight: 500;
 }
 .lang-level {
-  font-size: 12px;
+  font-size: 8px;
   color: #888;
 }
 .skills-block {
@@ -383,16 +382,16 @@ body {
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 5px;
 }
 .skill-badge {
   display: inline-block;
-  padding: 6px 16px;
-  border-radius: 16px;
+  padding: 4px 11px;
+  border-radius: 11px;
   background: rgba(16, 185, 129, 0.12);
   color: #10b981;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 9px;
+  font-weight: 331;
   transition: background 0.2s, color 0.2s;
   user-select: none;
 }
@@ -409,9 +408,9 @@ body {
   width: 100%;
 }
 .heading {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   letter-spacing: 2px;
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
@@ -424,7 +423,7 @@ body {
   box-shadow: none;
   border-radius: 0;
   padding: 0;
-  margin-bottom: 32px;
+  margin-bottom: 21px;
   margin-left: 0;
   width: 100%;
 }
@@ -432,11 +431,11 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 .card-title {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
   margin-bottom: 0;
   color: #222;
   border: none;
@@ -447,28 +446,28 @@ body {
 }
 .card-period {
   font-style: italic;
-  font-size: 16px;
+  font-size: 11px;
   color: #666;
   text-align: right;
   flex-shrink: 0;
-  min-width: 140px;
+  min-width: 93px;
 }
 .card-subtitle {
   font-style: italic;
-  font-size: 18px;
+  font-size: 12px;
   color: #666;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 .card-description {
-  font-size: 16px;
+  font-size: 11px;
   color: #444;
   margin-bottom: 8px;
   text-align: justify;
 }
 .card-footer {
-  font-size: 15px;
+  font-size: 10px;
   color: #444;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   text-align: justify;
 }
 .link {
@@ -476,7 +475,7 @@ body {
   text-decoration: underline;
 }
 .mb-24 {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .text-justify {
   text-align: justify !important;
@@ -484,7 +483,7 @@ body {
 @media (max-width: 800px) {
     .container {
         width: 100%;
-        padding: 8px;
+        padding: 5px;
         border-radius: 0;
     }
 }
