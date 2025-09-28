@@ -50,6 +50,11 @@
       "icon": "ComputerDesktopIcon",
       "name": "Тип работа",
       "value": "Дистанционна или пълно работно време"
+    },
+    {
+      "icon": "MapPinIcon",
+      "name": "Локация",
+      "value": "София, България"
     }
   ],
   "skill": [

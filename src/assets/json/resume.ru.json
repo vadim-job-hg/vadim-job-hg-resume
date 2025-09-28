@@ -50,6 +50,11 @@
       "icon": "ComputerDesktopIcon",
       "name": "Тип работы",
       "value": "Удалённая или полная занятость"
+    },
+    {
+      "icon": "MapPinIcon",
+      "name": "Локация",
+      "value": "София, Болгария"
     }
   ],
   "skill": [

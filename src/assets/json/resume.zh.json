@@ -1,6 +1,37 @@
 {
   "resume": "简历",
-  "information": "信息",
+  "information": [
+    {
+      "icon": "EnvelopeIcon",
+      "name": "邮箱地址",
+      "value": "vadimjobhg86@gmail.com"
+    },
+    {
+      "icon": "CakeIcon",
+      "name": "生日",
+      "value": "1986年7月4日"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
+      "name": "电话（保加利亚）",
+      "value": "+3 (59) 88 776 1154"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
+      "name": "电话（乌克兰）",
+      "value": "+38 (068) 271 78 03"
+    },
+    {
+      "icon": "ComputerDesktopIcon",
+      "name": "工作类型",
+      "value": "远程或全职"
+    },
+    {
+      "icon": "MapPinIcon",
+      "name": "位置",
+      "value": "索非亚，保加利亚"
+    }
+  ],
   "skills": "技能",
   "language": "语言",
   "about": "关于我",

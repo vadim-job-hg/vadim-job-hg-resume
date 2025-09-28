@@ -50,6 +50,11 @@
       "icon": "ComputerDesktopIcon",
       "name": "Työmuoto",
       "value": "Etätyö tai kokoaikainen"
+    },
+    {
+      "icon": "MapPinIcon",
+      "name": "Sijainti",
+      "value": "Sofia, Bulgaria"
     }
   ],
   "skill": [

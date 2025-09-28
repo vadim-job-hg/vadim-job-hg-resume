@@ -50,6 +50,11 @@
       "icon": "ComputerDesktopIcon",
       "name": "Work type",
       "value": "Remote or Fulltime"
+    },
+    {
+      "icon": "MapPinIcon",
+      "name": "Location",
+      "value": "Sofia, Bulgaria"
     }
   ],
   "skill": [

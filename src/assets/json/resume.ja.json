@@ -1,6 +1,37 @@
 {
   "resume": "履歴書",
-  "information": "情報",
+  "information": [
+    {
+      "icon": "EnvelopeIcon",
+      "name": "メールアドレス",
+      "value": "vadimjobhg86@gmail.com"
+    },
+    {
+      "icon": "CakeIcon",
+      "name": "誕生日",
+      "value": "1986年7月4日"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
+      "name": "電話番号（ブルガリア）",
+      "value": "+3 (59) 88 776 1154"
+    },
+    {
+      "icon": "DevicePhoneMobileIcon",
+      "name": "電話番号（ウクライナ）",
+      "value": "+38 (068) 271 78 03"
+    },
+    {
+      "icon": "ComputerDesktopIcon",
+      "name": "勤務形態",
+      "value": "リモートまたはフルタイム"
+    },
+    {
+      "icon": "MapPinIcon",
+      "name": "所在地",
+      "value": "ソフィア、ブルガリア"
+    }
+  ],
   "skills": "スキル",
   "language": "言語",
   "about": "自己紹介",
