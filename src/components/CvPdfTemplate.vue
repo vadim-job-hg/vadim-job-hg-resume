@@ -14,7 +14,7 @@
             <div class="info-item">
               <span class="info-icon">✉️</span>
               <div class="info-text text-justify">
-                <div class="info-main">vadimjobhg86@gmail.com</div>
+                <div class="info-main"><a href="mailto:vadimjobhg86@gmail.com" class="email-link">vadimjobhg86@gmail.com</a></div>
                 <div class="info-label">Mail address</div>
               </div>
             </div>
@@ -48,7 +48,7 @@
             </div>
             <div class="info-item">
               <span class="info-icon">
-                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M10 2C6.686 2 4 4.686 4 8c0 4.418 5.25 9.54 5.472 9.752a.75.75 0 0 0 1.056 0C10.75 17.54 16 12.418 16 8c0-3.314-2.686-6-6-6zm0 11a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-7a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
                     fill="#1976d2" />
@@ -100,25 +100,25 @@
           <div class="skills-block">
             <div class="section-title">SKILLS</div>
             <div class="skills-list">
-              <span class="skill-badge">PHP</span>
-              <span class="skill-badge">Laravel</span>
-              <span class="skill-badge">Phalcon</span>
-              <span class="skill-badge">Kohana</span>
-              <span class="skill-badge">SQL</span>
-              <span class="skill-badge">JavaScript</span>
-              <span class="skill-badge">jQuery</span>
-              <span class="skill-badge">CSS</span>
-              <span class="skill-badge">HTML</span>
-              <span class="skill-badge">JSON</span>
-              <span class="skill-badge">Bootstrap</span>
-              <span class="skill-badge">Swagger</span>
-              <span class="skill-badge">Git</span>
-              <span class="skill-badge">DataTables</span>
-              <span class="skill-badge">GAE</span>
-              <span class="skill-badge">AWS</span>
-              <span class="skill-badge">Python</span>
-              <span class="skill-badge">Django</span>
-              <span class="skill-badge">NetSuite</span>
+              <div class="skill-badge"><span class="skill-text">PHP</span></div>
+              <div class="skill-badge"><span class="skill-text">Laravel</span></div>
+              <div class="skill-badge"><span class="skill-text">Phalcon</span></div>
+              <div class="skill-badge"><span class="skill-text">Kohana</span></div>
+              <div class="skill-badge"><span class="skill-text">SQL</span></div>
+              <div class="skill-badge"><span class="skill-text">JavaScript</span></div>
+              <div class="skill-badge"><span class="skill-text">jQuery</span></div>
+              <div class="skill-badge"><span class="skill-text">CSS</span></div>
+              <div class="skill-badge"><span class="skill-text">HTML</span></div>
+              <div class="skill-badge"><span class="skill-text">JSON</span></div>
+              <div class="skill-badge"><span class="skill-text">Bootstrap</span></div>
+              <div class="skill-badge"><span class="skill-text">Swagger</span></div>
+              <div class="skill-badge"><span class="skill-text">Git</span></div>
+              <div class="skill-badge"><span class="skill-text">DataTables</span></div>
+              <div class="skill-badge"><span class="skill-text">GAE</span></div>
+              <div class="skill-badge"><span class="skill-text">AWS</span></div>
+              <div class="skill-badge"><span class="skill-text">Python</span></div>
+              <div class="skill-badge"><span class="skill-text">Django</span></div>
+              <div class="skill-badge"><span class="skill-text">NetSuite</span></div>
             </div>
           </div>
         </div>
@@ -297,6 +297,8 @@ body {
   overflow: hidden;
 }
 .section-3.left-section {
+  display: flex;
+  flex-direction: column;
   height: 270px;
   min-height: 270px;
   max-height: 270px;
@@ -330,17 +332,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f3f3f3;
-  border-radius: 7px;
+  background: transparent;
   color: inherit;
   filter: none;
+  font-weight: 700;
 }
 .info-item:nth-child(2) .info-icon {
   filter: grayscale(1) brightness(0.7);
   opacity: 0.7;
 }
 .info-item:last-child .info-icon {
-  background: #e3f2fd;
+  background: transparent;
   color: #1976d2;
   filter: none;
   opacity: 1;
@@ -349,7 +351,7 @@ body {
   font-size: 13px;
   font-weight: 400;
   margin-bottom: 16px;
-  color: #222;
+  color: #000;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -373,8 +375,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 7px;
-  background: #f3f3f3;
+  background: transparent;
+  font-weight: 700;
 }
 .lang-info {
   display: flex;
@@ -382,7 +384,7 @@ body {
 }
 .lang-name {
   font-size: 10px;
-  color: #222;
+  color: #000;
   font-weight: 500;
 }
 .lang-level {
@@ -390,23 +392,34 @@ body {
   color: #888;
 }
 .skills-block {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .skills-list {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  align-content: flex-start; /* бейджи наверх */
+  justify-content: flex-start;
+  flex: 1;               /* занимает оставшееся место */
 }
 .skill-badge {
-  display: inline-block;
-  padding: 4px 11px;
-  border-radius: 11px;
-  background: rgba(16, 185, 129, 0.12);
-  color: #10b981;
+  background: transparent;
+  color: #222;
   font-size: 9px;
-  font-weight: 331;
-  transition: background 0.2s, color 0.2s;
-  user-select: none;
+  font-weight: 700;
+  padding: 0;
+  margin: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  min-width: 40px;
+}
+.skill-text {
+  display: block;
+  line-height: 1;
 }
 .skill-badge:hover {
   background: #10b981;
@@ -486,6 +499,10 @@ body {
 .link {
   color: #1976d2;
   text-decoration: underline;
+}
+.email-link {
+  color: #000;
+  text-decoration: none;
 }
 .mb-24 {
   margin-bottom: 16px;
