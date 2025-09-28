@@ -267,12 +267,108 @@
           background: #10b981;
           color: #fff;
         }
+        /* New styles for experience section */
+        .exp-card {
+          background: #fff;
+          border-radius: 8px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+          padding: 24px;
+          margin-bottom: 24px;
+        }
+        .exp-title {
+          font-size: 22px;
+          font-weight: 600;
+          margin-bottom: 16px;
+          color: #222;
+          border-bottom: 2px solid #f3f3f3;
+          padding-bottom: 8px;
+        }
+        .exp-row {
+          display: flex;
+          align-items: flex-start;
+          gap: 16px;
+          margin-bottom: 16px;
+        }
+        .exp-avatar {
+          width: 56px;
+          height: 56px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        .exp-main {
+          flex: 1;
+        }
+        .exp-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 8px;
+        }
+        .exp-position {
+          font-size: 18px;
+          font-weight: 500;
+          color: #333;
+        }
+        .exp-meta {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 12px;
+        }
+        .exp-meta-item {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          font-size: 14px;
+          color: #666;
+        }
+        .exp-meta-icon {
+          width: 16px;
+          height: 16px;
+          color: #1976d2;
+        }
+        .exp-badge {
+          background: #e3f2fd;
+          color: #1976d2;
+          padding: 4px 8px;
+          border-radius: 12px;
+          font-size: 12px;
+          font-weight: 500;
+        }
+        .exp-desc {
+          font-size: 16px;
+          color: #444;
+          margin-bottom: 16px;
+          text-align: justify;
+        }
+        .exp-divider {
+          height: 1px;
+          background: #f3f3f3;
+          margin: 16px 0;
+        }
+        .exp-link {
+          color: #1976d2;
+          text-decoration: underline;
+        }
         @media (max-width: 800px) {
             .container {
                 width: 100%;
                 padding: 8px;
                 border-radius: 0;
             }
+        }
+        .right-section.section-1,
+        .right-section.section-2,
+        .right-section.section-3 {
+            padding-left: 40px !important;
+            padding-right: 90px !important;
+        }
+        .exp-title, .exp-list {
+            margin-left: 0 !important;
+            padding-left: 0 !important;
+        }
+        /* Добавляем выравнивание по ширине для всех текстовых элементов */
+        .exp-desc, .exp-tech, .info-text, .lang-level {
+            text-align: justify !important;
         }
     </style>
 </head>
@@ -400,9 +496,47 @@
                 </div>
             </div>
             <div class="right-panel">
-                <div class="right-section section-1">Right 1: Sed cursus ante dapibus diam.</div>
-                <div class="right-section section-2">Right 2: Nulla quis sem at nibh elementum imperdiet.</div>
-                <div class="right-section section-3">Right 3: Duis sagittis ipsum. Praesent mauris.</div>
+                <div class="right-section section-1">
+                  <div style="display: flex; flex-direction: column; align-items: flex-start; margin: 0; padding: 0;">
+                    <div class="exp-title" style="margin-bottom:24px; letter-spacing:2px; font-size:22px; font-weight:700; text-transform:uppercase; border:none; padding:0; margin-left:0; color:#222;">Professional Summary</div>
+                    <div class="exp-card" style="background:none; box-shadow:none; border-radius:0; padding:0; margin-bottom:32px; margin-left:0;">
+                      <div class="exp-desc" style="margin-bottom:8px; text-align: justify;">Professional PHP developer with more than ten years of experience in areas such as the Internet of Things, sales, educational courses, etc. Worked on integrating third-party software systems, such as payment systems, ERP, edge computing software for IoT applications. Developed APIs for mobile and pwa applications.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-section section-2">
+                  <div style="display: flex; flex-direction: column; align-items: flex-start; margin: 0; padding: 0;">
+                    <div class="exp-title" style="margin-bottom:24px; letter-spacing:2px; font-size:22px; font-weight:700; text-transform:uppercase; border:none; padding:0; margin-left:0; color:#222;">Experience</div>
+                    <div class="exp-card" style="background:none; box-shadow:none; border-radius:0; padding:0; margin-bottom:32px; margin-left:0;">
+                      <div style="display: flex; justify-content: space-between; width: 100%; margin-bottom:6px;">
+                        <div class="exp-title" style="font-size:24px; font-weight:600; margin-bottom:0; color:#222; border:none; padding:0; letter-spacing:0; text-transform:none;">PHP Backend Developer</div>
+                        <div class="exp-period" style="font-style:italic; font-size:16px; color:#666; text-align:right;">Aug 2017 ‐ May 2024</div>
+                      </div>
+                      <div class="exp-company" style="font-style:italic; font-size:18px; color:#666; margin-bottom:10px;">Daxx/Grid Dynamics</div>
+                      <div class="exp-desc" style="margin-bottom:8px; text-align: justify;">Backend Developer for many projects for Naava Green Walls. Was involved in the development of monitoring systems for the condition of green walls and the development of tools for remote control of watering schedules, lighting and air circulation. Engaged in API development for <a href="https://naava.app/" target="_blank" class="exp-link">https://naava.app/</a></div>
+                      <div class="exp-tech" style="font-size:15px; color:#444; margin-bottom:8px; text-align: justify;">Technologies: Laravel, Laravel Nova, SQL, PHP, JavaScript, Swagger, JSON</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-section section-3">
+                  <div style="display: flex; flex-direction: column; align-items: flex-start; margin: 0; padding: 0;">
+                    <div class="exp-title" style="margin-bottom:24px; letter-spacing:2px; font-size:22px; font-weight:700; text-transform:uppercase; border:none; padding:0; margin-left:0; color:#222;">Education</div>
+                    <div class="exp-card" style="background:none; box-shadow:none; border-radius:0; padding:0; margin-bottom:32px; margin-left:0;">
+                      <div style="display: flex; justify-content: space-between; width: 100%; margin-bottom:6px;">
+                        <div class="exp-title" style="font-size:24px; font-weight:600; margin-bottom:0; color:#222; border:none; padding:0; letter-spacing:0; text-transform:none; flex:1;">BACHELOR OF SCIENCE - COMPUTER SCIENCE</div>
+                        <div class="exp-period" style="font-style:italic; font-size:16px; color:#666; text-align:right; flex-shrink:0; min-width:140px;">Jun 2012</div>
+                      </div>
+                      <div class="exp-company" style="font-style:italic; font-size:18px; color:#666; margin-bottom:24px;">Kharkiv Politechnic Institute</div>
+
+                      <div style="display: flex; justify-content: space-between; width: 100%; margin-bottom:6px;">
+                        <div class="exp-title" style="font-size:24px; font-weight:600; margin-bottom:0; color:#222; border:none; padding:0; letter-spacing:0; text-transform:none; flex:1;">JUNIOR SPECIALIST - PROGRAMMING</div>
+                        <div class="exp-period" style="font-style:italic; font-size:16px; color:#666; text-align:right; flex-shrink:0; min-width:140px;">Jun 2006</div>
+                      </div>
+                      <div class="exp-company" style="font-style:italic; font-size:18px; color:#666; margin-bottom:10px;">Kharkiv Patent-Computer College</div>
+                      <div style="font-size:15px; color:#444; margin-bottom:8px; text-align: justify;">PROGRAMMING FOR COMPUTER TECHNOLOGY AND AUTOMATED SYSTEMS</div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
