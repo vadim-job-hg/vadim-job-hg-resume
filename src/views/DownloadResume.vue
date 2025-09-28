@@ -17,7 +17,7 @@ onMounted(async () => {
   await resumeStore.loadResume(lang);
   await generateAndDownloadPdf({
     element: pdfContentRef.value,
-    filename: `resume_${lang}.pdf`,
+    filename: `VadymKuznetsov${lang}.pdf`,
     lang: lang as string,
   });
 });

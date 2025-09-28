@@ -49,7 +49,9 @@
             <div class="info-item">
               <span class="info-icon">
                 <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M10 2C6.686 2 4 4.686 4 8c0 4.418 5.25 9.54 5.472 9.752a.75.75 0 0 0 1.056 0C10.75 17.54 16 12.418 16 8c0-3.314-2.686-6-6-6zm0 11a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-7a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" fill="#1976d2"/>
+                  <path
+                    d="M10 2C6.686 2 4 4.686 4 8c0 4.418 5.25 9.54 5.472 9.752a.75.75 0 0 0 1.056 0C10.75 17.54 16 12.418 16 8c0-3.314-2.686-6-6-6zm0 11a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-7a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
+                    fill="#1976d2" />
                 </svg>
               </span>
               <div class="info-text text-justify">
@@ -126,7 +128,12 @@
           <div class="content-wrapper">
             <div class="heading">Professional Summary</div>
             <div class="card">
-              <div class="card-description">Professional PHP developer with more than ten years of experience in areas such as the Internet of Things, sales, educational courses, etc. Worked on integrating third-party software systems, such as payment systems, ERP, edge computing software for IoT applications. Developed APIs for mobile and pwa applications.</div>
+              <div class="card-description">
+                Professional PHP developer with more than ten years of experience in areas such as the Internet of
+                Things, sales, educational courses, etc. Worked on integrating third-party software systems, such as
+                payment systems, ERP, edge computing software for IoT applications. Developed APIs for mobile and pwa
+                applications.
+              </div>
             </div>
           </div>
         </div>
@@ -139,7 +146,12 @@
                 <div class="card-period">Aug 2017 ‐ May 2024</div>
               </div>
               <div class="card-subtitle">Daxx/Grid Dynamics</div>
-              <div class="card-description">Backend Developer for many projects for Naava Green Walls. Was involved in the development of monitoring systems for the condition of green walls and the development of tools for remote control of watering schedules, lighting and air circulation. Engaged in API development for <a href="https://naava.app/" target="_blank" class="link">https://naava.app/</a></div>
+              <div class="card-description">
+                Backend Developer for many projects for Naava Green Walls. Was involved in the development of monitoring
+                systems for the condition of green walls and the development of tools for remote control of watering
+                schedules, lighting and air circulation. Engaged in API development for
+                <a href="https://naava.app/" target="_blank" class="link">https://naava.app/</a>
+              </div>
               <div class="card-footer">Technologies: Laravel, Laravel Nova, SQL, PHP, JavaScript, Swagger, JSON</div>
             </div>
           </div>
@@ -173,131 +185,132 @@ defineProps<{ cv: any }>();
 
 <style scoped>
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f7f7f7;
-    margin: 0;
-    padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
 }
 .container {
-    width: 794px;
-    margin: 0 auto;
-    background: #fff;
-    border-radius: 8px;
-    padding: 0;
-    position: relative;
+  width: 794px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 0;
+  position: relative;
 }
 .header {
-    position: relative;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
-    height: 122px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  height: 122px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .bookmark {
-    position: absolute;
-    width: 73px;
-    height: 156px;
-    background-image: url('./src/assets/pdf/bookmark.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: bottom center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    left: 33px;
-    top: 0;
-    z-index: 10000;
+  position: absolute;
+  width: 73px;
+  height: 156px;
+  background-image: url('@/assets/pdf/bookmark.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 33px;
+  top: 0;
+  z-index: 10000;
 }
 .bookmark span {
-    color: #fff;
-    font-size: 33px;
-    font-weight: 700;
-    line-height: 1;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
-    width: 100%;
-    text-align: center;
-    letter-spacing: 2px;
+  color: #fff;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2px;
 }
 .title {
-    font-size: 40px;
-    font-weight: 700;
-    padding: 0;
-    margin: 0 0 0 130px;
-    text-align: left;
-    line-height: 1;
-    height: 32px;
-    display: flex;
-    align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0 0 0 130px;
+  text-align: left;
+  line-height: 1;
+  height: 32px;
+  display: flex;
+  align-items: center;
 }
 .content-split {
-    display: flex;
-    width: 100%;
-    min-height: 400px;
+  display: flex;
+  width: 100%;
+  min-height: 400px;
 }
-.left-panel, .right-panel {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+.left-panel,
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .section {
-    flex: 1 1 0;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-size: 12px;
-    background: #fff;
-    box-sizing: border-box;
-    min-height: 27px;
-    border-bottom: 1px solid #ccc;
+  flex: 1 1 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 12px;
+  background: #fff;
+  box-sizing: border-box;
+  min-height: 27px;
+  border-bottom: 1px solid #ccc;
 }
 .section:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 .section {
-    padding-top: 33px;
-    padding-bottom: 40px;
+  padding-top: 33px;
+  padding-bottom: 40px;
 }
 .left-section {
-    padding-left: 56px;
-    padding-right: 27px;
+  padding-left: 56px;
+  padding-right: 27px;
 }
 .right-section {
-    flex: 0 1 auto;
-    padding-left: 27px !important;
-    padding-right: 60px !important;
+  flex: 0 1 auto;
+  padding-left: 27px !important;
+  padding-right: 60px !important;
 }
 .section-1.left-section {
-    padding-top: 73px;
-    height: 358px;
-    min-height: 358px;
-    max-height: 358px;
-    overflow: hidden;
+  padding-top: 73px;
+  height: 358px;
+  min-height: 358px;
+  max-height: 358px;
+  overflow: hidden;
 }
 .section-2.left-section {
-    height: 232px;
-    min-height: 232px;
-    max-height: 232px;
-    overflow: hidden;
+  height: 232px;
+  min-height: 232px;
+  max-height: 232px;
+  overflow: hidden;
 }
 .section-3.left-section {
-    height: 270px;
-    min-height: 270px;
-    max-height: 270px;
-    overflow: hidden;
+  height: 270px;
+  min-height: 270px;
+  max-height: 270px;
+  overflow: hidden;
 }
 .left-panel {
-    width: 275px;
-    min-height: 270px;
-    border-right: 1px solid #ccc;
-    box-sizing: border-box;
+  width: 275px;
+  min-height: 270px;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
 }
 .right-panel {
-    flex: 1;
-    min-height: 270px;
+  flex: 1;
+  min-height: 270px;
 }
 .info-list {
   width: 100%;
@@ -481,10 +494,10 @@ body {
   text-align: justify !important;
 }
 @media (max-width: 800px) {
-    .container {
-        width: 100%;
-        padding: 5px;
-        border-radius: 0;
-    }
+  .container {
+    width: 100%;
+    padding: 5px;
+    border-radius: 0;
+  }
 }
 </style>
