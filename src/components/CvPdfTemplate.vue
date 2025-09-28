@@ -5,7 +5,7 @@
       <span>K</span>
     </div>
     <div class="header">
-      <h1 class="title">VADYM KUZNETSOV</h1>
+      <h1 class="title">{{ resume?.profile?.name?.toUpperCase() || '' }}</h1>
     </div>
     <div class="content-split">
       <div class="left-panel">
@@ -14,7 +14,9 @@
             <div class="info-item">
               <span class="info-icon">✉️</span>
               <div class="info-text text-justify">
-                <div class="info-main"><a href="mailto:vadimjobhg86@gmail.com" class="email-link">vadimjobhg86@gmail.com</a></div>
+                <div class="info-main">
+                  <a href="mailto:vadimjobhg86@gmail.com" class="email-link">vadimjobhg86@gmail.com</a>
+                </div>
                 <div class="info-label">Mail address</div>
               </div>
             </div>
@@ -126,33 +128,24 @@
       <div class="right-panel">
         <div class="section right-section section-1">
           <div class="content-wrapper">
-            <div class="heading">Professional Summary</div>
+            <div class="heading">{{ resume?.profile?.professionalSummaryTitle || '' }}</div>
             <div class="card">
               <div class="card-description">
-                Professional PHP developer with more than ten years of experience in areas such as the Internet of
-                Things, sales, educational courses, etc. Worked on integrating third-party software systems, such as
-                payment systems, ERP, edge computing software for IoT applications. Developed APIs for mobile and pwa
-                applications.
+                {{ resume?.profile?.aboutMe || '' }}
               </div>
             </div>
           </div>
         </div>
         <div class="section right-section section-2">
           <div class="content-wrapper">
-            <div class="heading">Experience</div>
-            <div class="card">
+            <div class="heading">{{ t('experience') }}</div>
+            <div v-for="(exp, index) in resume?.experience" :key="index" class="card">
               <div class="card-header">
-                <div class="card-title">PHP Backend Developer</div>
-                <div class="card-period">Aug 2017 ‐ May 2024</div>
+                <div class="card-title">{{ exp.job }}</div>
+                <div class="card-period">{{ exp.start }} ‐ {{ exp.end }}</div>
               </div>
-              <div class="card-subtitle">Daxx/Grid Dynamics</div>
-              <div class="card-description">
-                Backend Developer for many projects for Naava Green Walls. Was involved in the development of monitoring
-                systems for the condition of green walls and the development of tools for remote control of watering
-                schedules, lighting and air circulation. Engaged in API development for
-                <a href="https://naava.app/" target="_blank" class="link">https://naava.app/</a>
-              </div>
-              <div class="card-footer">Technologies: Laravel, Laravel Nova, SQL, PHP, JavaScript, Swagger, JSON</div>
+              <div class="card-subtitle">{{ exp.company }}</div>
+              <div class="card-description" v-html="exp.description"></div>
             </div>
           </div>
         </div>
@@ -180,7 +173,10 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{ cv: any }>();
+import { useI18n } from 'vue-i18n';
+
+defineProps<{ resume: any }>();
+const { t } = useI18n({ useScope: 'global' });
 </script>
 
 <style scoped>
@@ -285,9 +281,9 @@ body {
 }
 .section-1.left-section {
   padding-top: 73px;
-  height: 358px;
-  min-height: 358px;
-  max-height: 358px;
+  height: 370px;
+  min-height: 370px;
+  max-height: 370px;
   overflow: hidden;
 }
 .section-2.left-section {
@@ -485,7 +481,7 @@ body {
   margin-bottom: 7px;
 }
 .card-description {
-  font-size: 11px;
+  font-size: 14px;
   color: #444;
   margin-bottom: 8px;
   text-align: justify;

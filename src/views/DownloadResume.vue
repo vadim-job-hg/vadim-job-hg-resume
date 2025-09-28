@@ -25,6 +25,6 @@ onMounted(async () => {
 
 <template>
   <div ref="pdfContentRef">
-    <CvPdfTemplate :cv="resume.cv" />
+    <CvPdfTemplate :resume="resume" />
   </div>
 </template>
