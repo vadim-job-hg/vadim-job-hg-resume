@@ -225,6 +225,7 @@ body {
   min-height: 270px;
   max-height: 270px;
   overflow: hidden;
+  border-bottom: 1px solid #ccc;
 }
 .left-panel {
   width: 275px;
@@ -239,8 +240,8 @@ body {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   min-height: 0;
+  padding-top: 33px;
 }
 .right-panel {
   flex: 1;
