@@ -11,61 +11,27 @@
       <div class="left-panel">
         <div class="section left-section section-1">
           <div class="info-list">
-            <div class="info-item">
-              <span class="info-icon">✉️</span>
+            <div v-for="(info, idx) in resume?.information" :key="idx" class="info-item">
+              <span class="info-icon" v-if="info.icon === 'svg'" v-html="info.svg"></span>
+              <HeroIcon v-else :icon="info.icon" class="info-icon h-5 w-5 stroke-1" />
               <div class="info-text text-justify">
                 <div class="info-main">
-                  <a href="mailto:vadimjobhg86@gmail.com" class="email-link">vadimjobhg86@gmail.com</a>
+                  <template v-if="info.icon === 'EnvelopeIcon'">
+                    <a :href="`mailto:${info.value}`" class="email-link">{{ info.value }}</a>
+                  </template>
+                  <template v-else-if="info.icon === 'DevicePhoneMobileIcon'">
+                    <a :href="`tel:${info.value.replace(/[^\d+]/g, '')}`" class="phone-link">{{ info.value }}</a>
+                  </template>
+                  <template v-else>{{ info.value }}</template>
                 </div>
-                <div class="info-label">Mail address</div>
-              </div>
-            </div>
-            <div class="info-item">
-              <span class="info-icon">🎂</span>
-              <div class="info-text text-justify">
-                <div class="info-main">04 July 1986</div>
-                <div class="info-label">Birthday</div>
-              </div>
-            </div>
-            <div class="info-item">
-              <span class="info-icon">📞</span>
-              <div class="info-text text-justify">
-                <div class="info-main">+3 (59) 88 776 1154</div>
-                <div class="info-label">Phone Number (BG)</div>
-              </div>
-            </div>
-            <div class="info-item">
-              <span class="info-icon">📞</span>
-              <div class="info-text text-justify">
-                <div class="info-main">+38 (068) 271 78 03</div>
-                <div class="info-label">Phone Number (UA)</div>
-              </div>
-            </div>
-            <div class="info-item">
-              <span class="info-icon">💼</span>
-              <div class="info-text text-justify">
-                <div class="info-main">Remote or Fulltime</div>
-                <div class="info-label">Work type</div>
-              </div>
-            </div>
-            <div class="info-item">
-              <span class="info-icon">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M10 2C6.686 2 4 4.686 4 8c0 4.418 5.25 9.54 5.472 9.752a.75.75 0 0 0 1.056 0C10.75 17.54 16 12.418 16 8c0-3.314-2.686-6-6-6zm0 11a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-7a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
-                    fill="#1976d2" />
-                </svg>
-              </span>
-              <div class="info-text text-justify">
-                <div class="info-main">Sofia, Bulgaria</div>
-                <div class="info-label">Location</div>
+                <div class="info-label">{{ info.name }}</div>
               </div>
             </div>
           </div>
         </div>
         <div class="section left-section section-2">
           <div class="lang-list-block">
-            <div class="section-title">Language</div>
+            <div class="section-title">{{ t('language') }}</div>
             <div class="lang-list">
               <div class="lang-item">
                 <span class="lang-avatar">🇷🇺</span>
@@ -151,19 +117,14 @@
         </div>
         <div class="section right-section section-3">
           <div class="content-wrapper">
-            <div class="heading">Education</div>
-            <div class="card">
+            <div class="heading">{{ t('education') }}</div>
+            <div v-for="(edu, idx) in resume?.education" :key="idx" class="card">
               <div class="card-header">
-                <div class="card-title">BACHELOR OF SCIENCE - COMPUTER SCIENCE</div>
-                <div class="card-period">Jun 2012</div>
+                <div class="card-title">{{ edu.college }}</div>
+                <div class="card-period">{{ edu.start }} - {{ edu.end }}</div>
               </div>
-              <div class="card-subtitle mb-24">Kharkiv Politechnic Institute</div>
-              <div class="card-header">
-                <div class="card-title">JUNIOR SPECIALIST - PROGRAMMING</div>
-                <div class="card-period">Jun 2006</div>
-              </div>
-              <div class="card-subtitle">Kharkiv Patent-Computer College</div>
-              <div class="card-footer">PROGRAMMING FOR COMPUTER TECHNOLOGY AND AUTOMATED SYSTEMS</div>
+              <div class="card-subtitle mb-24">{{ edu.institution }}</div>
+              <div v-if="edu.course" class="card-footer">{{ edu.course }}</div>
             </div>
           </div>
         </div>
@@ -174,6 +135,7 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n';
+import HeroIcon from './HeroIcon.vue';
 
 defineProps<{ resume: any }>();
 const { t } = useI18n({ useScope: 'global' });
