@@ -1,8 +1,9 @@
 <template>
   <div class="container">
     <div class="bookmark">
-      <span>V</span>
-      <span>K</span>
+      <span v-for="(part, idx) in (resume?.profile?.name?.split(' ') || [])" :key="idx">
+        {{ (part[0] || '').toUpperCase() }}
+      </span>
     </div>
     <div class="header">
       <h1 class="title">{{ resume?.profile?.name?.toUpperCase() || '' }}</h1>
@@ -43,7 +44,7 @@
             </div>
           </div>
         </div>
-        <div class="section left-section section-3">
+        <div class="section left-section section-3 left-section-bottom">
           <div class="skills-block">
             <div class="section-title">{{ t('skills') }}</div>
             <div class="skills-list">
@@ -230,6 +231,16 @@ body {
   min-height: 270px;
   border-right: 1px solid #ccc;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.left-section-bottom {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 0;
 }
 .right-panel {
   flex: 1;
