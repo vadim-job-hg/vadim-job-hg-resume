@@ -23,6 +23,6 @@ export async function generateAndDownloadPdf({
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
     })
     .save();
-  //window.close();
+  window.close();
 }
 

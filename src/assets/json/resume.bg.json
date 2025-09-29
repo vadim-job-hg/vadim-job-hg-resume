@@ -82,24 +82,28 @@
     {
       "name": "Руски",
       "code": "ru-RU",
+      "prefix": "RU",
       "flag": "svg/russia.svg",
       "level": "Майчин език"
     },
     {
       "name": "Украински",
       "code": "ua-UA",
+      "prefix": "UA",
       "flag": "svg/ukraine.svg",
       "level": "Майчин език"
     },
     {
       "name": "Английски",
       "code": "en-US",
+      "prefix": "EN",
       "flag": "svg/united-states.svg",
       "level": "Напреднало ниво"
     },
     {
       "name": "Български",
       "code": "bg-BG",
+      "prefix": "BG",
       "flag": "svg/bulgaria.svg",
       "level": "Започвам да уча :-)"
     }

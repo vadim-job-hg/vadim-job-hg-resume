@@ -28,10 +28,10 @@
     "PHP", "Laravel", "Phalcon", "Kohana", "SQL", "JavaScript", "jQuery", "CSS", "HTML", "JSON", "Bootstrap", "Swagger", "Git", "DataTables", "GAE", "AWS", "Python", "Django", "NetSuite"
   ],
   "language": [
-    { "name": "ロシア語", "code": "ru-RU", "flag": "svg/russia.svg", "level": "母語" },
-    { "name": "ウクライナ語", "code": "ua-UA", "flag": "svg/ukraine.svg", "level": "母語" },
-    { "name": "英語", "code": "en-US", "flag": "svg/united-states.svg", "level": "上級" },
-    { "name": "ブルガリア語", "code": "bg-BG", "flag": "svg/bulgaria.svg", "level": "学習予定 :-)" }
+    { "name": "ロシア語", "code": "ru-RU", "prefix": "RU", "flag": "svg/russia.svg", "level": "母語" },
+    { "name": "ウクライナ語", "code": "ua-UA", "prefix": "UA", "flag": "svg/ukraine.svg", "level": "母語" },
+    { "name": "英語", "code": "en-US", "prefix": "EN", "flag": "svg/united-states.svg", "level": "上級" },
+    { "name": "ブルガリア語", "code": "bg-BG", "prefix": "BG", "flag": "svg/bulgaria.svg", "level": "学習予定 :-)" }
   ],
   "experience": [
     { "job": "PHPバックエンド開発者", "company": "Kita Koch", "companyLogo": "img/company/kitakoch.png", "location": "リモート", "workType": "フルタイム", "start": "2024年7月", "end": "現在", "description": "Kita Kochのために新機能の設計・実装、バグ修正、マイクロサービス開発、システム保守を担当。Laravel、SQL、PHP、Swagger、多テナントアーキテクチャに従事。" },

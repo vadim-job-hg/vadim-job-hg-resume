@@ -28,10 +28,10 @@
     "PHP", "Laravel", "Phalcon", "Kohana", "SQL", "JavaScript", "jQuery", "CSS", "HTML", "JSON", "Bootstrap", "Swagger", "Git", "DataTables", "GAE", "AWS", "Python", "Django", "NetSuite"
   ],
   "language": [
-    { "name": "俄语", "code": "ru-RU", "flag": "svg/russia.svg", "level": "母语" },
-    { "name": "乌克兰语", "code": "ua-UA", "flag": "svg/ukraine.svg", "level": "母语" },
-    { "name": "英语", "code": "en-US", "flag": "svg/united-states.svg", "level": "高级" },
-    { "name": "保加利亚语", "code": "bg-BG", "flag": "svg/bulgaria.svg", "level": "计划学习 :-)" }
+    { "name": "俄语", "code": "ru-RU", "prefix": "RU", "flag": "svg/russia.svg", "level": "母语" },
+    { "name": "乌克兰语", "code": "ua-UA", "prefix": "UA", "flag": "svg/ukraine.svg", "level": "母语" },
+    { "name": "英语", "code": "en-US", "prefix": "EN", "flag": "svg/united-states.svg", "level": "高级" },
+    { "name": "保加利亚语", "code": "bg-BG", "prefix": "BG", "flag": "svg/bulgaria.svg", "level": "计划学习 :-)" }
   ],
   "experience": [
     { "job": "PHP后端开发者", "company": "Kita Koch", "companyLogo": "img/company/kitakoch.png", "location": "远程", "workType": "全职", "start": "2024年7月", "end": "至今", "description": "为Kita Koch设计和实现新功能，修复bug，开发微服务并持续支持系统。涉及Laravel、SQL、PHP、Swagger和多租户架构。" },

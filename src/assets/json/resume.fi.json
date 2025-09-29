@@ -82,24 +82,28 @@
     {
       "name": "Venäjä",
       "code": "ru-RU",
+      "prefix": "RU",
       "flag": "svg/russia.svg",
       "level": "Äidinkieli"
     },
     {
       "name": "Ukraina",
       "code": "ua-UA",
+      "prefix": "UA",
       "flag": "svg/ukraine.svg",
       "level": "Äidinkieli"
     },
     {
       "name": "Englanti",
       "code": "en-US",
+      "prefix": "EN",
       "flag": "svg/united-states.svg",
       "level": "Edistynyt"
     },
     {
       "name": "Bulgaria",
       "code": "bg-BG",
+      "prefix": "BG",
       "flag": "svg/bulgaria.svg",
       "level": "Aion oppia :-)"
     }
