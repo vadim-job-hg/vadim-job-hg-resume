@@ -33,32 +33,11 @@
           <div class="lang-list-block">
             <div class="section-title">{{ t('language') }}</div>
             <div class="lang-list">
-              <div class="lang-item">
-                <span class="lang-avatar">🇷🇺</span>
+              <div v-for="lang in resume.language" :key="lang.code" class="lang-item">
+                <span class="lang-avatar">{{ lang.prefix }}</span>
                 <div class="lang-info">
-                  <div class="lang-name">Russian</div>
-                  <div class="lang-level text-justify">Native Language</div>
-                </div>
-              </div>
-              <div class="lang-item">
-                <span class="lang-avatar">🇺🇦</span>
-                <div class="lang-info">
-                  <div class="lang-name">Ukrainian</div>
-                  <div class="lang-level text-justify">Native Language</div>
-                </div>
-              </div>
-              <div class="lang-item">
-                <span class="lang-avatar">🇬🇧</span>
-                <div class="lang-info">
-                  <div class="lang-name">English</div>
-                  <div class="lang-level text-justify">Advanced</div>
-                </div>
-              </div>
-              <div class="lang-item">
-                <span class="lang-avatar">🇧🇬</span>
-                <div class="lang-info">
-                  <div class="lang-name">Bulgarian</div>
-                  <div class="lang-level text-justify">Going to learn :-)</div>
+                  <div class="lang-name">{{ lang.name }}</div>
+                  <div class="lang-level text-justify">{{ lang.level }}</div>
                 </div>
               </div>
             </div>
