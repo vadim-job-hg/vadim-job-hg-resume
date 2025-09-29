@@ -45,27 +45,11 @@
         </div>
         <div class="section left-section section-3">
           <div class="skills-block">
-            <div class="section-title">SKILLS</div>
+            <div class="section-title">{{ t('skills') }}</div>
             <div class="skills-list">
-              <div class="skill-badge"><span class="skill-text">PHP</span></div>
-              <div class="skill-badge"><span class="skill-text">Laravel</span></div>
-              <div class="skill-badge"><span class="skill-text">Phalcon</span></div>
-              <div class="skill-badge"><span class="skill-text">Kohana</span></div>
-              <div class="skill-badge"><span class="skill-text">SQL</span></div>
-              <div class="skill-badge"><span class="skill-text">JavaScript</span></div>
-              <div class="skill-badge"><span class="skill-text">jQuery</span></div>
-              <div class="skill-badge"><span class="skill-text">CSS</span></div>
-              <div class="skill-badge"><span class="skill-text">HTML</span></div>
-              <div class="skill-badge"><span class="skill-text">JSON</span></div>
-              <div class="skill-badge"><span class="skill-text">Bootstrap</span></div>
-              <div class="skill-badge"><span class="skill-text">Swagger</span></div>
-              <div class="skill-badge"><span class="skill-text">Git</span></div>
-              <div class="skill-badge"><span class="skill-text">DataTables</span></div>
-              <div class="skill-badge"><span class="skill-text">GAE</span></div>
-              <div class="skill-badge"><span class="skill-text">AWS</span></div>
-              <div class="skill-badge"><span class="skill-text">Python</span></div>
-              <div class="skill-badge"><span class="skill-text">Django</span></div>
-              <div class="skill-badge"><span class="skill-text">NetSuite</span></div>
+              <div v-for="(skill, idx) in resume.skill" :key="idx" class="skill-badge">
+                <span class="skill-text">{{ skill }}</span>
+              </div>
             </div>
           </div>
         </div>
@@ -337,9 +321,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
-  align-content: flex-start; /* бейджи наверх */
+  align-content: flex-start;
   justify-content: flex-start;
-  flex: 1;               /* занимает оставшееся место */
+  flex: 1;
 }
 .skill-badge {
   background: transparent;
