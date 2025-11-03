@@ -1,4 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import ExperienceView from '../views/ExperienceView.vue';
+import EducationView from '../views/EducationView.vue';
+import ProjectView from '../views/ProjectView.vue';
+import GalleryView from '../views/GalleryView.vue';
+import SportView from '../views/SportView.vue';
+import DownloadResume from '../views/DownloadResume.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,32 +14,32 @@ const router = createRouter({
     {
       path: '/',
       name: 'experience',
-      component: () => import('../views/ExperienceView.vue'),
+      component: ExperienceView,
     },
     {
       path: '/education',
       name: 'education',
-      component: () => import('../views/EducationView.vue'),
+      component: EducationView,
     },
     {
       path: '/project',
       name: 'project',
-      component: () => import('../views/ProjectView.vue'),
+      component: ProjectView,
     },
     {
       path: '/gallery',
       name: 'gallery',
-      component: () => import('../views/GalleryView.vue'),
+      component: GalleryView,
     },
     {
       path: '/sport',
       name: 'sport',
-      component: () => import('../views/SportView.vue'),
+      component: SportView,
     },
     {
       path: '/download-resume',
       name: 'download-resume',
-      component: () => import('../views/DownloadResume.vue'),
+      component: DownloadResume,
     },
   ],
 });
