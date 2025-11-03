@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterView, useRoute } from 'vue-router';
+import { RouterView } from 'vue-router';
 import ProfileCard from '@/components/ProfileCard.vue';
 import ResumeCard from '@/components/ResumeCard.vue';
 import InfoCard from '@/components/InfoCard.vue';
@@ -13,7 +13,6 @@ import { onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 
 const { locale } = useI18n({ useScope: 'global' });
-const route = useRoute();
 
 onMounted(() => {
   /** Load theme */
@@ -30,10 +29,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div v-if="route.name === 'download-resume'">
-    <RouterView />
-  </div>
-  <main v-else class="container mx-auto max-w-6xl px-4 py-4">
+  <main class="container mx-auto max-w-6xl px-4 py-4">
     <div class="gap-5 sm:grid lg:grid-cols-3">
       <!-- Start left side -->
       <div class="space-y-5">
