@@ -10,7 +10,7 @@ const { resume } = storeToRefs(resumeStore);
 const { locale } = useI18n({ useScope: 'global' });
 
 const openPdfViewer = () => {
-  window.open(`/cvpdf.html?lang=${locale.value}`, '_blank');
+  window.open(`/preview.html?lang=${locale.value}`, '_blank');
 };
 </script>
 
@@ -21,7 +21,7 @@ const openPdfViewer = () => {
       <button
         @click="openPdfViewer"
         class="cursor-pointer rounded-full bg-primary-500/20 py-2.5 px-2.5 text-primary-500"
-        :title="$t('download')">
+        :title="$t('resume')">
         <HeroIcon :icon="'ArrowDownTrayIcon'" class="stroke- h-5 w-5 hover:animate-pulse" />
       </button>
     </InfoCardItem>
