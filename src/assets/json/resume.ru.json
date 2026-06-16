@@ -50,6 +50,11 @@
       "icon": "ComputerDesktopIcon",
       "name": "Тип работы",
       "value": "Удалённая или полная занятость"
+    },
+    {
+      "icon": "MapPinIcon",
+      "name": "Локация",
+      "value": "София, Болгария"
     }
   ],
   "skill": [
@@ -77,29 +82,43 @@
     {
       "name": "Русский",
       "code": "ru-RU",
+      "prefix": "RU",
       "flag": "svg/russia.svg",
       "level": "Родной язык"
     },
     {
       "name": "Украинский",
       "code": "ua-UA",
+      "prefix": "UA",
       "flag": "svg/ukraine.svg",
       "level": "Родной язык"
     },
     {
       "name": "Английский",
       "code": "en-US",
+      "prefix": "EN",
       "flag": "svg/united-states.svg",
       "level": "Продвинутый"
     },
     {
       "name": "Болгарский",
       "code": "bg-BG",
+      "prefix": "BG",
       "flag": "svg/bulgaria.svg",
       "level": "Начинаю изучать :-)"
     }
   ],
   "experience": [
+    {
+      "job": "PHP Backend разработчик",
+      "company": "Kita Koch",
+      "companyLogo": "img/company/kitakoch.png",
+      "location": "Германия",
+      "workType": "Полная занятость",
+      "start": "Июль 2024",
+      "end": "Настоящее время",
+      "description": "Проектирование и внедрение новых функций, исправление ошибок, разработка микросервисов и обеспечение постоянной поддержки системы для <a href=\"https://www.kitakoch.de/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\">Kita Koch</a>. Работа с Laravel, SQL, PHP, Swagger и многоарендными архитектурами."
+    },
     {
       "job": "Full-Stack Разработчик",
       "company": "Grid Dynamics",

@@ -1,40 +1,65 @@
 {
-  "resume": "简历",
-  "information": "信息",
-  "skills": "技能",
-  "language": "语言",
-  "about": "关于我",
-  "experience": "经验",
-  "volunteer": "志愿者",
-  "education": "教育",
-  "license": "执照与证书",
-  "project": "项目",
-  "pet_projects": "个人项目",
-  "gallery": "画廊",
-  "credential": "凭证",
-  "credential_code": "凭证代码",
-  "settings": {
-    "title": "设置",
-    "theme": "主题",
-    "dark_mode": "启用深色模式？",
-    "bg": "Bulgarian",
-    "en": "English",
-    "ru": "Russian",
-    "fi": "Finnish",
-    "ja": "Japanese",
-    "zh": "Chinese"
+  "profile": {
+    "name": "瓦迪姆·库兹涅佐夫",
+    "job": "全栈开发者",
+    "avatar": "img/profile/me.jpg",
+    "aboutMe": "拥有十年以上经验的专业Web开发者，涉及物联网、销售、教育课程等领域。曾参与第三方软件系统集成，如支付系统、ERP、IoT应用的边缘计算软件。为移动端和PWA应用开发API。",
+    "socialNetwork": [
+      { "name": "linkedin", "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/" },
+      { "name": "github", "url": "https://github.com/vadim-job-hg/" },
+      { "name": "sololearn", "url": "https://www.sololearn.com/en/profile/2024996" }
+    ]
   },
-  "menu": {
-    "experience": "经验",
-    "education": "教育",
-    "project": "项目",
-    "gallery": "画廊"
+  "cv": {
+    "icon": "DocumentTextIcon",
+    "name": "PDF",
+    "value": "瓦迪姆·库兹涅佐夫",
+    "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf"
   },
-  "paginate": {
-    "count": "显示 {first} 到 {last}，共 {total} 条结果",
-    "previous_page": "上一页",
-    "next_page": "下一页",
-    "first_page": "第一页",
-    "last_page": "最后一页"
-  }
+  "information": [
+    { "icon": "EnvelopeIcon", "name": "邮箱地址", "value": "vadimjobhg86@gmail.com" },
+    { "icon": "CakeIcon", "name": "生日", "value": "1986年7月4日" },
+    { "icon": "DevicePhoneMobileIcon", "name": "电话（保加利亚）", "value": "+3 (59) 88 776 1154" },
+    { "icon": "DevicePhoneMobileIcon", "name": "电话（乌克兰）", "value": "+38 (068) 271 78 03" },
+    { "icon": "ComputerDesktopIcon", "name": "工作类型", "value": "远程或全职" },
+    { "icon": "MapPinIcon", "name": "位置", "value": "索非亚，保加利亚" }
+  ],
+  "skill": [
+    "PHP", "Laravel", "Phalcon", "Kohana", "SQL", "JavaScript", "jQuery", "CSS", "HTML", "JSON", "Bootstrap", "Swagger", "Git", "DataTables", "GAE", "AWS", "Python", "Django", "NetSuite"
+  ],
+  "language": [
+    { "name": "俄语", "code": "ru-RU", "prefix": "RU", "flag": "svg/russia.svg", "level": "母语" },
+    { "name": "乌克兰语", "code": "ua-UA", "prefix": "UA", "flag": "svg/ukraine.svg", "level": "母语" },
+    { "name": "英语", "code": "en-US", "prefix": "EN", "flag": "svg/united-states.svg", "level": "高级" },
+    { "name": "保加利亚语", "code": "bg-BG", "prefix": "BG", "flag": "svg/bulgaria.svg", "level": "计划学习 :-)" }
+  ],
+  "experience": [
+    { "job": "PHP后端开发者", "company": "Kita Koch", "companyLogo": "img/company/kitakoch.png", "location": "远程", "workType": "全职", "start": "2024年7月", "end": "至今", "description": "为Kita Koch设计和实现新功能，修复bug，开发微服务并持续支持系统。涉及Laravel、SQL、PHP、Swagger和多租户架构。" },
+    { "job": "全栈开发者", "company": "Grid Dynamics", "companyLogo": "img/company/grid-dynamics.png", "location": "乌克兰", "workType": "全职", "start": "2017年8月", "end": "2024年5月", "description": "为Naava Green Walls多个项目担任全栈开发。参与绿色墙体监控系统和远程控制浇水、照明、空气循环工具的开发。负责https://naava.app/的API开发。技术：Laravel、Laravel Nova、SQL、PHP、JavaScript、Swagger、JSON。" },
+    { "job": "全栈开发者", "company": "KnubiSoft", "companyLogo": "img/company/knubisoft.jpg", "location": "乌克兰", "workType": "全职", "start": "2016年3月", "end": "2017年7月", "description": "从零开发各种应用。为BCA瑞典部门开发辅助应用。获得Phalcon框架开发经验。" },
+    { "job": "全栈开发者", "company": "iDeus", "companyLogo": "img/company/ideus.jpg", "location": "乌克兰", "workType": "全职", "start": "2014年10月", "end": "2016年3月", "description": "参与TesTeachers教育平台开发团队，为美国学生提供保险课程。负责支付系统集成、代码重构和系统漏洞排查。" },
+    { "job": "全栈开发者", "company": "MobilLuck", "companyLogo": "img/company/mobilluck.png", "location": "乌克兰", "workType": "全职", "start": "2013年5月", "end": "2014年10月", "description": "作为团队成员参与https://www.mobilluck.com.ua/网站开发。为销售经理开发批量重新定价工具，构建基于竞争对手价格和利润的市场监控与重新定价系统。" }
+  ],
+  "certificate": [
+    { "course": "PHP", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2016年10月13日", "expirationDate": "无有效期", "credentialCode": "CT-XOUWN8YB", "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf" },
+    { "course": "SQL", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年5月19日", "expirationDate": "无有效期", "credentialCode": "CT-A7MVXLIK", "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf" },
+    { "course": "JavaScript", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年5月24日", "expirationDate": "无有效期", "credentialCode": "CT-SF6AEAGK", "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf" },
+    { "course": "jQuery", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年6月20日", "expirationDate": "无有效期", "credentialCode": "CT-J1VDQBJG", "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf" },
+    { "course": "HTML", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年5月19日", "expirationDate": "无有效期", "credentialCode": "CT-KWGILUBT", "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf" },
+    { "course": "CSS", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年6月20日", "expirationDate": "无有效期", "credentialCode": "CT-UIES3YMB", "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf" },
+    { "course": "Java", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年12月18日", "expirationDate": "无有效期", "credentialCode": "CT-NBCOTCGG", "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf" },
+    { "course": "Ruby", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年10月3日", "expirationDate": "无有效期", "credentialCode": "CT-FPWM4E8N", "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf" },
+    { "course": "Python Core", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年12月18日", "expirationDate": "无有效期", "credentialCode": "CT-NBCOTCGG", "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf" }
+  ],
+  "project": [
+    { "name": "NAAVA应用", "description": "用于监控NAAVA绿色墙体状态和环境管理的应用。", "language": "PHP", "image": "img/project/naava.png", "stars": "", "forks": "", "url": "https://naava.app/" }
+  ],
+  "pets": [
+    { "name": "Zombies Run非官方翻译项目", "description": "Zombies, Run! 游戏的对话和音频设计翻译（使用神经网络语音合成）", "language": "Python, Elevenlabs.io", "image": "img/project/zombies.png", "url": ["https://www.patreon.com/c/breakchainsprojects", "https://boosty.to/breakchainsprojects"] }
+  ],
+  "gallery": [
+    { "name": "NAAVA绿色墙体", "images": [ { "src": "img/gallery/naava/naava-wall-1.jpg", "width": 2000, "height": 2000, "alt": "NAAVA图片1" }, { "src": "img/gallery/naava/naava-wall-2.jpg", "width": 2000, "height": 2000, "alt": "NAAVA图片2" } ] },
+    { "name": "GRID DYNAMICS|DAXX", "images": [ { "src": "img/gallery/griddynamics/gd-1.jpg", "width": 1536, "height": 2048, "alt": "与DAXX一起跑步" }, { "src": "img/gallery/griddynamics/gd-2.jpg", "width": 1536, "height": 2048, "alt": "与DAXX一起跑步" } ] },
+    { "name": "索非亚，保加利亚", "images": [ { "src": "img/gallery/sofia/srs.jpg", "width": 1536, "height": 2048, "alt": "与Sofia Running Sekta一起跑步" } ] }
+  ]
 }

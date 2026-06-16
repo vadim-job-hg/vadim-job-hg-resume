@@ -1,40 +1,65 @@
 {
-  "resume": "履歴書",
-  "information": "情報",
-  "skills": "スキル",
-  "language": "言語",
-  "about": "自己紹介",
-  "experience": "経験",
-  "volunteer": "ボランティア",
-  "education": "学歴",
-  "license": "免許・資格",
-  "project": "プロジェクト",
-  "pet_projects": "個人プロジェクト",
-  "gallery": "ギャラリー",
-  "credential": "認証情報",
-  "credential_code": "認証コード",
-  "settings": {
-    "title": "設定",
-    "theme": "テーマ",
-    "dark_mode": "ダークモードを有効にしますか？",
-    "bg": "Bulgarian",
-    "en": "English",
-    "ru": "Russian",
-    "fi": "Finnish",
-    "ja": "Japanese",
-    "zh": "Chinese"
+  "profile": {
+    "name": "ヴァディム・クズネツォフ",
+    "job": "フルスタック開発者",
+    "avatar": "img/profile/me.jpg",
+    "aboutMe": "IoT、販売、教育コースなどの分野で10年以上の経験を持つプロフェッショナルWeb開発者。決済システム、ERP、IoTアプリ向けエッジコンピューティングソフトなど、サードパーティソフトウェアの統合に従事。モバイルやPWAアプリ向けAPIも開発。",
+    "socialNetwork": [
+      { "name": "linkedin", "url": "https://www.linkedin.com/in/vadym-kuznetsov-60605193/" },
+      { "name": "github", "url": "https://github.com/vadim-job-hg/" },
+      { "name": "sololearn", "url": "https://www.sololearn.com/en/profile/2024996" }
+    ]
   },
-  "menu": {
-    "experience": "経験",
-    "education": "学歴",
-    "project": "プロジェクト",
-    "gallery": "ギャラリー"
+  "cv": {
+    "icon": "DocumentTextIcon",
+    "name": "PDF",
+    "value": "ヴァディム・クズネツォフ",
+    "url": "https://vadim-job-hg.github.io/files/VadymKuznetsov.pdf"
   },
-  "paginate": {
-    "count": "{first}～{last} / 全{total}件を表示",
-    "previous_page": "前のページ",
-    "next_page": "次のページ",
-    "first_page": "最初のページ",
-    "last_page": "最後のページ"
-  }
+  "information": [
+    { "icon": "EnvelopeIcon", "name": "メールアドレス", "value": "vadimjobhg86@gmail.com" },
+    { "icon": "CakeIcon", "name": "誕生日", "value": "1986年7月4日" },
+    { "icon": "DevicePhoneMobileIcon", "name": "電話番号（ブルガリア）", "value": "+3 (59) 88 776 1154" },
+    { "icon": "DevicePhoneMobileIcon", "name": "電話番号（ウクライナ）", "value": "+38 (068) 271 78 03" },
+    { "icon": "ComputerDesktopIcon", "name": "勤務形態", "value": "リモートまたはフルタイム" },
+    { "icon": "MapPinIcon", "name": "所在地", "value": "ソフィア、ブルガリア" }
+  ],
+  "skill": [
+    "PHP", "Laravel", "Phalcon", "Kohana", "SQL", "JavaScript", "jQuery", "CSS", "HTML", "JSON", "Bootstrap", "Swagger", "Git", "DataTables", "GAE", "AWS", "Python", "Django", "NetSuite"
+  ],
+  "language": [
+    { "name": "ロシア語", "code": "ru-RU", "prefix": "RU", "flag": "svg/russia.svg", "level": "母語" },
+    { "name": "ウクライナ語", "code": "ua-UA", "prefix": "UA", "flag": "svg/ukraine.svg", "level": "母語" },
+    { "name": "英語", "code": "en-US", "prefix": "EN", "flag": "svg/united-states.svg", "level": "上級" },
+    { "name": "ブルガリア語", "code": "bg-BG", "prefix": "BG", "flag": "svg/bulgaria.svg", "level": "学習予定 :-)" }
+  ],
+  "experience": [
+    { "job": "PHPバックエンド開発者", "company": "Kita Koch", "companyLogo": "img/company/kitakoch.png", "location": "リモート", "workType": "フルタイム", "start": "2024年7月", "end": "現在", "description": "Kita Kochのために新機能の設計・実装、バグ修正、マイクロサービス開発、システム保守を担当。Laravel、SQL、PHP、Swagger、多テナントアーキテクチャに従事。" },
+    { "job": "フルスタック開発者", "company": "Grid Dynamics", "companyLogo": "img/company/grid-dynamics.png", "location": "ウクライナ", "workType": "フルタイム", "start": "2017年8月", "end": "2024年5月", "description": "Naava Green Wallsの多くのプロジェクトでフルスタック開発者を担当。グリーンウォールの状態監視システムや、遠隔での給水・照明・空気循環制御ツールの開発に従事。https://naava.app/のAPI開発も担当。技術：Laravel、Laravel Nova、SQL、PHP、JavaScript、Swagger、JSON。" },
+    { "job": "フルスタック開発者", "company": "KnubiSoft", "companyLogo": "img/company/knubisoft.jpg", "location": "ウクライナ", "workType": "フルタイム", "start": "2016年3月", "end": "2017年7月", "description": "さまざまなアプリケーションをゼロから開発。BCAのスウェーデン部門向けの補助アプリケーションも開発。Phalconフレームワークの開発経験を獲得。" },
+    { "job": "フルスタック開発者", "company": "iDeus", "companyLogo": "img/company/ideus.jpg", "location": "ウクライナ", "workType": "フルタイム", "start": "2014年10月", "end": "2016年3月", "description": "TesTeachers教育プラットフォームの開発チームに所属。米国の学生向け保険コースを提供。決済システムの導入、コードリファクタリング、システム脆弱性の調査に従事。" },
+    { "job": "フルスタック開発者", "company": "MobilLuck", "companyLogo": "img/company/mobilluck.png", "location": "ウクライナ", "workType": "フルタイム", "start": "2013年5月", "end": "2014年10月", "description": "https://www.mobilluck.com.ua/ サイトのチームの一員として活動。オンラインストアの商品一括再評価ツールを開発。競合他社の価格や利益率に基づく市場監視・再評価システムを構築。" }
+  ],
+  "certificate": [
+    { "course": "PHP", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2016年10月13日", "expirationDate": "有効期限なし", "credentialCode": "CT-XOUWN8YB", "url": "https://www.sololearn.com/Certificate/CT-XOUWN8YB/pdf" },
+    { "course": "SQL", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年5月19日", "expirationDate": "有効期限なし", "credentialCode": "CT-A7MVXLIK", "url": "https://www.sololearn.com/Certificate/CT-A7MVXLIK/pdf" },
+    { "course": "JavaScript", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年5月24日", "expirationDate": "有効期限なし", "credentialCode": "CT-SF6AEAGK", "url": "https://www.sololearn.com/Certificate/CT-SF6AEAGK/pdf" },
+    { "course": "jQuery", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年6月20日", "expirationDate": "有効期限なし", "credentialCode": "CT-J1VDQBJG", "url": "https://www.sololearn.com/Certificate/CT-J1VDQBJG/pdf" },
+    { "course": "HTML", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年5月19日", "expirationDate": "有効期限なし", "credentialCode": "CT-KWGILUBT", "url": "https://www.sololearn.com/Certificate/CT-KWGILUBT/pdf" },
+    { "course": "CSS", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年6月20日", "expirationDate": "有効期限なし", "credentialCode": "CT-UIES3YMB", "url": "https://www.sololearn.com/Certificate/CT-UIES3YMB/pdf" },
+    { "course": "Java", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年12月18日", "expirationDate": "有効期限なし", "credentialCode": "CT-NBCOTCGG", "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf" },
+    { "course": "Ruby", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年10月3日", "expirationDate": "有効期限なし", "credentialCode": "CT-FPWM4E8N", "url": "https://www.sololearn.com/Certificate/CT-FPWM4E8N/pdf" },
+    { "course": "Python Core", "school": "Sololearn", "schoolLogo": "img/college/sololearn.png", "issueDate": "2017年12月18日", "expirationDate": "有効期限なし", "credentialCode": "CT-NBCOTCGG", "url": "https://www.sololearn.com/Certificate/CT-NBCOTCGG/pdf" }
+  ],
+  "project": [
+    { "name": "NAAVAアプリケーション", "description": "NAAVAグリーンウォールの状態監視と環境管理のためのアプリケーション。", "language": "PHP", "image": "img/project/naava.png", "stars": "", "forks": "", "url": "https://naava.app/" }
+  ],
+  "pets": [
+    { "name": "Zombies Run非公式翻訳プロジェクト", "description": "Zombies, Run! ゲームのダイアログとオーディオデザインの翻訳（ニューラルネット音声合成使用）", "language": "Python, Elevenlabs.io", "image": "img/project/zombies.png", "url": ["https://www.patreon.com/c/breakchainsprojects", "https://boosty.to/breakchainsprojects"] }
+  ],
+  "gallery": [
+    { "name": "NAAVAグリーンウォール", "images": [ { "src": "img/gallery/naava/naava-wall-1.jpg", "width": 2000, "height": 2000, "alt": "NAAVA画像1" }, { "src": "img/gallery/naava/naava-wall-2.jpg", "width": 2000, "height": 2000, "alt": "NAAVA画像2" } ] },
+    { "name": "GRID DYNAMICS|DAXX", "images": [ { "src": "img/gallery/griddynamics/gd-1.jpg", "width": 1536, "height": 2048, "alt": "DAXXとランニング" }, { "src": "img/gallery/griddynamics/gd-2.jpg", "width": 1536, "height": 2048, "alt": "DAXXとランニング" } ] },
+    { "name": "ソフィア、ブルガリア", "images": [ { "src": "img/gallery/sofia/srs.jpg", "width": 1536, "height": 2048, "alt": "Sofia Running Sektaとランニング" } ] }
+  ]
 }
