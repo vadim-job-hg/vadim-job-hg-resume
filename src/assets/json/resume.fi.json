@@ -50,6 +50,11 @@
       "icon": "ComputerDesktopIcon",
       "name": "Työmuoto",
       "value": "Etätyö tai kokoaikainen"
+    },
+    {
+      "icon": "MapPinIcon",
+      "name": "Sijainti",
+      "value": "Sofia, Bulgaria"
     }
   ],
   "skill": [
@@ -77,29 +82,43 @@
     {
       "name": "Venäjä",
       "code": "ru-RU",
+      "prefix": "RU",
       "flag": "svg/russia.svg",
       "level": "Äidinkieli"
     },
     {
       "name": "Ukraina",
       "code": "ua-UA",
+      "prefix": "UA",
       "flag": "svg/ukraine.svg",
       "level": "Äidinkieli"
     },
     {
       "name": "Englanti",
       "code": "en-US",
+      "prefix": "EN",
       "flag": "svg/united-states.svg",
       "level": "Edistynyt"
     },
     {
       "name": "Bulgaria",
       "code": "bg-BG",
+      "prefix": "BG",
       "flag": "svg/bulgaria.svg",
       "level": "Aion oppia :-)"
     }
   ],
   "experience": [
+    {
+      "job": "Full-Stack -kehittäjä",
+      "company": "Devrix",
+      "companyLogo": "img/company/devrix.png",
+      "location": "Bulgaria",
+      "workType": "Kokoaikainen",
+      "start": "Joulukuu 2025",
+      "end": "Nykyhetki",
+      "description": "WordPress-verkkosivustojen kehittäminen ja ylläpito. Useita Python-projekteja. Bottien kehittäminen Playwright- ja Selenium-kirjastoilla."
+    },
     {
       "job": "Full-Stack -kehittäjä",
       "company": "Grid Dynamics",

@@ -50,6 +50,11 @@
       "icon": "ComputerDesktopIcon",
       "name": "Тип работа",
       "value": "Дистанционна или пълно работно време"
+    },
+    {
+      "icon": "MapPinIcon",
+      "name": "Локация",
+      "value": "София, България"
     }
   ],
   "skill": [
@@ -77,29 +82,53 @@
     {
       "name": "Руски",
       "code": "ru-RU",
+      "prefix": "RU",
       "flag": "svg/russia.svg",
       "level": "Майчин език"
     },
     {
       "name": "Украински",
       "code": "ua-UA",
+      "prefix": "UA",
       "flag": "svg/ukraine.svg",
       "level": "Майчин език"
     },
     {
       "name": "Английски",
       "code": "en-US",
+      "prefix": "EN",
       "flag": "svg/united-states.svg",
       "level": "Напреднало ниво"
     },
     {
       "name": "Български",
       "code": "bg-BG",
+      "prefix": "BG",
       "flag": "svg/bulgaria.svg",
       "level": "Започвам да уча :-)"
     }
   ],
   "experience": [
+    {
+      "job": "Full-Stack Разработчик",
+      "company": "Devrix",
+      "companyLogo": "img/company/devrix.png",
+      "location": "България",
+      "workType": "Пълно работно време",
+      "start": "Декември 2025",
+      "end": "До момента",
+      "description": "Разработка и поддръжка на WordPress сайтове. Работа по няколко проекта, написани на Python. Разработка на ботове с Playwright и Selenium."
+    },
+    {
+      "job": "PHP Backend разработчик",
+      "company": "Kita Koch",
+      "companyLogo": "img/company/kitakoch.png",
+      "location": "Дистанционно",
+      "workType": "Пълно работно време",
+      "start": "Юли 2024",
+      "end": "Ноември 2025",
+      "description": "Проектиране и внедряване на нови функционалности, отстраняване на грешки, разработка на микросервизи и осигуряване на постоянна поддръжка на системата за <a href=\"https://www.kitakoch.de/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\">Kita Koch</a>. Работа с Laravel, SQL, PHP, Swagger и многоарендни архитектури."
+    },
     {
       "job": "Full-Stack Разработчик",
       "company": "Grid Dynamics",

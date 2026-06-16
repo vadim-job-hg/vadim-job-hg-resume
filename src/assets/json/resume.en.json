@@ -4,6 +4,7 @@
     "job": "Full Stack Developer",
     "avatar": "img/profile/me.jpg",
     "aboutMe": "Professional Web Developer with more than ten years of\nexperience in areas such as the Internet of Things, sales,\neducational courses, etc. Worked on integrating third-party\nsoftware systems, such as payment systems, ERP, edge\ncomputing software for IoT applications. Developed APIs for\nmobile and pwa applications.",
+    "professionalSummaryTitle": "Professional Summary",
     "socialNetwork": [
       {
         "name": "linkedin",
@@ -50,6 +51,11 @@
       "icon": "ComputerDesktopIcon",
       "name": "Work type",
       "value": "Remote or Fulltime"
+    },
+    {
+      "icon": "MapPinIcon",
+      "name": "Location",
+      "value": "Sofia, Bulgaria"
     }
   ],
   "skill": [
@@ -77,29 +83,53 @@
     {
       "name": "Russian",
       "code": "ru-RU",
+      "prefix": "RU",
       "flag": "svg/russia.svg",
       "level": "Native Language"
     },
     {
       "name": "Ukrainian",
       "code": "ua-UA",
+      "prefix": "UA",
       "flag": "svg/ukraine.svg",
       "level": "Native Language"
     },
     {
       "name": "English",
       "code": "en-US",
+      "prefix": "EN",
       "flag": "svg/united-states.svg",
       "level": "Advanced"
     },
     {
       "name": "Bulgarian",
       "code": "bg-BG",
+      "prefix": "BG",
       "flag": "svg/bulgaria.svg",
       "level": "Going to learn :-)"
     }
   ],
   "experience": [
+    {
+      "job": "Full-Stack Developer",
+      "company": "Devrix",
+      "companyLogo": "img/company/devrix.png",
+      "location": "Bulgaria",
+      "workType": "Fulltime",
+      "start": "December 2025",
+      "end": "Present",
+      "description": "Development and support of WordPress websites. Worked on several projects written in Python. Developed bots using Playwright and Selenium."
+    },
+    {
+      "job": "PHP Backend Developer",
+      "company": "Kita Koch",
+      "companyLogo": "img/company/kitakoch.png",
+      "location": "Remote",
+      "workType": "Fulltime",
+      "start": "July 2024",
+      "end": "November 2025",
+      "description": "Designing and implementing new features, resolving bugs, developing microservices, and providing ongoing system support for <a href=\"https://www.kitakoch.de/\" target=\"_blank\" class=\"hover:underline bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800\">Kita Koch</a>. Worked with Laravel, SQL, PHP, Swagger, and multi-tenant architectures."
+    },
     {
       "job": "Full-Stack Developer",
       "company": "Grid Dynamics",
@@ -146,8 +176,8 @@
       "college": "Kharkov Polytechnic Institute",
       "collegeLogo": "img/college/kpi.png",
       "course": "Technologist in Computer Networks, Network Management and Systems Security",
-      "start": "1963",
-      "end": "1973",
+      "start": "2003",
+      "end": "2006",
       "url": "https://www.kpi.kharkov.ua/eng/"
     },
     {
