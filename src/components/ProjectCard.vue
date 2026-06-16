@@ -14,7 +14,7 @@ const resumeStore = useResumeStore();
 const { resume } = storeToRefs(resumeStore);
 
 const totalProjects = computed(() => resume.value.project.length);
-const totalPets = computed(() => resume.value.pets.length);
+const totalPets = computed(() => resume.value.pets?.length ?? 0);
 
 const paginatedProjects = computed(() => {
   const start = (currentPage.value - 1) * itemsPerPage;
@@ -25,7 +25,7 @@ const paginatedProjects = computed(() => {
 const paginatedPets = computed(() => {
   const start = (currentPetPage.value - 1) * itemsPerPage;
   const end = start + itemsPerPage;
-  return resume.value.pets.slice(start, end);
+  return (resume.value.pets || []).slice(start, end);
 });
 
 function onProjectPageChange(page: number) {

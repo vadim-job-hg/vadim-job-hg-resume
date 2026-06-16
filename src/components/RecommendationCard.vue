@@ -11,13 +11,13 @@ const resumeStore = useResumeStore();
 const { resume } = storeToRefs(resumeStore);
 
 const total = computed(() => {
-  return resume.value.recommendations.length;
+  return resume.value.recommendations?.length ?? 0;
 });
 
 const paginatedItems = computed(() => {
   const start = (currentPage.value - 1) * itemsPerPage;
   const end = start + itemsPerPage;
-  return resume.value.recommendations.slice(start, end);
+  return (resume.value.recommendations || []).slice(start, end);
 });
 
 function onPageChange(page: number) {

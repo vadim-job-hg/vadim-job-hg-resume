@@ -20,14 +20,16 @@ const languages = [
 export const useResumeStore = defineStore('resume', {
   state: () => {
     return {
-      resume: languages[0].data as Resume,
+      resume: languages[0].data as unknown as Resume,
     };
   },
   actions: {
     loadResume() {
       if ('locale' in localStorage) {
         const selected = languages.find((lang) => lang.code == localStorage.locale)?.data;
-        if (selected) this.resume = selected;
+        if (selected) {
+          this.resume = selected as unknown as Resume;
+        }
       }
     },
   },

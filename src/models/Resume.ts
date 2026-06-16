@@ -6,6 +6,8 @@ import type { Language } from './Language';
 import type { Profile } from './Profile';
 import type { Project } from './Project';
 import type { Gallery } from './Gallery';
+import type { Pet } from './Pet';
+import type { Recommendation } from './Recommendation';
 
 export interface Resume {
   profile: Profile;
@@ -19,4 +21,6 @@ export interface Resume {
   certificate: Certificate[];
   project: Project[];
   gallery: Gallery[];
+  pets?: Pet[];
+  recommendations?: Recommendation[];
 }
