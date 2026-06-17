@@ -1,0 +1,55 @@
+{
+    "timeline": [
+        {
+            "type": "map",
+            "zoom": 12,
+            "center": [
+                46.4825,
+                30.7233
+            ],
+            "duration": 2
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "tcx",
+            "path": "\/files\/gpx\/odesa\/5811199626.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/odesa\/5460345290.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/odesa\/5460392015.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/odesa\/5460648560.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "tcx",
+            "path": "\/files\/gpx\/odesa\/6005554270.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/odesa\/5650547477.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/odesa\/5656654232.gpx"
+        }
+    ]
+}

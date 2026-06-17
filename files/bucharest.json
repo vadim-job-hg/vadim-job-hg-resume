@@ -1,0 +1,36 @@
+{
+    "timeline": [
+        {
+            "type": "map",
+            "zoom": 13,
+            "center": [
+                44.455199,
+                26.075924
+            ],
+            "duration": 2
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/bucharest\/11509250326.gpx",
+            "style": {
+                "color": "#ef8900",
+                "weight": 4,
+                "opacity": 1
+            }
+        },
+        {
+            "type": "image",
+            "lat": 44.456144,
+            "lng": 26.083556,
+            "path": "\/files\/images\/11509250326\/ceaac955-efd3-4549-944b-f1ffda37fc3e.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 44.467185,
+            "lng": 26.078138,
+            "path": "\/files\/images\/11509250326\/c43210e0-d7a4-4a9d-a62d-c8d77fe2abef.jpg"
+        }
+    ]
+}

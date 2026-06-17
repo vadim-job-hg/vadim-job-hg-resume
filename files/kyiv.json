@@ -1,0 +1,40 @@
+{
+    "timeline": [
+        {
+            "type": "map",
+            "zoom": 12,
+            "center": [
+                50.4501,
+                30.5234
+            ],
+            "duration": 2
+        },
+        {
+            "type": "pause",
+            "seconds": 5
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/kyiv\/2766906968.gpx",
+            "style": {
+                "color": "#ef8900",
+                "weight": 4,
+                "opacity": 1
+            }
+        },
+        {
+            "type": "image",
+            "lat": 50.454855,
+            "lng": 30.519823,
+            "path": "\/files\/images\/2766906968\/03f29fe2-fc36-44e4-9ca1-9aa194300d65.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/kyiv\/8775184800.gpx"
+        }
+    ]
+}

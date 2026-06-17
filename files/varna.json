@@ -1,0 +1,22 @@
+{
+    "timeline": [
+        {
+            "type": "map",
+            "zoom": 14,
+            "center": [
+                43.210417,
+                27.940093
+            ],
+            "duration": 2
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/varna\/14866460891.gpx",
+            "style": {
+                "weight": 3
+            }
+        }
+    ]
+}

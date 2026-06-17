@@ -1,0 +1,211 @@
+{
+    "timeline": [
+        {
+            "type": "map",
+            "zoom": 12,
+            "center": [
+                48.4392,
+                22.7182
+            ],
+            "duration": 2
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/10904911355.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/10915224250.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/10924260412.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/10935412113.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/10942052996.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/10959916220.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/10959916464.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/10971619802.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 48.470722,
+            "lng": 22.785153,
+            "path": "\/files\/images\/10971619802\/c515b4ce-93af-4cb6-8af7-6f40ec93a04a.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/10978468732.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/10994054020.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 48.438017,
+            "lng": 22.688024,
+            "path": "\/files\/images\/10994054020\/0179d484-f8ee-483e-bfbe-00f1fc562676.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11008654023.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 48.443703,
+            "lng": 22.710972,
+            "path": "\/files\/images\/11008654023\/c11938a9-3ae2-4585-90fa-4cc10cdeace3.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11021383870.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 48.525172,
+            "lng": 22.836791,
+            "path": "\/files\/images\/11021383870\/59ec1ee6-d08d-441c-95e3-a135d56d32fc.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11029698092.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11056718003.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11121190479.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11136354370.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11142416469.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11151590963.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11188217214.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11189162066.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11231935714.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 48.385052,
+            "lng": 22.704648,
+            "path": "\/files\/images\/11231935714\/27cce7c3-5481-4b82-af48-b7cb1a344672.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11246968526.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11269328968.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11283017401.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11306951128.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 48.341248,
+            "lng": 22.575427,
+            "path": "\/files\/images\/11306951128\/16168d23-e153-41c6-a88e-bfc5bdcc97d6.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11338999589.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/mukachevo\/11391935195.gpx"
+        }
+    ]
+}

@@ -1,0 +1,631 @@
+{
+    "timeline": [
+        {
+            "type": "map",
+            "zoom": 11,
+            "center": [
+                42.6977,
+                23.3219
+            ],
+            "duration": 2
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/16454193789.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 42.679637,
+            "lng": 23.269138,
+            "path": "\/files\/images\/15407566630\/e4ede8b1-9775-482e-b53c-331ffc69c8df.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/11620750179.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/11666201857.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/11709150219.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/11709153255.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/11855489632.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 42.697429,
+            "lng": 23.301192,
+            "path": "\/files\/images\/11855489632\/cdde3304-49c2-45ca-a8e2-a8a8974d7cf0.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/11863686430.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/11874963111.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/11889217830.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/11889616085.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/11896316166.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/11940682678.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12058403275.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 42.756152,
+            "lng": 23.330873,
+            "path": "\/files\/images\/12058403275\/16508fb7-ef21-4c48-af67-250e6fffd675.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12059005559.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12117588141.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12118044992.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12118045458.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 42.649365,
+            "lng": 23.266686,
+            "path": "\/files\/images\/12118045458\/08783e65-7c43-47f4-bc64-f74ad80dfd07.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12167651743.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12189622810.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12227167849.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12235806543.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12236335937.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12257929186.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12285986258.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12308535897.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12401363264.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12404666630.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12467049586.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12663283493.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12699130678.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12699649851.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12719109350.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12746236638.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12750178125.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 42.563079,
+            "lng": 23.279343,
+            "path": "\/files\/images\/12750178125\/9b4b6f36-1e73-4287-8529-efaa82af303f.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12810058308.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12810568329.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12911275150.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12911294937.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12911854914.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12919383833.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12959014569.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/12962788461.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13013020034.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13070184912.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13118579873.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13150232167.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13183544950.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13205862932.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13261097882.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13270885022.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13400048876.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13408176174.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13425783200.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13495507106.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13516244574.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13540710078.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13549296876.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13835707083.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13961124338.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 42.676192,
+            "lng": 23.309313,
+            "path": "\/files\/images\/13961124338\/d2bff43b-76ea-459d-94de-30c03f86762b.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/13961564744.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14027647724.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14041553377.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14083899854.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14163883030.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14177317755.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14239701938.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14242300710.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14298011431.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14347258391.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14374545611.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14431635509.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Hike",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14444601300.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 42.590016,
+            "lng": 23.249220,
+            "path": "\/files\/images\/14444601300\/775864f2-3891-4109-ac71-7cebd5991918.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 42.579100,
+            "lng": 23.247655,
+            "path": "\/files\/images\/14444601300\/4e39ea6e-29bc-4877-adb1-ca3b11f707f5.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14553319109.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14675127005.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14720368011.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14735491238.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14803478520.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14914874963.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/14951718623.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 42.705590,
+            "lng": 23.257092,
+            "path": "\/files\/images\/14951718623\/e84b2b70-9fa5-41e7-bef8-33eb0d1cf8fc.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Hike",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/15024314953.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 42.496817,
+            "lng": 23.228352,
+            "path": "\/files\/images\/15024314953\/553ddf4c-5526-458a-ae8b-bac5e32fef29.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 42.496313,
+            "lng": 23.231834,
+            "path": "\/files\/images\/15024314953\/19fc052d-f3e7-425c-b266-82582117b22d.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/15098130325.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 42.589449,
+            "lng": 23.239461,
+            "path": "\/files\/images\/15098130325\/f5c1f678-0add-4fd9-8212-7e398a39c56e.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/15189371827.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/15238294976.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Hike",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/15242910360.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/16315292900.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/16339858206.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/16440854132.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/15423627107.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/15474531882.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Hike",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/15552075682.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Hike",
+            "format": "gpx",
+            "path": "\/files\/gpx\/sofia\/15553232226.gpx"
+        }
+    ]
+}

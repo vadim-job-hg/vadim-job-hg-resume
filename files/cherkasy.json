@@ -1,0 +1,721 @@
+{
+    "timeline": [
+        {
+            "type": "map",
+            "zoom": 11,
+            "center": [
+                49.4444,
+                32.0598
+            ],
+            "duration": 2
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/6964305118.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/6980211711.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/6994480172.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.415272,
+            "lng": 32.029289,
+            "path": "\/files\/images\/6994480172\/2705b149-b3c2-4319-94e7-1815e0ce6f44.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7007193719.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7023126273.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7060006144.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.440095,
+            "lng": 32.099302,
+            "path": "\/files\/images\/7060006144\/256cf2de-5db5-4271-b444-62054931aa1e.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7060079205.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7081805306.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.464580,
+            "lng": 32.032102,
+            "path": "\/files\/images\/7081805306\/1bb334d2-63f4-40c5-ad5e-f97250687b76.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 49.464233,
+            "lng": 32.033234,
+            "path": "\/files\/images\/7081805306\/5ddefea3-93b3-4edb-8956-3b7ee6a9b11f.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7092659620.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.451737,
+            "lng": 32.065705,
+            "path": "\/files\/images\/7092659620\/e6caef7e-1d83-467e-be51-0095a294225d.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7092753293.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7105946857.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7113822720.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.456154,
+            "lng": 32.053283,
+            "path": "\/files\/images\/7113822720\/2ea888b5-69c3-489e-9993-198ff8cbe42f.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7130830360.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.428108,
+            "lng": 32.059220,
+            "path": "\/files\/images\/7130830360\/95a1c342-2651-4d84-b131-5173a2c6f937.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7169080189.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7179460148.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7190334254.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7407131961.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7462692039.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7494093030.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7522335844.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7543853881.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7551162739.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7571060790.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7615642098.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.412623,
+            "lng": 32.035681,
+            "path": "\/files\/images\/7615642098\/9eb579dd-7e22-4d34-b796-90b0dcfbdcb0.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7648378077.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.428946,
+            "lng": 32.016267,
+            "path": "\/files\/images\/7648378077\/e285467e-4dc2-4cec-9bfb-7c8bdbad1b80.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7720668992.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7747625341.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7751496701.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7754801700.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7764340732.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7794962720.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7885208134.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7894856449.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7895036839.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/7936391654.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8015087705.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.439419,
+            "lng": 32.099713,
+            "path": "\/files\/images\/8015087705\/5cca9ee2-e74a-4625-bede-5eb00ccf784b.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8081277914.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8179396955.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8183827218.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8192836158.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8200265225.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8205221630.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8218620948.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8230801618.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8242812437.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8859119914.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8281550386.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8292254678.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8326617012.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8346294139.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8358912019.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.454912,
+            "lng": 32.065834,
+            "path": "\/files\/images\/8358912019\/c571967b-27c6-40ed-8622-bbe179663930.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8379118796.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8385932382.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8394710461.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8402461027.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8423864794.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8469587175.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.462407,
+            "lng": 32.029170,
+            "path": "\/files\/images\/8499550527\/26ed8369-d5e1-40a8-a770-800008e34b04.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8557816990.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8588891177.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8625630341.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8641052387.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8646436237.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8662016034.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8685334065.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.383297,
+            "lng": 32.169409,
+            "path": "\/files\/images\/8741430444\/fbe66f99-4181-44fb-9d77-1d63294b3fbe.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 49.385961,
+            "lng": 32.153816,
+            "path": "\/files\/images\/8741430444\/de4dcb6a-faf4-49c9-87ab-56a762768901.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 49.385380,
+            "lng": 32.161049,
+            "path": "\/files\/images\/8741430444\/211cb89f-7fd3-4416-8632-cb4efc1102eb.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 49.389116,
+            "lng": 32.149130,
+            "path": "\/files\/images\/8741430444\/4bc2591a-1445-4632-beec-0039890104d4.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8762949443.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8831305176.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8843200933.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8913232337.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8935670889.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.391178,
+            "lng": 32.147661,
+            "path": "\/files\/images\/8935670889\/fd710943-176c-4916-940a-93b34bc104ca.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Walk",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8943143316.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.389872,
+            "lng": 32.148585,
+            "path": "\/files\/images\/8978593259\/a94c5caa-baea-4afc-9940-63c197907962.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8983568799.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.375613,
+            "lng": 32.157268,
+            "path": "\/files\/images\/8983568799\/57e9cd64-62ff-4f25-b188-a75c33bdf075.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 49.368511,
+            "lng": 32.166169,
+            "path": "\/files\/images\/8983568799\/1d98b251-3cd4-4896-964f-f97c2d256fec.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 49.365242,
+            "lng": 32.170696,
+            "path": "\/files\/images\/8983568799\/9d3d4025-e533-4ffa-b423-5f42ce555360.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 49.360660,
+            "lng": 32.175418,
+            "path": "\/files\/images\/8983568799\/6b9001cc-5278-45a4-9696-53e2c2128678.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 49.354080,
+            "lng": 32.180914,
+            "path": "\/files\/images\/8983568799\/ac420b33-1c8e-4370-823b-5ca5c49ee722.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 49.356293,
+            "lng": 32.179202,
+            "path": "\/files\/images\/8983568799\/1982d78d-0487-4dd7-b939-da6b66978c56.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 49.364818,
+            "lng": 32.170465,
+            "path": "\/files\/images\/8983568799\/2695fbd2-4243-463a-a1ef-c44c00aa9fcc.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/8997202900.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.452976,
+            "lng": 32.009948,
+            "path": "\/files\/images\/8997202900\/eeeee4ab-85a2-433c-9235-7202f5cc5b7b.jpg"
+        },
+        {
+            "type": "image",
+            "lat": 49.457562,
+            "lng": 32.007852,
+            "path": "\/files\/images\/8997202900\/48b4f425-0bdf-4643-ae7c-201547858c71.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9028205080.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.382461,
+            "lng": 32.174068,
+            "path": "\/files\/images\/9028205080\/6e2025c3-29cc-43c0-96ee-3c259755fc19.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9070153849.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9091648192.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9156115360.gpx"
+        },
+        {
+            "type": "image",
+            "lat": 49.513407,
+            "lng": 31.917845,
+            "path": "\/files\/images\/9156115360\/ebad5c8a-cbab-41bb-a248-e6bce3c071a3.jpg"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9182532582.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9193283225.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9244853247.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9288974173.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9330820735.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Ride",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9423608796.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9530977453.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9536624997.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9560751675.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9598543220.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9614404919.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9631546372.gpx"
+        },
+        {
+            "type": "track",
+            "activity_type": "Run",
+            "format": "gpx",
+            "path": "\/files\/gpx\/cherkasy\/9682684869.gpx"
+        }
+    ]
+}
